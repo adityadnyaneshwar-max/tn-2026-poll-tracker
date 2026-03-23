@@ -12,6 +12,7 @@
     "indiatoday.in",
     "news18.com",
     "ndtv.com",
+    "moneycontrol.com",
     "timesofindia.indiatimes.com",
     "thehindu.com",
     "thanthitv.com",
@@ -39,6 +40,10 @@
     {
       "name": "Axis My India",
       "aliases": ["Axis My India"]
+    },
+    {
+      "name": "IANS-Matrize",
+      "aliases": ["IANS-Matrize", "Matrize", "ANS", "IANS"]
     },
     {
       "name": "TVK Internal Survey",

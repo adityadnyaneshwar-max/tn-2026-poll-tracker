@@ -15,6 +15,7 @@ const PARTY_ALIASES = {
     "NDA",
     "NDA alliance",
     "AIADMK-BJP alliance",
+    "AIADMK-led alliance",
     "AIADMK alliance",
     "AIADMK+"
   ],
@@ -52,8 +53,15 @@ function decodeHtml(text = "") {
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, " ")
+    .replace(/&ndash;/g, "-")
+    .replace(/&mdash;/g, "-")
     .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">");
+    .replace(/&gt;/g, ">")
+    .replace(/â€™|â€˜/g, "'")
+    .replace(/â€œ|â€|â€/g, '"')
+    .replace(/â€“|â€”|â€"/g, "-")
+    .replace(/â€¦/g, "...")
+    .replace(/Â/g, "");
 }
 
 function stripTags(html = "") {
@@ -90,6 +98,26 @@ function buildFeedUrls(query) {
       url: `https://www.bing.com/news/search?q=${encoded}&format=rss`
     }
   ];
+}
+
+function resolveFeedLink(rawLink) {
+  const link = decodeHtml(rawLink);
+
+  try {
+    const parsed = new URL(link);
+    const hostname = parsed.hostname.replace(/^www\./, "");
+
+    if (hostname.endsWith("bing.com") && parsed.pathname.includes("/news/apiclick.aspx")) {
+      const targetUrl = parsed.searchParams.get("url");
+      if (targetUrl) {
+        return decodeURIComponent(targetUrl);
+      }
+    }
+
+    return link;
+  } catch {
+    return link;
+  }
 }
 
 async function fetchText(url) {
@@ -157,10 +185,13 @@ function parseRssItems(xml, provider) {
     };
 
     const title = extract(/<title>([\s\S]*?)<\/title>/i);
-    const link = extract(/<link>([\s\S]*?)<\/link>/i);
+    const link = resolveFeedLink(extract(/<link>([\s\S]*?)<\/link>/i));
     const pubDate = extract(/<pubDate>([\s\S]*?)<\/pubDate>/i);
     const description = extract(/<description>([\s\S]*?)<\/description>/i);
-    const sourceName = extract(/<source[^>]*>([\s\S]*?)<\/source>/i);
+    const sourceName =
+      extract(/<News:Source>([\s\S]*?)<\/News:Source>/i) ||
+      extract(/<source[^>]*>([\s\S]*?)<\/source>/i);
+    const sourceUrl = extract(/<source[^>]*url="([^"]+)"/i);
 
     if (!title || !link) {
       continue;
@@ -172,7 +203,8 @@ function parseRssItems(xml, provider) {
       link,
       pubDate,
       description: stripTags(description),
-      sourceName
+      sourceName,
+      sourceUrl: resolveFeedLink(sourceUrl)
     });
   }
 
@@ -241,15 +273,41 @@ function escapeRegex(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+function aliasPattern(alias) {
+  return `(?<![A-Za-z])${escapeRegex(alias)}(?![A-Za-z])`;
+}
+
+function createMetric(match) {
+  if (!match) {
+    return null;
+  }
+
+  const start = Number(match[1]);
+  const end = match[2] ? Number(match[2]) : null;
+  const value = end === null ? start : Number(((start + end) / 2).toFixed(2));
+  const display = end === null ? `${start}` : `${start}-${end}`;
+
+  return {
+    value,
+    display
+  };
+}
+
 function extractPercent(text, aliases) {
   for (const alias of aliases) {
-    const pattern = new RegExp(`${escapeRegex(alias)}[^.%\\d]{0,40}(\\d{1,2}(?:\\.\\d)?)\\s?%`, "i");
+    const pattern = new RegExp(
+      `${aliasPattern(alias)}[^.%\\d]{0,60}(\\d{1,3}(?:\\.\\d+)?)(?:\\s*[-–]\\s*(\\d{1,3}(?:\\.\\d+)?))?\\s*(?:%|per\\s+cent|percent)`,
+      "i"
+    );
     const match = text.match(pattern);
     if (match) {
-      return {
-        value: Number(match[1]),
-        display: `${match[1]}%`
-      };
+      const metric = createMetric(match);
+      return metric
+        ? {
+            value: metric.value,
+            display: `${metric.display}%`
+          }
+        : null;
     }
   }
 
@@ -258,26 +316,49 @@ function extractPercent(text, aliases) {
 
 function extractSeats(text, aliases) {
   for (const alias of aliases) {
-    const pattern = new RegExp(`${escapeRegex(alias)}[^\\d]{0,40}(\\d{1,3})\\s+seats?`, "i");
+    const pattern = new RegExp(
+      `${aliasPattern(alias)}[^\\d]{0,60}(\\d{1,3})(?:\\s*[-–]\\s*(\\d{1,3}))?\\s+seats?`,
+      "i"
+    );
     const match = text.match(pattern);
     if (match) {
-      return {
-        value: Number(match[1]),
-        display: match[1]
-      };
+      return createMetric(match);
     }
   }
 
   return null;
 }
 
+function extractMetaContent(html, key) {
+  const patterns = [
+    new RegExp(`<meta[^>]+name=["']${escapeRegex(key)}["'][^>]+content=["']([^"']+)["']`, "i"),
+    new RegExp(`<meta[^>]+property=["']${escapeRegex(key)}["'][^>]+content=["']([^"']+)["']`, "i"),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+name=["']${escapeRegex(key)}["']`, "i"),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${escapeRegex(key)}["']`, "i")
+  ];
+
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
+    if (match) {
+      return decodeHtml(match[1]).trim();
+    }
+  }
+
+  return "";
+}
+
 function extractDescriptionMeta(html) {
-  const match = html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"]+)["']/i);
-  return match ? decodeHtml(match[1]) : "";
+  const candidates = [
+    extractMetaContent(html, "description"),
+    extractMetaContent(html, "og:description"),
+    extractMetaContent(html, "twitter:description")
+  ].filter(Boolean);
+
+  return candidates[0] || "";
 }
 
 function isPollLike(text) {
-  return /tamil nadu/i.test(text) && /(survey|opinion poll|poll|tracker|state vibe|vote vibe|parawheel|c-voter|axis my india)/i.test(text);
+  return /tamil nadu/i.test(text) && /(survey|opinion poll|pre poll|tracker|state vibe|vote vibe|parawheel|c-voter|axis my india|matrize|ians)/i.test(text);
 }
 
 function countSignals(poll) {
@@ -292,10 +373,41 @@ function countSignals(poll) {
   return count;
 }
 
+function isCandidateItemLikelyPoll(item, manifest) {
+  const previewText = [item.title, item.description, item.sourceName].filter(Boolean).join(" ");
+  const hintedDomain = getDomain(item.sourceUrl || item.link);
+  const hintedPollster = pickPollster(previewText, manifest);
+
+  return (
+    isPollLike(previewText) &&
+    (!hintedDomain || isAllowedDomain(hintedDomain, manifest) || Boolean(hintedPollster))
+  );
+}
+
+function buildFocusedArticleText(item, metaDescription, visibleText) {
+  const anchors = [item.title, metaDescription].filter(Boolean);
+
+  for (const anchor of anchors) {
+    const normalizedAnchor = stripTags(anchor).slice(0, 120);
+    const startIndex = normalizedAnchor ? visibleText.indexOf(normalizedAnchor) : -1;
+    if (startIndex >= 0) {
+      return visibleText.slice(startIndex, startIndex + 5000);
+    }
+  }
+
+  return visibleText.slice(0, 5000);
+}
+
 async function buildPollFromItem(item, manifest) {
   const resolved = await fetchText(item.link);
   const sourceUrl = resolved.finalUrl || item.link;
-  const sourceDomain = getDomain(sourceUrl);
+  const hintedSourceUrl = item.sourceUrl || sourceUrl;
+  const sourceDomain = getDomain(hintedSourceUrl);
+  const resolvedDomain = getDomain(sourceUrl);
+
+  if (item.provider === "google-news" && resolvedDomain === "news.google.com") {
+    return null;
+  }
 
   if (!isAllowedDomain(sourceDomain, manifest)) {
     return null;
@@ -307,9 +419,15 @@ async function buildPollFromItem(item, manifest) {
 
   const visibleText = stripTags(resolved.body);
   const metaDescription = extractDescriptionMeta(resolved.body);
-  const combinedText = [item.title, item.description, metaDescription, visibleText].filter(Boolean).join(" ");
+  const focusedText = buildFocusedArticleText(item, metaDescription, visibleText);
+  const combinedText = [item.title, item.description, metaDescription, focusedText].filter(Boolean).join(" ");
 
   if (!isPollLike(combinedText)) {
+    return null;
+  }
+
+  const validation = await validateUrl(sourceUrl);
+  if (!validation.ok) {
     return null;
   }
 
@@ -322,7 +440,7 @@ async function buildPollFromItem(item, manifest) {
     sourceCategory: /thanthitv|news7tamil|puthiyathalaimurai|tv9tamil|polimer|dtnext|dinamani/i.test(sourceDomain)
       ? "local"
       : "national",
-    sourceUrl,
+    sourceUrl: hintedSourceUrl || sourceUrl,
     sourceDomain,
     headline: item.title,
     summary: metaDescription || item.description || item.title,
@@ -339,7 +457,7 @@ async function buildPollFromItem(item, manifest) {
       aiadmk: extractPercent(combinedText, PARTY_ALIASES.aiadmk)
     },
     notes: "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-    validation: await validateUrl(sourceUrl),
+    validation,
     discovery: {
       method: item.provider,
       query: item.query || "",
@@ -402,7 +520,7 @@ async function discoverPolls(manifest) {
   const candidateItems = [];
   const seenLinks = new Set();
 
-  for (const item of discoveredItems) {
+  for (const item of discoveredItems.filter((candidate) => isCandidateItemLikelyPoll(candidate, manifest))) {
     if (seenLinks.has(item.link)) {
       continue;
     }
@@ -414,7 +532,7 @@ async function discoverPolls(manifest) {
   const polls = [];
   const articleErrors = [];
 
-  for (const item of candidateItems.slice(0, 30)) {
+  for (const item of candidateItems.slice(0, 60)) {
     try {
       const poll = await buildPollFromItem(item, manifest);
       if (poll) {
@@ -463,8 +581,12 @@ async function main() {
     }
   }
 
-  const mergedPolls = dedupePolls([...manualPolls, ...liveDiscovery.polls, ...previousPolls]);
   const usingCachedData = !OFFLINE_MODE && liveDiscovery.polls.length === 0 && previousPolls.length > 0;
+  const mergedPolls = dedupePolls(
+    usingCachedData
+      ? [...manualPolls, ...previousPolls]
+      : [...manualPolls, ...liveDiscovery.polls]
+  );
   const hadErrors = OFFLINE_MODE || liveDiscovery.feedErrors.length > 0 || liveDiscovery.articleErrors.length > 0;
   const lastSuccessfulUpdate =
     !OFFLINE_MODE && liveDiscovery.polls.length > 0
