@@ -1,0 +1,12 @@
+{
+  "name": "tn-2026-poll-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "update-data": "node scripts/update-polls.mjs",
+    "update-data:offline": "node scripts/update-polls.mjs --offline",
+    "verify:publish": "node scripts/preflight-publish.mjs"
+  }
+}

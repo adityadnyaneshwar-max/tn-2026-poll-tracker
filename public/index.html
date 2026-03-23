@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tamil Nadu 2026 Poll Tracker</title>
+    <meta
+      name="description"
+      content="Live tracker for Tamil Nadu 2026 Assembly election opinion polls, vote shares, seat projections, and source validation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Tamil Nadu 2026 Assembly Election</p>
+          <h1>Opinion Poll Tracker</h1>
+          <p class="hero-text">
+            A sortable live table of poll dates, pollsters, seat projections, vote shares, and source links.
+            The data snapshot refreshes on a schedule and keeps the latest cached view visible if live fetching fails.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <p class="panel-label">Refresh cadence</p>
+          <p class="panel-value">Every 2 hours</p>
+          <p class="panel-meta" id="last-updated">Loading latest snapshot...</p>
+        </div>
+      </header>
+
+      <main>
+        <section class="status-grid" id="status-grid"></section>
+
+        <section class="controls">
+          <label class="search">
+            <span>Filter polls</span>
+            <input id="search-input" type="search" placeholder="Search pollster, source, note, or headline" />
+          </label>
+          <button id="refresh-button" class="refresh-button" type="button">Refresh snapshot</button>
+        </section>
+
+        <section id="warning-banner" class="warning-banner hidden" aria-live="polite"></section>
+
+        <section class="table-card">
+          <div class="table-heading">
+            <div>
+              <p class="table-kicker">Latest entries first</p>
+              <h2>Poll table</h2>
+            </div>
+            <p class="table-note">Click column headers to sort.</p>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th><button data-sort="pollDate">Poll date</button></th>
+                  <th><button data-sort="pollster">Pollster</button></th>
+                  <th><button data-sort="seatProjection.dmk">DMK seats</button></th>
+                  <th><button data-sort="seatProjection.bjpAlliance">BJP alliance seats</button></th>
+                  <th><button data-sort="seatProjection.tvk">TVK seats</button></th>
+                  <th><button data-sort="seatProjection.aiadmk">AIADMK seats</button></th>
+                  <th><button data-sort="voteShare.dmk">DMK vote</button></th>
+                  <th><button data-sort="voteShare.bjpAlliance">BJP alliance vote</button></th>
+                  <th><button data-sort="voteShare.tvk">TVK vote</button></th>
+                  <th><button data-sort="voteShare.aiadmk">AIADMK vote</button></th>
+                  <th><button data-sort="sourceName">Source</button></th>
+                </tr>
+              </thead>
+              <tbody id="poll-table-body">
+                <tr>
+                  <td colspan="11" class="loading-cell">Loading poll tracker...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

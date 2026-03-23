@@ -1,0 +1,52 @@
+{
+  "queries": [
+    "Tamil Nadu 2026 assembly election opinion poll",
+    "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+    "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+    "Tamil Nadu 2026 Vote Vibe survey",
+    "Tamil Nadu 2026 Parawheel survey",
+    "Tamil Nadu 2026 opinion poll local channel"
+  ],
+  "allowedDomains": [
+    "dtnext.in",
+    "indiatoday.in",
+    "news18.com",
+    "ndtv.com",
+    "timesofindia.indiatimes.com",
+    "thehindu.com",
+    "thanthitv.com",
+    "news7tamil.live",
+    "puthiyathalaimurai.com",
+    "tv9tamil.news",
+    "oneindia.com",
+    "votevibe.in",
+    "polimernews.com",
+    "dinamani.com"
+  ],
+  "pollsters": [
+    {
+      "name": "Vote Vibe",
+      "aliases": ["Vote Vibe", "VoteVibe", "State Vibe"]
+    },
+    {
+      "name": "Parawheel Survey",
+      "aliases": ["Parawheel", "Para Wheel"]
+    },
+    {
+      "name": "C-Voter",
+      "aliases": ["C-Voter", "CVoter", "C Voter"]
+    },
+    {
+      "name": "Axis My India",
+      "aliases": ["Axis My India"]
+    },
+    {
+      "name": "TVK Internal Survey",
+      "aliases": ["TVK internal survey", "TVK survey"]
+    },
+    {
+      "name": "Private Channel Survey",
+      "aliases": ["private television channel survey", "latest survey"]
+    }
+  ]
+}

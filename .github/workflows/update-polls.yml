@@ -1,0 +1,32 @@
+name: Update Poll Snapshot
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-polls:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Refresh poll data
+        run: node scripts/update-polls.mjs
+
+      - name: Commit updated snapshot
+        run: |
+          git config user.name "codex-poll-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/polls.json
+          git diff --cached --quiet || git commit -m "chore: refresh poll snapshot"
+          git push

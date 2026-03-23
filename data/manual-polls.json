@@ -1,0 +1,192 @@
+[
+  {
+    "id": "vote-vibe-round-1-2026-02-03",
+    "pollDate": "2026-02-03",
+    "publishedAt": "2026-02-03T09:00:00+05:30",
+    "updatedAt": "2026-03-23T09:00:00+05:30",
+    "pollster": "Vote Vibe Round 1",
+    "sourceName": "Vote Vibe",
+    "sourceCategory": "national",
+    "sourceUrl": "https://votevibe.in/wp-content/uploads/2026/02/TAMIL-NADU-ROUND-1-Feb.-2026.pdf",
+    "sourceDomain": "votevibe.in",
+    "headline": "Tamil Nadu 2026 Round 1 survey",
+    "summary": "Vote Vibe's February 2026 report placed DMK+ at 35.8%, AIADMK+ at 33.8%, and TVK at 19.2%.",
+    "seatProjection": {
+      "dmk": null,
+      "bjpAlliance": null,
+      "tvk": null,
+      "aiadmk": null
+    },
+    "voteShare": {
+      "dmk": {
+        "value": 35.8,
+        "display": "35.8%"
+      },
+      "bjpAlliance": {
+        "value": 33.8,
+        "display": "33.8% (AIADMK+)"
+      },
+      "tvk": {
+        "value": 19.2,
+        "display": "19.2%"
+      },
+      "aiadmk": null
+    },
+    "notes": "The published report exposes alliance vote share totals rather than standalone BJP or AIADMK numbers.",
+    "validation": {
+      "ok": true,
+      "statusCode": 200,
+      "checkedAt": "2026-03-23T09:00:00+05:30",
+      "mode": "seed"
+    },
+    "discovery": {
+      "method": "manual-seed",
+      "query": "verified PDF report"
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "parawheel-2026-03-11",
+    "pollDate": "2026-03-11",
+    "publishedAt": "2026-03-11T09:00:00+05:30",
+    "updatedAt": "2026-03-23T09:00:00+05:30",
+    "pollster": "Parawheel Survey",
+    "sourceName": "DT Next",
+    "sourceCategory": "local",
+    "sourceUrl": "https://www.dtnext.in/news/tamilnadu/tn-assembly-polls-2026-survey-predicts-136-vote-share-for-tvk-in-tamil-nadu",
+    "sourceDomain": "dtnext.in",
+    "headline": "Survey predicts 13.6% vote share for TVK",
+    "summary": "DT Next reported a Parawheel survey showing DMK at 41.5%, AIADMK at 36.2%, TVK at 13.6%, and NTK at 7.9%.",
+    "seatProjection": {
+      "dmk": null,
+      "bjpAlliance": null,
+      "tvk": null,
+      "aiadmk": null
+    },
+    "voteShare": {
+      "dmk": {
+        "value": 41.5,
+        "display": "41.5%"
+      },
+      "bjpAlliance": null,
+      "tvk": {
+        "value": 13.6,
+        "display": "13.6%"
+      },
+      "aiadmk": {
+        "value": 36.2,
+        "display": "36.2%"
+      }
+    },
+    "notes": "The accessible story excerpt provides vote shares but no seat projection.",
+    "validation": {
+      "ok": true,
+      "statusCode": 200,
+      "checkedAt": "2026-03-23T09:00:00+05:30",
+      "mode": "seed"
+    },
+    "discovery": {
+      "method": "manual-seed",
+      "query": "verified local news article"
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "private-channel-2026-03-08",
+    "pollDate": "2026-03-08",
+    "publishedAt": "2026-03-08T09:00:00+05:30",
+    "updatedAt": "2026-03-23T09:00:00+05:30",
+    "pollster": "Private Channel Survey",
+    "sourceName": "TV9 Tamil",
+    "sourceCategory": "local",
+    "sourceUrl": "https://tv9tamil.news/videos/tamil-nadu-videos/tamil-nadu-election-survey-dmk-alliance-leads-aiadmk-by-just-2-in-the-latest-survey-2714885.html",
+    "sourceDomain": "tv9tamil.news",
+    "headline": "DMK alliance leads AIADMK alliance by 2 points",
+    "summary": "TV9 Tamil reported a private television survey with DMK alliance at 40%, AIADMK alliance at 38%, and TVK at 15%.",
+    "seatProjection": {
+      "dmk": null,
+      "bjpAlliance": null,
+      "tvk": null,
+      "aiadmk": null
+    },
+    "voteShare": {
+      "dmk": {
+        "value": 40,
+        "display": "40%"
+      },
+      "bjpAlliance": {
+        "value": 38,
+        "display": "38% (AIADMK alliance)"
+      },
+      "tvk": {
+        "value": 15,
+        "display": "15%"
+      },
+      "aiadmk": null
+    },
+    "notes": "The article reports alliance-level voting intention, so the BJP alliance column carries the AIADMK-led alliance figure.",
+    "validation": {
+      "ok": true,
+      "statusCode": 200,
+      "checkedAt": "2026-03-23T09:00:00+05:30",
+      "mode": "seed"
+    },
+    "discovery": {
+      "method": "manual-seed",
+      "query": "verified local video article"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "tvk-internal-2025-12-23",
+    "pollDate": "2025-12-23",
+    "publishedAt": "2025-12-23T09:00:00+05:30",
+    "updatedAt": "2026-03-23T09:00:00+05:30",
+    "pollster": "TVK Internal Survey",
+    "sourceName": "India Today",
+    "sourceCategory": "national",
+    "sourceUrl": "https://www.indiatoday.in/india/story/vijay-tvk-tamil-nadu-politics-aiadmk-dmk-assembly-elections-2026-2655801-2025-12-23",
+    "sourceDomain": "indiatoday.in",
+    "headline": "TVK survey claims Vijay could break the DMK-AIADMK duopoly",
+    "summary": "India Today reported a TVK internal survey projecting DMK 104 seats, TVK 74 seats, AIADMK 56 seats, and DMK vote share at 32.9%.",
+    "seatProjection": {
+      "dmk": {
+        "value": 104,
+        "display": "104"
+      },
+      "bjpAlliance": null,
+      "tvk": {
+        "value": 74,
+        "display": "74"
+      },
+      "aiadmk": {
+        "value": 56,
+        "display": "56"
+      }
+    },
+    "voteShare": {
+      "dmk": {
+        "value": 32.9,
+        "display": "32.9%"
+      },
+      "bjpAlliance": null,
+      "tvk": {
+        "value": 30,
+        "display": ">30%"
+      },
+      "aiadmk": null
+    },
+    "notes": "India Today's report cites an internal TVK survey and describes TVK as crossing 30% vote share without publishing a tighter figure.",
+    "validation": {
+      "ok": true,
+      "statusCode": 200,
+      "checkedAt": "2026-03-23T09:00:00+05:30",
+      "mode": "seed"
+    },
+    "discovery": {
+      "method": "manual-seed",
+      "query": "verified national news article"
+    },
+    "confidence": "medium"
+  }
+]
