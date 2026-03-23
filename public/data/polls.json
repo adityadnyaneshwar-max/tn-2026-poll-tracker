@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-03-23T18:34:31.369Z",
-    "lastAttemptAt": "2026-03-23T18:34:31.369Z",
-    "lastSuccessfulUpdate": "2026-03-23T18:34:31.369Z",
+    "generatedAt": "2026-03-23T21:54:45.967Z",
+    "lastAttemptAt": "2026-03-23T21:54:45.967Z",
+    "lastSuccessfulUpdate": "2026-03-23T21:54:45.967Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 5,
       "sources": 5,
@@ -25,13 +25,19 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-2026-live-updates-election-commission-announces-poll-schedule-for-bengal-tamil-nadu-assam-keralam-puducherry-bjp-tmc-congress-dmk-1033846",
+        "title": "Assembly Election 2026: Matrize-IANS Opinion poll predicts NDA's massive victory in Tamil Nadu",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-03-15",
       "publishedAt": "2026-03-15T22:32:00.000Z",
-      "updatedAt": "2026-03-23T18:34:37.411Z",
+      "updatedAt": "2026-03-23T21:54:52.884Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -61,7 +67,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-03-23T18:34:37.411Z",
+        "checkedAt": "2026-03-23T21:54:52.884Z",
         "mode": "live"
       },
       "discovery": {
