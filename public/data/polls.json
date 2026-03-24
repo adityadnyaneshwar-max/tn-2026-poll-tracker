@@ -1,19 +1,19 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-03-24T17:33:35.244Z",
-    "lastAttemptAt": "2026-03-24T17:33:35.244Z",
+    "generatedAt": "2026-03-24T20:01:18.902Z",
+    "lastAttemptAt": "2026-03-24T20:01:18.902Z",
     "lastSuccessfulUpdate": "2026-03-24T17:33:35.244Z",
-    "usingCachedData": false,
+    "usingCachedData": true,
     "hadErrors": false,
-    "fetchMode": "live+manual",
-    "warning": null,
+    "fetchMode": "cached",
+    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 0
     },
     "sourcesChecked": 15,
     "articlesScanned": 22,
