@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-01T11:31:13.773Z",
-    "lastAttemptAt": "2026-04-01T11:31:13.773Z",
-    "lastSuccessfulUpdate": "2026-04-01T11:31:13.773Z",
+    "generatedAt": "2026-04-01T15:58:59.978Z",
+    "lastAttemptAt": "2026-04-01T15:58:59.978Z",
+    "lastSuccessfulUpdate": "2026-04-01T15:58:59.978Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 20,
+    "articlesScanned": 22,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -29,49 +29,49 @@
   },
   "polls": [
     {
-      "pollDate": "2026-03-15",
-      "publishedAt": "2026-03-15T22:32:00.000Z",
-      "updatedAt": "2026-04-01T11:31:20.315Z",
+      "pollDate": "2026-04-01",
+      "publishedAt": "2026-04-01T05:39:00.000Z",
+      "updatedAt": "2026-04-01T15:59:06.376Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-poll-pre-poll-survey-who-will-win-the-elections-matrize-predictions-out-8028131.html",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-aiadmk-fails-to-unseat-stalins-dmk-says-pre-poll-survey-8044625.html",
       "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Election Pre Poll Survey: Who Will Win The Elections? Matrize Predictions Out",
-      "summary": "Tamil Nadu Election Predictions: The BJP-led NDA under the leadership of Edappadi Palaniswami is predicted to defeat the DMK in the upcoming polls, an opinion poll or pre poll survey has claimed.",
+      "headline": "Tamil Nadu Election Predictions: AIADMK Fails To Unseat Stalin's DMK, Says Pre Poll Survey",
+      "summary": "Tamil Nadu Election Predictions: The AIADMK fails to unseat the ruling DMK led by MK Stalin in April 23 elections, says Lok Poll pre poll survey.",
       "seatProjection": {
         "dmk": {
-          "value": 120.5,
-          "display": "114-127"
+          "value": 185,
+          "display": "181-189"
         },
         "bjpAlliance": null,
-        "tvk": {
-          "value": 9,
-          "display": "6-12"
-        },
+        "tvk": null,
         "aiadmk": null
       },
       "voteShare": {
         "dmk": null,
         "bjpAlliance": null,
-        "tvk": null,
+        "tvk": {
+          "value": 23.9,
+          "display": "23.9%"
+        },
         "aiadmk": null
       },
       "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-01T11:31:20.315Z",
+        "checkedAt": "2026-04-01T15:59:06.376Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-poll-pre-poll-survey-who-will-win-the-elections-matrize-predictions-out-8028131.html"
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-aiadmk-fails-to-unseat-stalins-dmk-says-pre-poll-survey-8044625.html"
       },
       "confidence": "auto",
-      "id": "ians-matrize-2026-03-15-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-poll-pre-poll-survey-who-will-win-the-elections-matrize-predictions-out-8028131-html",
-      "sortDate": "2026-03-15T22:32:00.000Z"
+      "id": "ians-matrize-2026-04-01-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-predictions-aiadmk-fails-to-unseat-stalins-dmk-says-pre-poll-survey-8044625-html",
+      "sortDate": "2026-04-01T05:39:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
