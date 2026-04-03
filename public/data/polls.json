@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-03T19:55:57.715Z",
-    "lastAttemptAt": "2026-04-03T19:55:57.715Z",
-    "lastSuccessfulUpdate": "2026-04-03T19:55:57.715Z",
+    "generatedAt": "2026-04-03T21:50:54.879Z",
+    "lastAttemptAt": "2026-04-03T21:50:54.879Z",
+    "lastSuccessfulUpdate": "2026-04-03T21:50:54.879Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 24,
+    "articlesScanned": 23,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-01",
       "publishedAt": "2026-04-01T05:39:00.000Z",
-      "updatedAt": "2026-04-03T19:56:07.287Z",
+      "updatedAt": "2026-04-03T21:51:01.385Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -61,7 +61,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-03T19:56:07.287Z",
+        "checkedAt": "2026-04-03T21:51:01.385Z",
         "mode": "live"
       },
       "discovery": {
@@ -76,7 +76,7 @@
     {
       "pollDate": "2026-03-15",
       "publishedAt": "2026-03-15T22:32:00.000Z",
-      "updatedAt": "2026-04-03T19:56:06.500Z",
+      "updatedAt": "2026-04-03T21:51:03.001Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -106,12 +106,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-03T19:56:06.500Z",
+        "checkedAt": "2026-04-03T21:51:03.001Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-poll-pre-poll-survey-who-will-win-the-elections-matrize-predictions-out-8028131.html"
       },
       "confidence": "auto",
