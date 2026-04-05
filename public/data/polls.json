@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-04T23:02:44.227Z",
-    "lastAttemptAt": "2026-04-04T23:02:44.227Z",
-    "lastSuccessfulUpdate": "2026-04-04T23:02:44.227Z",
+    "generatedAt": "2026-04-05T05:56:43.925Z",
+    "lastAttemptAt": "2026-04-05T05:56:43.925Z",
+    "lastSuccessfulUpdate": "2026-04-05T05:56:43.925Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
     "warning": null,
     "totals": {
-      "polls": 5,
+      "polls": 6,
       "sources": 5,
-      "validatedLinks": 5,
+      "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 23,
+    "articlesScanned": 24,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-01",
       "publishedAt": "2026-04-01T05:39:00.000Z",
-      "updatedAt": "2026-04-04T23:02:52.136Z",
+      "updatedAt": "2026-04-05T05:56:50.257Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -61,7 +61,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-04T23:02:52.136Z",
+        "checkedAt": "2026-04-05T05:56:50.257Z",
         "mode": "live"
       },
       "discovery": {
@@ -72,6 +72,51 @@
       "confidence": "auto",
       "id": "ians-matrize-2026-04-01-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-predictions-aiadmk-fails-to-unseat-stalins-dmk-says-pre-poll-survey-8044625-html",
       "sortDate": "2026-04-01T05:39:00.000Z"
+    },
+    {
+      "pollDate": "2026-03-15",
+      "publishedAt": "2026-03-15T22:32:00.000Z",
+      "updatedAt": "2026-04-05T05:56:48.527Z",
+      "pollster": "IANS-Matrize",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-poll-pre-poll-survey-who-will-win-the-elections-matrize-predictions-out-8028131.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Election Pre Poll Survey: Who Will Win The Elections? Matrize Predictions Out",
+      "summary": "Tamil Nadu Election Predictions: The BJP-led NDA under the leadership of Edappadi Palaniswami is predicted to defeat the DMK in the upcoming polls, an opinion poll or pre poll survey has claimed.",
+      "seatProjection": {
+        "dmk": {
+          "value": 120.5,
+          "display": "114-127"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 9,
+          "display": "6-12"
+        },
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-05T05:56:48.527Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-poll-pre-poll-survey-who-will-win-the-elections-matrize-predictions-out-8028131.html"
+      },
+      "confidence": "auto",
+      "id": "ians-matrize-2026-03-15-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-poll-pre-poll-survey-who-will-win-the-elections-matrize-predictions-out-8028131-html",
+      "sortDate": "2026-03-15T22:32:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
