@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-05T19:50:35.251Z",
-    "lastAttemptAt": "2026-04-05T19:50:35.251Z",
-    "lastSuccessfulUpdate": "2026-04-05T19:50:35.251Z",
+    "generatedAt": "2026-04-05T21:03:22.002Z",
+    "lastAttemptAt": "2026-04-05T21:03:22.002Z",
+    "lastSuccessfulUpdate": "2026-04-05T21:03:22.002Z",
     "usingCachedData": false,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "warning": null,
     "totals": {
       "polls": 6,
       "sources": 5,
@@ -25,19 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/news/india/assembly-election-2026-live-updates-election-commission-announces-poll-schedule-for-bengal-tamil-nadu-assam-keralam-puducherry-bjp-tmc-congress-dmk-1033846",
-        "title": "Assembly Election 2026: Matrize-IANS Opinion poll predicts NDA's massive victory in Tamil Nadu",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
       "pollDate": "2026-04-01",
       "publishedAt": "2026-04-01T05:39:00.000Z",
-      "updatedAt": "2026-04-05T19:50:41.764Z",
+      "updatedAt": "2026-04-05T21:03:30.263Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -67,7 +61,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-05T19:50:41.764Z",
+        "checkedAt": "2026-04-05T21:03:30.263Z",
         "mode": "live"
       },
       "discovery": {
@@ -82,7 +76,7 @@
     {
       "pollDate": "2026-03-15",
       "publishedAt": "2026-03-15T22:32:00.000Z",
-      "updatedAt": "2026-04-05T19:50:40.269Z",
+      "updatedAt": "2026-04-05T21:03:28.505Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -112,7 +106,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-05T19:50:40.269Z",
+        "checkedAt": "2026-04-05T21:03:28.505Z",
         "mode": "live"
       },
       "discovery": {
