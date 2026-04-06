@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-06T06:19:32.298Z",
-    "lastAttemptAt": "2026-04-06T06:19:32.298Z",
-    "lastSuccessfulUpdate": "2026-04-06T06:19:32.298Z",
+    "generatedAt": "2026-04-06T11:14:58.083Z",
+    "lastAttemptAt": "2026-04-06T11:14:58.083Z",
+    "lastSuccessfulUpdate": "2026-04-06T11:14:58.083Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
     "warning": null,
     "totals": {
-      "polls": 7,
-      "sources": 6,
-      "validatedLinks": 7,
+      "polls": 6,
+      "sources": 5,
+      "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 3
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 23,
+    "articlesScanned": 17,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-01",
       "publishedAt": "2026-04-01T05:39:00.000Z",
-      "updatedAt": "2026-04-06T06:19:37.262Z",
+      "updatedAt": "2026-04-06T11:15:05.212Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -61,12 +61,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-06T06:19:37.262Z",
+        "checkedAt": "2026-04-06T11:15:05.212Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-aiadmk-fails-to-unseat-stalins-dmk-says-pre-poll-survey-8044625.html"
       },
       "confidence": "auto",
@@ -74,54 +74,9 @@
       "sortDate": "2026-04-01T05:39:00.000Z"
     },
     {
-      "pollDate": "2026-03-20",
-      "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-06T06:19:40.698Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Moneycontrol",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html",
-      "sourceDomain": "moneycontrol.com",
-      "headline": "Tamil Nadu opinion poll suggests AIADMK edge over DMK, Vijay’s TVK emerges as key factor",
-      "summary": "The IANS-Matrize survey projects the AIADMK-led alliance to receive 39-40 per cent of the vote share, potentially translating into 114–127 seats in the 234-member Assembly",
-      "seatProjection": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": {
-          "value": 39.5,
-          "display": "39-40%"
-        },
-        "tvk": null,
-        "aiadmk": {
-          "value": 39.5,
-          "display": "39-40%"
-        }
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-04-06T06:19:40.698Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-03-20-moneycontrol-com-https-www-moneycontrol-com-news-india-tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012-html",
-      "sortDate": "2026-03-20T02:36:00.000Z"
-    },
-    {
       "pollDate": "2026-03-15",
       "publishedAt": "2026-03-15T22:32:00.000Z",
-      "updatedAt": "2026-04-06T06:19:39.384Z",
+      "updatedAt": "2026-04-06T11:15:05.422Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -151,7 +106,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-06T06:19:39.383Z",
+        "checkedAt": "2026-04-06T11:15:05.422Z",
         "mode": "live"
       },
       "discovery": {
