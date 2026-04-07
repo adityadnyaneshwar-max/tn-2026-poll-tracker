@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-07T11:31:41.656Z",
-    "lastAttemptAt": "2026-04-07T11:31:41.656Z",
-    "lastSuccessfulUpdate": "2026-04-07T11:31:41.656Z",
+    "generatedAt": "2026-04-07T16:16:46.006Z",
+    "lastAttemptAt": "2026-04-07T16:16:46.006Z",
+    "lastSuccessfulUpdate": "2026-04-07T16:16:46.006Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
     "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 5,
-      "sources": 5,
-      "validatedLinks": 5,
+      "polls": 8,
+      "sources": 7,
+      "validatedLinks": 8,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 4
     },
     "sourcesChecked": 15,
-    "articlesScanned": 21,
+    "articlesScanned": 28,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -35,9 +35,162 @@
   },
   "polls": [
     {
+      "pollDate": "2026-04-07",
+      "publishedAt": "2026-04-07T05:25:00.000Z",
+      "updatedAt": "2026-04-07T16:16:52.902Z",
+      "pollster": "IANS-Matrize",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/this-tamil-nadu-pre-poll-survey-looks-like-fixed-match-dmks-saravanan-slams-prediction-declaring-a-8050453.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "This Tamil Nadu Pre Poll Survey Looks Like Fixed Match: DMK's Saravanan Rejects AIADMK Victory Prediction",
+      "summary": "This Tamil Nadu Pre Poll Survey Looks Like Fixed Match: DMK",
+      "seatProjection": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": {
+          "value": 135,
+          "display": "130-140"
+        }
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 39,
+          "display": "39%"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 12,
+          "display": "12%"
+        },
+        "aiadmk": {
+          "value": 39,
+          "display": "39%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-07T16:16:52.902Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/this-tamil-nadu-pre-poll-survey-looks-like-fixed-match-dmks-saravanan-slams-prediction-declaring-a-8050453.html"
+      },
+      "confidence": "auto",
+      "id": "ians-matrize-2026-04-07-oneindia-com-https-www-oneindia-com-chennai-this-tamil-nadu-pre-poll-survey-looks-like-fixed-match-dmks-saravanan-slams-prediction-declaring-a-8050453-html",
+      "sortDate": "2026-04-07T05:25:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-07",
+      "publishedAt": "2026-04-07T04:15:00.000Z",
+      "updatedAt": "2026-04-07T16:16:51.955Z",
+      "pollster": "C-Voter",
+      "sourceName": "The Times of India",
+      "sourceCategory": "national",
+      "sourceUrl": "https://timesofindia.indiatimes.com/videos/the-narrative-election-special/news/assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu/videoshow/130084989.cms",
+      "sourceDomain": "timesofindia.indiatimes.com",
+      "headline": "Assembly Election 2026: CVOTER's BIGGEST Opinion Poll In Bengal, Kerala, Assam, Tamil Nadu",
+      "summary": "The Assembly Election 2026 is set to reshape the political landscape, and the big question remains are incumbents holding their ground or is the nation ready for a change? CVOTER decodes the mood of the electorate with exclusive projections from key battlegrounds. In Assam, BJP+ leads at 48% while INC+ stands at 35%, testing the “double engine” strategy. Kerala sees UDF ahead at 40% against LDF’s 36%, keeping the state in suspense. West Bengal is a close fight with TMC at 44% and BJP at 40%, while Tamil Nadu’s contest remains tight with DMK at 41% and AIADMK at 38%. With data-driven insights, sharp analysis, and a finger on voter sentiment, this show unpacks the trends, numbers, and narratives defining India’s Assembly Election 2026.",
+      "seatProjection": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 41,
+          "display": "41%"
+        },
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": {
+          "value": 38,
+          "display": "38%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-07T16:16:51.955Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feedLink": "https://timesofindia.indiatimes.com/videos/the-narrative-election-special/news/assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu/videoshow/130084989.cms"
+      },
+      "confidence": "auto",
+      "id": "c-voter-2026-04-07-timesofindia-indiatimes-com-https-timesofindia-indiatimes-com-videos-the-narrative-election-special-news-assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu-videoshow-130084989-cms",
+      "sortDate": "2026-04-07T04:15:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-06",
+      "publishedAt": "2026-04-06T20:01:00.000Z",
+      "updatedAt": "2026-04-07T16:16:52.798Z",
+      "pollster": "IANS-Matrize",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Election Prediction: AIADMK Set to Emerge as Winner, Says Pre-Poll Survey",
+      "summary": "Tamil Nadu Election Pre Poll Survey: The latest CNN News18–Vote Tracker survey, conducted between March 23 and April 6, a competitive yet favorable electoral landscape for the All India Anna Dravida Munnetra Kazhagam ahead of the upcoming Tamil Nadu Assembly elections",
+      "seatProjection": {
+        "dmk": {
+          "value": 135,
+          "display": "130-140"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 4,
+          "display": "2-6"
+        },
+        "aiadmk": {
+          "value": 135,
+          "display": "130-140"
+        }
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 39,
+          "display": "39%"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 12,
+          "display": "12%"
+        },
+        "aiadmk": {
+          "value": 39,
+          "display": "39%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-07T16:16:52.798Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html"
+      },
+      "confidence": "auto",
+      "id": "ians-matrize-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
+      "sortDate": "2026-04-06T20:01:00.000Z"
+    },
+    {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-07T11:31:49.355Z",
+      "updatedAt": "2026-04-07T16:16:55.027Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -67,7 +220,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-07T11:31:49.355Z",
+        "checkedAt": "2026-04-07T16:16:55.027Z",
         "mode": "live"
       },
       "discovery": {
