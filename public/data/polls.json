@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-11T21:04:46.786Z",
-    "lastAttemptAt": "2026-04-11T21:04:46.786Z",
+    "generatedAt": "2026-04-11T23:05:23.595Z",
+    "lastAttemptAt": "2026-04-11T23:05:23.595Z",
     "lastSuccessfulUpdate": "2026-04-11T21:04:46.786Z",
-    "usingCachedData": false,
-    "hadErrors": true,
-    "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "usingCachedData": true,
+    "hadErrors": false,
+    "fetchMode": "cached",
+    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
       "polls": 8,
       "sources": 6,
       "validatedLinks": 8,
       "manualSeeds": 4,
-      "autoDiscovered": 4
+      "autoDiscovered": 0
     },
     "sourcesChecked": 15,
-    "articlesScanned": 28,
+    "articlesScanned": 21,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,23 +25,7 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-elections-opinion-polls-2026-live-updates-dmk-aiadmk-bjp-congress-mk-stalin-edappadi-k-palaniswami-2026-04-06-1036499",
-        "title": "Tamil Nadu Elections Opinion Poll: Neck-and-neck contest expected between NDA, DMK+, predicts Matrize",
-        "message": "Request failed with status 403"
-      },
-      {
-        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
-        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
-        "message": "Request failed with status 403"
-      },
-      {
-        "link": "https://english.mathrubhumi.com/india/india/vijays-tvk-emerges-as-third-major-political-force-in-tamil-nadu-with-136-vote-share-survey-u0w9e39u",
-        "title": "Vijay’s TVK emerges as third major political force in Tamil Nadu with 13.6% vote share: Survey",
-        "message": "Request failed with status 404"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
