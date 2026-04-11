@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-11T17:51:18.408Z",
-    "lastAttemptAt": "2026-04-11T17:51:18.408Z",
-    "lastSuccessfulUpdate": "2026-04-11T17:51:18.408Z",
+    "generatedAt": "2026-04-11T19:51:55.280Z",
+    "lastAttemptAt": "2026-04-11T19:51:55.280Z",
+    "lastSuccessfulUpdate": "2026-04-11T19:51:55.280Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
     "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 7,
-      "sources": 6,
-      "validatedLinks": 7,
+      "polls": 8,
+      "sources": 7,
+      "validatedLinks": 8,
       "manualSeeds": 4,
-      "autoDiscovered": 3
+      "autoDiscovered": 4
     },
     "sourcesChecked": 15,
-    "articlesScanned": 28,
+    "articlesScanned": 30,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -26,16 +26,6 @@
       "Tamil Nadu 2026 opinion poll local channel"
     ],
     "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-elections-opinion-polls-2026-live-updates-dmk-aiadmk-bjp-congress-mk-stalin-edappadi-k-palaniswami-2026-04-06-1036499",
-        "title": "Tamil Nadu Elections Opinion Poll: Neck-and-neck contest expected between NDA, DMK+, predicts Matrize",
-        "message": "Request failed with status 403"
-      },
-      {
-        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
-        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
-        "message": "Request failed with status 403"
-      },
       {
         "link": "https://english.mathrubhumi.com/india/india/vijays-tvk-emerges-as-third-major-political-force-in-tamil-nadu-with-136-vote-share-survey-u0w9e39u",
         "title": "Vijay’s TVK emerges as third major political force in Tamil Nadu with 13.6% vote share: Survey",
@@ -47,7 +37,7 @@
     {
       "pollDate": "2026-04-08",
       "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-11T17:51:24.413Z",
+      "updatedAt": "2026-04-11T19:52:01.539Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -80,7 +70,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-11T17:51:24.413Z",
+        "checkedAt": "2026-04-11T19:52:01.539Z",
         "mode": "live"
       },
       "discovery": {
@@ -93,9 +83,54 @@
       "sortDate": "2026-04-08T02:55:00.000Z"
     },
     {
+      "pollDate": "2026-04-07",
+      "publishedAt": "2026-04-07T04:15:00.000Z",
+      "updatedAt": "2026-04-11T19:52:01.746Z",
+      "pollster": "C-Voter",
+      "sourceName": "The Times of India",
+      "sourceCategory": "national",
+      "sourceUrl": "https://timesofindia.indiatimes.com/videos/the-narrative-election-special/news/assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu/videoshow/130084989.cms",
+      "sourceDomain": "timesofindia.indiatimes.com",
+      "headline": "Assembly Election 2026: CVOTER's BIGGEST Opinion Poll In Bengal, Kerala, Assam, Tamil Nadu",
+      "summary": "The Assembly Election 2026 is set to reshape the political landscape, and the big question remains are incumbents holding their ground or is the nation ready for a change? CVOTER decodes the mood of the electorate with exclusive projections from key battlegrounds. In Assam, BJP+ leads at 48% while INC+ stands at 35%, testing the “double engine” strategy. Kerala sees UDF ahead at 40% against LDF’s 36%, keeping the state in suspense. West Bengal is a close fight with TMC at 44% and BJP at 40%, while Tamil Nadu’s contest remains tight with DMK at 41% and AIADMK at 38%. With data-driven insights, sharp analysis, and a finger on voter sentiment, this show unpacks the trends, numbers, and narratives defining India’s Assembly Election 2026.",
+      "seatProjection": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 41,
+          "display": "41%"
+        },
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": {
+          "value": 38,
+          "display": "38%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-11T19:52:01.746Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feedLink": "https://timesofindia.indiatimes.com/videos/the-narrative-election-special/news/assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu/videoshow/130084989.cms"
+      },
+      "confidence": "auto",
+      "id": "c-voter-2026-04-07-timesofindia-indiatimes-com-https-timesofindia-indiatimes-com-videos-the-narrative-election-special-news-assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu-videoshow-130084989-cms",
+      "sortDate": "2026-04-07T04:15:00.000Z"
+    },
+    {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-11T17:51:25.017Z",
+      "updatedAt": "2026-04-11T19:52:02.251Z",
       "pollster": "Oneindia",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -137,7 +172,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-11T17:51:25.017Z",
+        "checkedAt": "2026-04-11T19:52:02.251Z",
         "mode": "live"
       },
       "discovery": {
@@ -152,7 +187,7 @@
     {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-11T17:51:26.981Z",
+      "updatedAt": "2026-04-11T19:52:05.114Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -182,7 +217,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-11T17:51:26.981Z",
+        "checkedAt": "2026-04-11T19:52:05.114Z",
         "mode": "live"
       },
       "discovery": {
