@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-12T10:09:49.830Z",
-    "lastAttemptAt": "2026-04-12T10:09:49.830Z",
-    "lastSuccessfulUpdate": "2026-04-12T10:09:49.830Z",
+    "generatedAt": "2026-04-12T14:24:51.373Z",
+    "lastAttemptAt": "2026-04-12T14:24:51.373Z",
+    "lastSuccessfulUpdate": "2026-04-12T14:24:51.373Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 3
     },
     "sourcesChecked": 15,
-    "articlesScanned": 31,
+    "articlesScanned": 29,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -26,6 +26,16 @@
       "Tamil Nadu 2026 opinion poll local channel"
     ],
     "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-elections-opinion-polls-2026-live-updates-dmk-aiadmk-bjp-congress-mk-stalin-edappadi-k-palaniswami-2026-04-06-1036499",
+        "title": "Tamil Nadu Elections Opinion Poll: Neck-and-neck contest expected between NDA, DMK+, predicts Matrize",
+        "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
+        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
+        "message": "Request failed with status 403"
+      },
       {
         "link": "https://english.mathrubhumi.com/india/india/vijays-tvk-emerges-as-third-major-political-force-in-tamil-nadu-with-136-vote-share-survey-u0w9e39u",
         "title": "Vijay’s TVK emerges as third major political force in Tamil Nadu with 13.6% vote share: Survey",
@@ -37,7 +47,7 @@
     {
       "pollDate": "2026-04-08",
       "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-12T10:09:56.561Z",
+      "updatedAt": "2026-04-12T14:24:58.668Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -70,7 +80,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-12T10:09:56.561Z",
+        "checkedAt": "2026-04-12T14:24:58.668Z",
         "mode": "live"
       },
       "discovery": {
@@ -85,7 +95,7 @@
     {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-12T10:09:58.636Z",
+      "updatedAt": "2026-04-12T14:24:59.466Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -127,7 +137,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-12T10:09:58.636Z",
+        "checkedAt": "2026-04-12T14:24:59.466Z",
         "mode": "live"
       },
       "discovery": {
@@ -142,7 +152,7 @@
     {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-12T10:10:00.463Z",
+      "updatedAt": "2026-04-12T14:25:00.521Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -172,7 +182,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-12T10:10:00.463Z",
+        "checkedAt": "2026-04-12T14:25:00.521Z",
         "mode": "live"
       },
       "discovery": {
