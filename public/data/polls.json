@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-13T16:40:41.328Z",
-    "lastAttemptAt": "2026-04-13T16:40:41.328Z",
-    "lastSuccessfulUpdate": "2026-04-13T16:40:41.328Z",
+    "generatedAt": "2026-04-13T21:09:57.800Z",
+    "lastAttemptAt": "2026-04-13T21:09:57.800Z",
+    "lastSuccessfulUpdate": "2026-04-13T21:09:57.800Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 3
     },
     "sourcesChecked": 15,
-    "articlesScanned": 31,
+    "articlesScanned": 30,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -37,7 +37,7 @@
     {
       "pollDate": "2026-04-08",
       "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-13T16:40:48.272Z",
+      "updatedAt": "2026-04-13T21:10:04.239Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -70,7 +70,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-13T16:40:48.272Z",
+        "checkedAt": "2026-04-13T21:10:04.239Z",
         "mode": "live"
       },
       "discovery": {
@@ -85,7 +85,7 @@
     {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-13T16:40:49.134Z",
+      "updatedAt": "2026-04-13T21:10:05.029Z",
       "pollster": "Oneindia",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -127,7 +127,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-13T16:40:49.134Z",
+        "checkedAt": "2026-04-13T21:10:05.029Z",
         "mode": "live"
       },
       "discovery": {
@@ -142,7 +142,7 @@
     {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-13T16:40:50.333Z",
+      "updatedAt": "2026-04-13T21:10:05.977Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -172,7 +172,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-13T16:40:50.333Z",
+        "checkedAt": "2026-04-13T21:10:05.977Z",
         "mode": "live"
       },
       "discovery": {
