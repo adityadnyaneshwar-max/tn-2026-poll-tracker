@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-14T22:32:56.873Z",
-    "lastAttemptAt": "2026-04-14T22:32:56.873Z",
-    "lastSuccessfulUpdate": "2026-04-14T22:32:56.873Z",
+    "generatedAt": "2026-04-15T06:21:30.971Z",
+    "lastAttemptAt": "2026-04-15T06:21:30.971Z",
+    "lastSuccessfulUpdate": "2026-04-15T06:21:30.971Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 4
     },
     "sourcesChecked": 15,
-    "articlesScanned": 30,
+    "articlesScanned": 31,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -26,6 +26,16 @@
       "Tamil Nadu 2026 opinion poll local channel"
     ],
     "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
+        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
+        "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-2026-live-updates-election-commission-announces-poll-schedule-for-bengal-tamil-nadu-assam-keralam-puducherry-bjp-tmc-congress-dmk-1033846",
+        "title": "Assembly Election 2026: Matrize-IANS Opinion poll predicts NDA's massive victory in Tamil Nadu",
+        "message": "Request failed with status 403"
+      },
       {
         "link": "https://english.mathrubhumi.com/india/india/vijays-tvk-emerges-as-third-major-political-force-in-tamil-nadu-with-136-vote-share-survey-u0w9e39u",
         "title": "Vijay’s TVK emerges as third major political force in Tamil Nadu with 13.6% vote share: Survey",
@@ -37,7 +47,7 @@
     {
       "pollDate": "2026-04-08",
       "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-14T22:33:03.562Z",
+      "updatedAt": "2026-04-15T06:21:36.937Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -70,7 +80,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-14T22:33:03.562Z",
+        "checkedAt": "2026-04-15T06:21:36.937Z",
         "mode": "live"
       },
       "discovery": {
@@ -85,8 +95,8 @@
     {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-14T22:33:05.986Z",
-      "pollster": "Oneindia",
+      "updatedAt": "2026-04-15T06:21:38.074Z",
+      "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
       "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html",
@@ -127,22 +137,22 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-14T22:33:05.986Z",
+        "checkedAt": "2026-04-15T06:21:38.074Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html"
       },
       "confidence": "auto",
-      "id": "oneindia-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
+      "id": "ians-matrize-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
       "sortDate": "2026-04-06T20:01:00.000Z"
     },
     {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-14T22:33:05.337Z",
+      "updatedAt": "2026-04-15T06:21:39.170Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -172,7 +182,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-14T22:33:05.336Z",
+        "checkedAt": "2026-04-15T06:21:39.170Z",
         "mode": "live"
       },
       "discovery": {
@@ -187,7 +197,7 @@
     {
       "pollDate": "2026-03-15",
       "publishedAt": "2026-03-15T22:32:00.000Z",
-      "updatedAt": "2026-04-14T22:33:03.689Z",
+      "updatedAt": "2026-04-15T06:21:37.317Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -217,7 +227,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-14T22:33:03.689Z",
+        "checkedAt": "2026-04-15T06:21:37.317Z",
         "mode": "live"
       },
       "discovery": {
