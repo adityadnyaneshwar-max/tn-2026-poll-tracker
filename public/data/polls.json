@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-17T18:37:44.462Z",
-    "lastAttemptAt": "2026-04-17T18:37:44.462Z",
-    "lastSuccessfulUpdate": "2026-04-17T18:37:44.462Z",
+    "generatedAt": "2026-04-17T22:06:08.881Z",
+    "lastAttemptAt": "2026-04-17T22:06:08.881Z",
+    "lastSuccessfulUpdate": "2026-04-17T22:06:08.881Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 7,
       "sources": 6,
@@ -16,7 +16,7 @@
       "autoDiscovered": 3
     },
     "sourcesChecked": 15,
-    "articlesScanned": 26,
+    "articlesScanned": 25,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,13 +25,19 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://english.mathrubhumi.com/india/india/vijays-tvk-emerges-as-third-major-political-force-in-tamil-nadu-with-136-vote-share-survey-u0w9e39u",
+        "title": "Vijay’s TVK emerges as third major political force in Tamil Nadu with 13.6% vote share: Survey",
+        "message": "Request failed with status 404"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-08",
       "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-17T18:37:49.950Z",
+      "updatedAt": "2026-04-17T22:06:15.702Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -64,7 +70,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-17T18:37:49.950Z",
+        "checkedAt": "2026-04-17T22:06:15.702Z",
         "mode": "live"
       },
       "discovery": {
@@ -79,7 +85,7 @@
     {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-17T18:37:50.381Z",
+      "updatedAt": "2026-04-17T22:06:16.340Z",
       "pollster": "Oneindia",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -121,7 +127,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-17T18:37:50.381Z",
+        "checkedAt": "2026-04-17T22:06:16.340Z",
         "mode": "live"
       },
       "discovery": {
@@ -136,11 +142,11 @@
     {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-17T18:37:51.752Z",
+      "updatedAt": "2026-04-17T22:06:17.555Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
-      "sourceUrl": "https://www.moneycontrol.com/europe/?url=https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html",
+      "sourceUrl": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html",
       "sourceDomain": "moneycontrol.com",
       "headline": "Tamil Nadu opinion poll suggests AIADMK edge over DMK, Vijay’s TVK emerges as key factor",
       "summary": "The IANS-Matrize survey projects the AIADMK-led alliance to receive 39-40 per cent of the vote share, potentially translating into 114–127 seats in the 234-member Assembly",
@@ -166,7 +172,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-17T18:37:51.752Z",
+        "checkedAt": "2026-04-17T22:06:17.554Z",
         "mode": "live"
       },
       "discovery": {
@@ -175,7 +181,7 @@
         "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html"
       },
       "confidence": "auto",
-      "id": "ians-matrize-2026-03-20-moneycontrol-com-https-www-moneycontrol-com-europe-url-https-www-moneycontrol-com-news-india-tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012-html",
+      "id": "ians-matrize-2026-03-20-moneycontrol-com-https-www-moneycontrol-com-news-india-tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012-html",
       "sortDate": "2026-03-20T02:36:00.000Z"
     },
     {
