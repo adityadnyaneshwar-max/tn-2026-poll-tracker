@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-17T00:04:46.620Z",
-    "lastAttemptAt": "2026-04-17T00:04:46.620Z",
+    "generatedAt": "2026-04-17T07:13:17.153Z",
+    "lastAttemptAt": "2026-04-17T07:13:17.153Z",
     "lastSuccessfulUpdate": "2026-04-17T00:04:46.620Z",
-    "usingCachedData": false,
+    "usingCachedData": true,
     "hadErrors": false,
-    "fetchMode": "live+manual",
-    "warning": null,
+    "fetchMode": "cached",
+    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
       "polls": 7,
       "sources": 6,
       "validatedLinks": 7,
       "manualSeeds": 4,
-      "autoDiscovered": 3
+      "autoDiscovered": 0
     },
     "sourcesChecked": 15,
-    "articlesScanned": 29,
+    "articlesScanned": 21,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
