@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-18T14:25:33.814Z",
-    "lastAttemptAt": "2026-04-18T14:25:33.814Z",
-    "lastSuccessfulUpdate": "2026-04-18T14:25:33.814Z",
+    "generatedAt": "2026-04-18T17:55:12.058Z",
+    "lastAttemptAt": "2026-04-18T17:55:12.058Z",
+    "lastSuccessfulUpdate": "2026-04-18T17:55:12.058Z",
     "usingCachedData": false,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "warning": null,
     "totals": {
-      "polls": 8,
-      "sources": 6,
-      "validatedLinks": 8,
+      "polls": 5,
+      "sources": 5,
+      "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 4
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 28,
+    "articlesScanned": 23,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,120 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/news/india/assembly-election-2026-live-updates-election-commission-announces-poll-schedule-for-bengal-tamil-nadu-assam-keralam-puducherry-bjp-tmc-congress-dmk-1033846",
-        "title": "Assembly Election 2026: Matrize-IANS Opinion poll predicts NDA's massive victory in Tamil Nadu",
-        "message": "Request failed with status 403"
-      },
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-elections-opinion-polls-2026-live-updates-dmk-aiadmk-bjp-congress-mk-stalin-edappadi-k-palaniswami-2026-04-06-1036499",
-        "title": "Tamil Nadu Elections Opinion Poll: Neck-and-neck contest expected between NDA, DMK+, predicts Matrize",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
-      "pollDate": "2026-04-18",
-      "publishedAt": "2026-04-18T00:14:00.000Z",
-      "updatedAt": "2026-04-18T14:25:40.495Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-result-prediction-will-vijay-win-perambur-trichy-tvk-defeat-dmk-vikatan-surv-8061991.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Election Result Prediction: Will Vijay Win Perambur-Trichy & TVK Defeat DMK? Vikatan Survey Out",
-      "summary": "Tamil Nadu Election Result Prediction: Going by Junior Vikatan survey, Vijay will emerge victorious in Perambur and Trichy East. It says that there is a possibility of a hung assembly.",
-      "seatProjection": {
-        "dmk": {
-          "value": 121,
-          "display": "121"
-        },
-        "bjpAlliance": {
-          "value": 83,
-          "display": "83"
-        },
-        "tvk": null,
-        "aiadmk": {
-          "value": 83,
-          "display": "83"
-        }
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-04-18T14:25:40.495Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-result-prediction-will-vijay-win-perambur-trichy-tvk-defeat-dmk-vikatan-surv-8061991.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-04-18-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-result-prediction-will-vijay-win-perambur-trichy-tvk-defeat-dmk-vikatan-surv-8061991-html",
-      "sortDate": "2026-04-18T00:14:00.000Z"
-    },
-    {
-      "pollDate": "2026-04-08",
-      "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-18T14:25:39.719Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-result-prediction-will-aiadmk-overpower-dmk-jvc-poll-survey-out-8051329.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Election Result Prediction: Will AIADMK Overpower DMK? JVC Poll Survey Out",
-      "summary": "Tamil Nadu Election Result Prediction: The April 2026 JVC pre Poll Survey has sent ripples across Tamil Nadu’s political landscape, hinting at a dramatic shift in fortunes.",
-      "seatProjection": {
-        "dmk": {
-          "value": 90.5,
-          "display": "80-101"
-        },
-        "bjpAlliance": {
-          "value": 140.5,
-          "display": "131-150"
-        },
-        "tvk": null,
-        "aiadmk": {
-          "value": 140.5,
-          "display": "131-150"
-        }
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-04-18T14:25:39.719Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-result-prediction-will-aiadmk-overpower-dmk-jvc-poll-survey-out-8051329.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-04-08-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-result-prediction-will-aiadmk-overpower-dmk-jvc-poll-survey-out-8051329-html",
-      "sortDate": "2026-04-08T02:55:00.000Z"
-    },
-    {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-18T14:25:42.753Z",
+      "updatedAt": "2026-04-18T17:55:18.157Z",
       "pollster": "Oneindia",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -180,7 +73,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-18T14:25:42.753Z",
+        "checkedAt": "2026-04-18T17:55:18.157Z",
         "mode": "live"
       },
       "discovery": {
@@ -191,51 +84,6 @@
       "confidence": "auto",
       "id": "oneindia-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
       "sortDate": "2026-04-06T20:01:00.000Z"
-    },
-    {
-      "pollDate": "2026-03-20",
-      "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-18T14:25:42.101Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Moneycontrol",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html",
-      "sourceDomain": "moneycontrol.com",
-      "headline": "Tamil Nadu opinion poll suggests AIADMK edge over DMK, Vijay’s TVK emerges as key factor",
-      "summary": "The IANS-Matrize survey projects the AIADMK-led alliance to receive 39-40 per cent of the vote share, potentially translating into 114–127 seats in the 234-member Assembly",
-      "seatProjection": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": {
-          "value": 39.5,
-          "display": "39-40%"
-        },
-        "tvk": null,
-        "aiadmk": {
-          "value": 39.5,
-          "display": "39-40%"
-        }
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-04-18T14:25:42.101Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-03-20-moneycontrol-com-https-www-moneycontrol-com-news-india-tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012-html",
-      "sortDate": "2026-03-20T02:36:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
