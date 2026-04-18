@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-18T11:52:19.753Z",
-    "lastAttemptAt": "2026-04-18T11:52:19.753Z",
-    "lastSuccessfulUpdate": "2026-04-18T11:52:19.753Z",
+    "generatedAt": "2026-04-18T14:25:33.814Z",
+    "lastAttemptAt": "2026-04-18T14:25:33.814Z",
+    "lastSuccessfulUpdate": "2026-04-18T14:25:33.814Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 7,
+      "polls": 8,
       "sources": 6,
-      "validatedLinks": 7,
+      "validatedLinks": 8,
       "manualSeeds": 4,
-      "autoDiscovered": 3
+      "autoDiscovered": 4
     },
     "sourcesChecked": 15,
-    "articlesScanned": 26,
+    "articlesScanned": 28,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,13 +25,24 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-2026-live-updates-election-commission-announces-poll-schedule-for-bengal-tamil-nadu-assam-keralam-puducherry-bjp-tmc-congress-dmk-1033846",
+        "title": "Assembly Election 2026: Matrize-IANS Opinion poll predicts NDA's massive victory in Tamil Nadu",
+        "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-elections-opinion-polls-2026-live-updates-dmk-aiadmk-bjp-congress-mk-stalin-edappadi-k-palaniswami-2026-04-06-1036499",
+        "title": "Tamil Nadu Elections Opinion Poll: Neck-and-neck contest expected between NDA, DMK+, predicts Matrize",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-18",
       "publishedAt": "2026-04-18T00:14:00.000Z",
-      "updatedAt": "2026-04-18T11:52:26.103Z",
+      "updatedAt": "2026-04-18T14:25:40.495Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -64,7 +75,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-18T11:52:26.103Z",
+        "checkedAt": "2026-04-18T14:25:40.495Z",
         "mode": "live"
       },
       "discovery": {
@@ -79,7 +90,7 @@
     {
       "pollDate": "2026-04-08",
       "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-18T11:52:25.763Z",
+      "updatedAt": "2026-04-18T14:25:39.719Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -112,7 +123,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-18T11:52:25.762Z",
+        "checkedAt": "2026-04-18T14:25:39.719Z",
         "mode": "live"
       },
       "discovery": {
@@ -125,9 +136,66 @@
       "sortDate": "2026-04-08T02:55:00.000Z"
     },
     {
+      "pollDate": "2026-04-06",
+      "publishedAt": "2026-04-06T20:01:00.000Z",
+      "updatedAt": "2026-04-18T14:25:42.753Z",
+      "pollster": "Oneindia",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Election Prediction: AIADMK Set to Emerge as Winner, Says Pre-Poll Survey",
+      "summary": "Tamil Nadu Election Pre Poll Survey: The latest CNN News18–Vote Tracker survey, conducted between March 23 and April 6, a competitive yet favorable electoral landscape for the All India Anna Dravida Munnetra Kazhagam ahead of the upcoming Tamil Nadu Assembly elections",
+      "seatProjection": {
+        "dmk": {
+          "value": 135,
+          "display": "130-140"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 4,
+          "display": "2-6"
+        },
+        "aiadmk": {
+          "value": 135,
+          "display": "130-140"
+        }
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 39,
+          "display": "39%"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 12,
+          "display": "12%"
+        },
+        "aiadmk": {
+          "value": 39,
+          "display": "39%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-18T14:25:42.753Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html"
+      },
+      "confidence": "auto",
+      "id": "oneindia-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
+      "sortDate": "2026-04-06T20:01:00.000Z"
+    },
+    {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-18T11:52:27.679Z",
+      "updatedAt": "2026-04-18T14:25:42.101Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -157,7 +225,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-18T11:52:27.679Z",
+        "checkedAt": "2026-04-18T14:25:42.101Z",
         "mode": "live"
       },
       "discovery": {
