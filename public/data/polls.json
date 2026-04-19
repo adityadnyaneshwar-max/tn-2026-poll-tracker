@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-19T19:56:03.569Z",
-    "lastAttemptAt": "2026-04-19T19:56:03.569Z",
-    "lastSuccessfulUpdate": "2026-04-19T19:56:03.569Z",
+    "generatedAt": "2026-04-19T21:53:37.801Z",
+    "lastAttemptAt": "2026-04-19T21:53:37.801Z",
+    "lastSuccessfulUpdate": "2026-04-19T21:53:37.801Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-18",
       "publishedAt": "2026-04-18T00:14:00.000Z",
-      "updatedAt": "2026-04-19T19:56:11.988Z",
+      "updatedAt": "2026-04-19T21:53:44.188Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -64,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-19T19:56:11.988Z",
+        "checkedAt": "2026-04-19T21:53:44.188Z",
         "mode": "live"
       },
       "discovery": {
@@ -79,7 +79,7 @@
     {
       "pollDate": "2026-04-08",
       "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-19T19:56:11.238Z",
+      "updatedAt": "2026-04-19T21:53:45.611Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -112,12 +112,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-19T19:56:11.238Z",
+        "checkedAt": "2026-04-19T21:53:45.611Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-result-prediction-will-aiadmk-overpower-dmk-jvc-poll-survey-out-8051329.html"
       },
       "confidence": "auto",
@@ -127,8 +127,8 @@
     {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-19T19:56:13.842Z",
-      "pollster": "Oneindia",
+      "updatedAt": "2026-04-19T21:53:46.256Z",
+      "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
       "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html",
@@ -169,7 +169,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-19T19:56:13.842Z",
+        "checkedAt": "2026-04-19T21:53:46.256Z",
         "mode": "live"
       },
       "discovery": {
@@ -178,13 +178,13 @@
         "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html"
       },
       "confidence": "auto",
-      "id": "oneindia-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
+      "id": "ians-matrize-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
       "sortDate": "2026-04-06T20:01:00.000Z"
     },
     {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-19T19:56:13.136Z",
+      "updatedAt": "2026-04-19T21:53:45.533Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -214,7 +214,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-19T19:56:13.136Z",
+        "checkedAt": "2026-04-19T21:53:45.533Z",
         "mode": "live"
       },
       "discovery": {
