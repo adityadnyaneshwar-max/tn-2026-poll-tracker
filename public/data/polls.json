@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-21T07:16:47.333Z",
-    "lastAttemptAt": "2026-04-21T07:16:47.333Z",
-    "lastSuccessfulUpdate": "2026-04-21T07:16:47.333Z",
+    "generatedAt": "2026-04-21T11:44:18.195Z",
+    "lastAttemptAt": "2026-04-21T11:44:18.195Z",
+    "lastSuccessfulUpdate": "2026-04-21T11:44:18.195Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 5
     },
     "sourcesChecked": 15,
-    "articlesScanned": 27,
+    "articlesScanned": 26,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-19",
       "publishedAt": "2026-04-19T23:18:00.000Z",
-      "updatedAt": "2026-04-21T07:16:52.595Z",
+      "updatedAt": "2026-04-21T11:44:24.026Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -67,7 +67,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-21T07:16:52.595Z",
+        "checkedAt": "2026-04-21T11:44:24.026Z",
         "mode": "live"
       },
       "discovery": {
@@ -82,7 +82,7 @@
     {
       "pollDate": "2026-04-18",
       "publishedAt": "2026-04-18T00:14:00.000Z",
-      "updatedAt": "2026-04-21T07:16:53.240Z",
+      "updatedAt": "2026-04-21T11:44:24.812Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -115,7 +115,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-21T07:16:53.240Z",
+        "checkedAt": "2026-04-21T11:44:24.812Z",
         "mode": "live"
       },
       "discovery": {
@@ -130,7 +130,7 @@
     {
       "pollDate": "2026-04-08",
       "publishedAt": "2026-04-08T02:55:00.000Z",
-      "updatedAt": "2026-04-21T07:16:52.483Z",
+      "updatedAt": "2026-04-21T11:44:23.920Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -163,7 +163,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-21T07:16:52.483Z",
+        "checkedAt": "2026-04-21T11:44:23.920Z",
         "mode": "live"
       },
       "discovery": {
@@ -178,7 +178,7 @@
     {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-21T07:16:55.496Z",
+      "updatedAt": "2026-04-21T11:44:26.565Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -220,7 +220,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-21T07:16:55.496Z",
+        "checkedAt": "2026-04-21T11:44:26.565Z",
         "mode": "live"
       },
       "discovery": {
@@ -235,7 +235,7 @@
     {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-21T07:16:55.027Z",
+      "updatedAt": "2026-04-21T11:44:25.943Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -265,12 +265,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-21T07:16:55.027Z",
+        "checkedAt": "2026-04-21T11:44:25.943Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html"
       },
       "confidence": "auto",
