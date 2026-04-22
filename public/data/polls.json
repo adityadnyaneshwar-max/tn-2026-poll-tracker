@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-22T19:23:17.795Z",
-    "lastAttemptAt": "2026-04-22T19:23:17.795Z",
-    "lastSuccessfulUpdate": "2026-04-22T19:23:17.795Z",
+    "generatedAt": "2026-04-22T21:02:45.171Z",
+    "lastAttemptAt": "2026-04-22T21:02:45.171Z",
+    "lastSuccessfulUpdate": "2026-04-22T21:02:45.171Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 3
     },
     "sourcesChecked": 15,
-    "articlesScanned": 22,
+    "articlesScanned": 24,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-21",
       "publishedAt": "2026-04-21T08:32:00.000Z",
-      "updatedAt": "2026-04-22T19:23:22.971Z",
+      "updatedAt": "2026-04-22T21:02:50.693Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -61,12 +61,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-22T19:23:22.971Z",
+        "checkedAt": "2026-04-22T21:02:50.693Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.oneindia.com/chennai/who-will-win-2026-tamil-nadu-election-2026-pre-poll-surveys-opinion-polls-claim-8065253.html"
       },
       "confidence": "auto",
@@ -76,7 +76,7 @@
     {
       "pollDate": "2026-04-18",
       "publishedAt": "2026-04-18T00:14:00.000Z",
-      "updatedAt": "2026-04-22T19:23:23.394Z",
+      "updatedAt": "2026-04-22T21:02:50.784Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -109,7 +109,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-22T19:23:23.394Z",
+        "checkedAt": "2026-04-22T21:02:50.784Z",
         "mode": "live"
       },
       "discovery": {
@@ -124,7 +124,7 @@
     {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-22T19:23:24.104Z",
+      "updatedAt": "2026-04-22T21:02:51.622Z",
       "pollster": "Oneindia",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -166,7 +166,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-22T19:23:24.104Z",
+        "checkedAt": "2026-04-22T21:02:51.622Z",
         "mode": "live"
       },
       "discovery": {
