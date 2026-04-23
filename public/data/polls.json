@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-23T16:03:15.592Z",
-    "lastAttemptAt": "2026-04-23T16:03:15.592Z",
-    "lastSuccessfulUpdate": "2026-04-23T14:00:00.442Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-04-23T19:21:48.004Z",
+    "lastAttemptAt": "2026-04-23T19:21:48.004Z",
+    "lastSuccessfulUpdate": "2026-04-23T19:21:48.004Z",
+    "usingCachedData": false,
     "hadErrors": true,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 6,
+      "polls": 5,
       "sources": 5,
-      "validatedLinks": 6,
+      "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 23,
+    "articlesScanned": 24,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -35,54 +35,9 @@
   },
   "polls": [
     {
-      "pollDate": "2026-04-21",
-      "publishedAt": "2026-04-21T08:32:00.000Z",
-      "updatedAt": "2026-04-23T14:00:06.042Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/who-will-win-2026-tamil-nadu-election-2026-pre-poll-surveys-opinion-polls-claim-8065253.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Who Will Win Tamil Nadu Election 2026? State Awaits The Answer As Silence Period Kicks In",
-      "summary": "Tamil Nadu Election Predictions and Opinion Poll Surveys: The key takeaway is not just the DMK+ lead, but the volatility beneath it. Several surveys flag a significant number of “close contest” seats—up to 60 in one case—suggesting that last-mile campaigning and voter turnout could dramatically alter the final outcome.",
-      "seatProjection": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "voteShare": {
-        "dmk": {
-          "value": 40.1,
-          "display": "40.1%"
-        },
-        "bjpAlliance": null,
-        "tvk": {
-          "value": 40.1,
-          "display": "40.1%"
-        },
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-04-23T14:00:06.042Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feedLink": "https://www.oneindia.com/chennai/who-will-win-2026-tamil-nadu-election-2026-pre-poll-surveys-opinion-polls-claim-8065253.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-04-21-oneindia-com-https-www-oneindia-com-chennai-who-will-win-2026-tamil-nadu-election-2026-pre-poll-surveys-opinion-polls-claim-8065253-html",
-      "sortDate": "2026-04-21T08:32:00.000Z"
-    },
-    {
       "pollDate": "2026-04-06",
       "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-23T14:00:08.204Z",
+      "updatedAt": "2026-04-23T19:21:54.855Z",
       "pollster": "Oneindia",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -124,7 +79,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-23T14:00:08.204Z",
+        "checkedAt": "2026-04-23T19:21:54.855Z",
         "mode": "live"
       },
       "discovery": {
