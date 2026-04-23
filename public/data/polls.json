@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-23T06:10:33.067Z",
-    "lastAttemptAt": "2026-04-23T06:10:33.067Z",
-    "lastSuccessfulUpdate": "2026-04-23T06:10:33.067Z",
+    "generatedAt": "2026-04-23T09:50:07.371Z",
+    "lastAttemptAt": "2026-04-23T09:50:07.371Z",
+    "lastSuccessfulUpdate": "2026-04-23T09:50:07.371Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -29,61 +29,49 @@
   },
   "polls": [
     {
-      "pollDate": "2026-04-06",
-      "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-23T06:10:41.093Z",
-      "pollster": "Oneindia",
+      "pollDate": "2026-04-21",
+      "publishedAt": "2026-04-21T08:32:00.000Z",
+      "updatedAt": "2026-04-23T09:50:12.315Z",
+      "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html",
+      "sourceUrl": "https://www.oneindia.com/chennai/who-will-win-2026-tamil-nadu-election-2026-pre-poll-surveys-opinion-polls-claim-8065253.html",
       "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Election Prediction: AIADMK Set to Emerge as Winner, Says Pre-Poll Survey",
-      "summary": "Tamil Nadu Election Pre Poll Survey: The latest CNN News18–Vote Tracker survey, conducted between March 23 and April 6, a competitive yet favorable electoral landscape for the All India Anna Dravida Munnetra Kazhagam ahead of the upcoming Tamil Nadu Assembly elections",
+      "headline": "Who Will Win Tamil Nadu Election 2026? State Awaits The Answer As Silence Period Kicks In",
+      "summary": "Tamil Nadu Election Predictions and Opinion Poll Surveys: The key takeaway is not just the DMK+ lead, but the volatility beneath it. Several surveys flag a significant number of “close contest” seats—up to 60 in one case—suggesting that last-mile campaigning and voter turnout could dramatically alter the final outcome.",
       "seatProjection": {
-        "dmk": {
-          "value": 135,
-          "display": "130-140"
-        },
+        "dmk": null,
         "bjpAlliance": null,
-        "tvk": {
-          "value": 4,
-          "display": "2-6"
-        },
-        "aiadmk": {
-          "value": 135,
-          "display": "130-140"
-        }
+        "tvk": null,
+        "aiadmk": null
       },
       "voteShare": {
         "dmk": {
-          "value": 39,
-          "display": "39%"
+          "value": 40.1,
+          "display": "40.1%"
         },
         "bjpAlliance": null,
         "tvk": {
-          "value": 12,
-          "display": "12%"
+          "value": 40.1,
+          "display": "40.1%"
         },
-        "aiadmk": {
-          "value": 39,
-          "display": "39%"
-        }
+        "aiadmk": null
       },
       "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-23T06:10:41.093Z",
+        "checkedAt": "2026-04-23T09:50:12.315Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html"
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feedLink": "https://www.oneindia.com/chennai/who-will-win-2026-tamil-nadu-election-2026-pre-poll-surveys-opinion-polls-claim-8065253.html"
       },
       "confidence": "auto",
-      "id": "oneindia-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
-      "sortDate": "2026-04-06T20:01:00.000Z"
+      "id": "ians-matrize-2026-04-21-oneindia-com-https-www-oneindia-com-chennai-who-will-win-2026-tamil-nadu-election-2026-pre-poll-surveys-opinion-polls-claim-8065253-html",
+      "sortDate": "2026-04-21T08:32:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
