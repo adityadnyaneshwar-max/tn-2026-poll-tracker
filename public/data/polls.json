@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-25T05:51:15.235Z",
-    "lastAttemptAt": "2026-04-25T05:51:15.235Z",
-    "lastSuccessfulUpdate": "2026-04-25T05:51:15.235Z",
+    "generatedAt": "2026-04-25T07:38:10.546Z",
+    "lastAttemptAt": "2026-04-25T07:38:10.546Z",
+    "lastSuccessfulUpdate": "2026-04-25T07:38:10.546Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
     "warning": null,
     "totals": {
-      "polls": 6,
-      "sources": 6,
-      "validatedLinks": 6,
+      "polls": 5,
+      "sources": 5,
+      "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 2
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 23,
+    "articlesScanned": 21,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -29,66 +29,9 @@
   },
   "polls": [
     {
-      "pollDate": "2026-04-06",
-      "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-25T05:51:23.874Z",
-      "pollster": "Oneindia",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Election Prediction: AIADMK Set to Emerge as Winner, Says Pre-Poll Survey",
-      "summary": "Tamil Nadu Election Pre Poll Survey: The latest CNN News18–Vote Tracker survey, conducted between March 23 and April 6, a competitive yet favorable electoral landscape for the All India Anna Dravida Munnetra Kazhagam ahead of the upcoming Tamil Nadu Assembly elections",
-      "seatProjection": {
-        "dmk": {
-          "value": 135,
-          "display": "130-140"
-        },
-        "bjpAlliance": null,
-        "tvk": {
-          "value": 4,
-          "display": "2-6"
-        },
-        "aiadmk": {
-          "value": 135,
-          "display": "130-140"
-        }
-      },
-      "voteShare": {
-        "dmk": {
-          "value": 39,
-          "display": "39%"
-        },
-        "bjpAlliance": null,
-        "tvk": {
-          "value": 12,
-          "display": "12%"
-        },
-        "aiadmk": {
-          "value": 39,
-          "display": "39%"
-        }
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-04-25T05:51:23.874Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html"
-      },
-      "confidence": "auto",
-      "id": "oneindia-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
-      "sortDate": "2026-04-06T20:01:00.000Z"
-    },
-    {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-25T05:51:22.261Z",
+      "updatedAt": "2026-04-25T07:38:20.006Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -118,12 +61,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-25T05:51:22.261Z",
+        "checkedAt": "2026-04-25T07:38:20.006Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
         "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html"
       },
       "confidence": "auto",
