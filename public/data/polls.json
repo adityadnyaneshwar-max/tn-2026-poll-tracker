@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-26T20:48:57.046Z",
-    "lastAttemptAt": "2026-04-26T20:48:57.046Z",
-    "lastSuccessfulUpdate": "2026-04-26T20:48:57.046Z",
+    "generatedAt": "2026-04-26T22:48:12.527Z",
+    "lastAttemptAt": "2026-04-26T22:48:12.527Z",
+    "lastSuccessfulUpdate": "2026-04-26T22:48:12.527Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 6,
-      "sources": 6,
-      "validatedLinks": 6,
+      "polls": 5,
+      "sources": 5,
+      "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 2
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 21,
+    "articlesScanned": 22,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,70 +25,19 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
+        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
-      "pollDate": "2026-04-06",
-      "publishedAt": "2026-04-06T20:01:00.000Z",
-      "updatedAt": "2026-04-26T20:49:04.676Z",
-      "pollster": "Oneindia",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Election Prediction: AIADMK Set to Emerge as Winner, Says Pre-Poll Survey",
-      "summary": "Tamil Nadu Election Pre Poll Survey: The latest CNN News18–Vote Tracker survey, conducted between March 23 and April 6, a competitive yet favorable electoral landscape for the All India Anna Dravida Munnetra Kazhagam ahead of the upcoming Tamil Nadu Assembly elections",
-      "seatProjection": {
-        "dmk": {
-          "value": 135,
-          "display": "130-140"
-        },
-        "bjpAlliance": null,
-        "tvk": {
-          "value": 4,
-          "display": "2-6"
-        },
-        "aiadmk": {
-          "value": 135,
-          "display": "130-140"
-        }
-      },
-      "voteShare": {
-        "dmk": {
-          "value": 39,
-          "display": "39%"
-        },
-        "bjpAlliance": null,
-        "tvk": {
-          "value": 12,
-          "display": "12%"
-        },
-        "aiadmk": {
-          "value": 39,
-          "display": "39%"
-        }
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-04-26T20:49:04.676Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949.html"
-      },
-      "confidence": "auto",
-      "id": "oneindia-2026-04-06-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-pre-poll-survey-eps-led-aiadmk-will-emerge-as-winner-to-defeat-stalin-govt-cla-8049949-html",
-      "sortDate": "2026-04-06T20:01:00.000Z"
-    },
-    {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-26T20:49:03.714Z",
+      "updatedAt": "2026-04-26T22:48:21.630Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -118,7 +67,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-26T20:49:03.714Z",
+        "checkedAt": "2026-04-26T22:48:21.630Z",
         "mode": "live"
       },
       "discovery": {
