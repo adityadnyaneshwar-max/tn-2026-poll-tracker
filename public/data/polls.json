@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-29T14:15:45.744Z",
-    "lastAttemptAt": "2026-04-29T14:15:45.744Z",
-    "lastSuccessfulUpdate": "2026-04-29T14:15:45.744Z",
+    "generatedAt": "2026-04-29T17:43:54.882Z",
+    "lastAttemptAt": "2026-04-29T17:43:54.882Z",
+    "lastSuccessfulUpdate": "2026-04-29T17:43:54.882Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
     "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 6,
+      "polls": 8,
       "sources": 6,
-      "validatedLinks": 6,
+      "validatedLinks": 8,
       "manualSeeds": 4,
-      "autoDiscovered": 2
+      "autoDiscovered": 4
     },
     "sourcesChecked": 15,
-    "articlesScanned": 30,
+    "articlesScanned": 52,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -28,7 +28,7 @@
     "sourceFailures": [
       {
         "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
-        "title": "Tamil Nadu Exit Poll 2026 LIVE Updates: Matrize predicts DMK-led alliance to retain power",
+        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
         "message": "Request failed with status 403"
       },
       {
@@ -41,8 +41,107 @@
   "polls": [
     {
       "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T07:35:00.000Z",
+      "updatedAt": "2026-04-29T17:44:05.868Z",
+      "pollster": "Vote Vibe",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Elections Survey: Not DMK or AIADMK, TN Heads For Hung Assembly, Claims Vote Vibe Exit Poll",
+      "summary": "Tamil Nadu Elections Survey: Not DMK or AIADMK, TN Heads For Hung Assembly",
+      "seatProjection": {
+        "dmk": {
+          "value": 108,
+          "display": "103-113"
+        },
+        "bjpAlliance": {
+          "value": 119,
+          "display": "114-124"
+        },
+        "tvk": {
+          "value": 5.5,
+          "display": "4-7"
+        },
+        "aiadmk": {
+          "value": 119,
+          "display": "114-124"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-29T17:44:05.868Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html"
+      },
+      "confidence": "auto",
+      "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261-html",
+      "sortDate": "2026-04-29T07:35:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T07:24:00.000Z",
+      "updatedAt": "2026-04-29T17:44:04.882Z",
+      "pollster": "IANS-Matrize",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Exit Polls 2026: DMK, AIADMK or TVK - Who Will Emerge Victorious? P-Marq Survey Out",
+      "summary": "Tamil Nadu Exit Polls 2026: DMK, AIADMK or TVK - Who Will Emerge Victorious? P-Marq Survey Out",
+      "seatProjection": {
+        "dmk": {
+          "value": 135,
+          "display": "125-145"
+        },
+        "bjpAlliance": {
+          "value": 75,
+          "display": "65-85"
+        },
+        "tvk": null,
+        "aiadmk": {
+          "value": 75,
+          "display": "65-85"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-29T17:44:04.882Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223.html"
+      },
+      "confidence": "auto",
+      "id": "ians-matrize-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223-html",
+      "sortDate": "2026-04-29T07:24:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:57:00.000Z",
-      "updatedAt": "2026-04-29T14:15:53.622Z",
+      "updatedAt": "2026-04-29T17:44:04.158Z",
       "pollster": "Vote Vibe",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -90,7 +189,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T14:15:53.622Z",
+        "checkedAt": "2026-04-29T17:44:04.158Z",
         "mode": "live"
       },
       "discovery": {
@@ -105,7 +204,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:29:00.000Z",
-      "updatedAt": "2026-04-29T14:15:53.752Z",
+      "updatedAt": "2026-04-29T17:44:03.291Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -144,7 +243,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T14:15:53.752Z",
+        "checkedAt": "2026-04-29T17:44:03.291Z",
         "mode": "live"
       },
       "discovery": {
