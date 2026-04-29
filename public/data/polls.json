@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-29T17:43:54.882Z",
-    "lastAttemptAt": "2026-04-29T17:43:54.882Z",
-    "lastSuccessfulUpdate": "2026-04-29T17:43:54.882Z",
+    "generatedAt": "2026-04-29T19:44:54.887Z",
+    "lastAttemptAt": "2026-04-29T19:44:54.887Z",
+    "lastSuccessfulUpdate": "2026-04-29T19:44:54.887Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
     "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 8,
+      "polls": 7,
       "sources": 6,
-      "validatedLinks": 8,
+      "validatedLinks": 7,
       "manualSeeds": 4,
-      "autoDiscovered": 4
+      "autoDiscovered": 3
     },
     "sourcesChecked": 15,
-    "articlesScanned": 52,
+    "articlesScanned": 51,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,11 +30,6 @@
         "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
         "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
         "message": "Request failed with status 403"
-      },
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-matrize-exit-poll-predicts-dmk-led-alliance-to-retain-power-in-tamil-nadu-with-clear-majority-2026-04-29-1039327",
-        "title": "Tamil Nadu Exit Poll: Stalin's DMK-led alliance to retain power with a clear majority, predicts Matrize",
-        "message": "Request failed with status 403"
       }
     ]
   },
@@ -42,7 +37,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T07:35:00.000Z",
-      "updatedAt": "2026-04-29T17:44:05.868Z",
+      "updatedAt": "2026-04-29T19:45:08.236Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -78,7 +73,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T17:44:05.868Z",
+        "checkedAt": "2026-04-29T19:45:08.236Z",
         "mode": "live"
       },
       "discovery": {
@@ -92,56 +87,8 @@
     },
     {
       "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T07:24:00.000Z",
-      "updatedAt": "2026-04-29T17:44:04.882Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Exit Polls 2026: DMK, AIADMK or TVK - Who Will Emerge Victorious? P-Marq Survey Out",
-      "summary": "Tamil Nadu Exit Polls 2026: DMK, AIADMK or TVK - Who Will Emerge Victorious? P-Marq Survey Out",
-      "seatProjection": {
-        "dmk": {
-          "value": 135,
-          "display": "125-145"
-        },
-        "bjpAlliance": {
-          "value": 75,
-          "display": "65-85"
-        },
-        "tvk": null,
-        "aiadmk": {
-          "value": 75,
-          "display": "65-85"
-        }
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-04-29T17:44:04.882Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223-html",
-      "sortDate": "2026-04-29T07:24:00.000Z"
-    },
-    {
-      "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:57:00.000Z",
-      "updatedAt": "2026-04-29T17:44:04.158Z",
+      "updatedAt": "2026-04-29T19:45:06.101Z",
       "pollster": "Vote Vibe",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -189,7 +136,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T17:44:04.158Z",
+        "checkedAt": "2026-04-29T19:45:06.101Z",
         "mode": "live"
       },
       "discovery": {
@@ -204,7 +151,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:29:00.000Z",
-      "updatedAt": "2026-04-29T17:44:03.291Z",
+      "updatedAt": "2026-04-29T19:45:05.004Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -243,7 +190,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T17:44:03.291Z",
+        "checkedAt": "2026-04-29T19:45:05.004Z",
         "mode": "live"
       },
       "discovery": {
