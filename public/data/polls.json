@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-29T10:11:49.616Z",
-    "lastAttemptAt": "2026-04-29T10:11:49.616Z",
-    "lastSuccessfulUpdate": "2026-04-29T10:11:49.616Z",
+    "generatedAt": "2026-04-29T14:15:45.744Z",
+    "lastAttemptAt": "2026-04-29T14:15:45.744Z",
+    "lastSuccessfulUpdate": "2026-04-29T14:15:45.744Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 5,
-      "sources": 5,
-      "validatedLinks": 5,
+      "polls": 6,
+      "sources": 6,
+      "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 22,
+    "articlesScanned": 30,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,53 +25,136 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
+        "title": "Tamil Nadu Exit Poll 2026 LIVE Updates: Matrize predicts DMK-led alliance to retain power",
+        "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-matrize-exit-poll-predicts-dmk-led-alliance-to-retain-power-in-tamil-nadu-with-clear-majority-2026-04-29-1039327",
+        "title": "Tamil Nadu Exit Poll: Stalin's DMK-led alliance to retain power with a clear majority, predicts Matrize",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
-      "pollDate": "2026-03-20",
-      "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-29T10:11:58.676Z",
-      "pollster": "IANS-Matrize",
+      "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T06:57:00.000Z",
+      "updatedAt": "2026-04-29T14:15:53.622Z",
+      "pollster": "Vote Vibe",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
-      "sourceUrl": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html",
+      "sourceUrl": "https://www.moneycontrol.com/news/india/tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629.html",
       "sourceDomain": "moneycontrol.com",
-      "headline": "Tamil Nadu opinion poll suggests AIADMK edge over DMK, Vijay’s TVK emerges as key factor",
-      "summary": "The IANS-Matrize survey projects the AIADMK-led alliance to receive 39-40 per cent of the vote share, potentially translating into 114–127 seats in the 234-member Assembly",
+      "headline": "Tamil Nadu Exit Polls 2026: AIADMK holds narrow edge in tough fight with DMK; Vijay’s star power falls short of big gains, predicts survey",
+      "summary": "According to exit poll projections by VoteVibe, released exclusively on CNN-News18, the AIADMK-led alliance is projected to secure 114-124 seats in the 234-member Assembly, while the DMK front is expected to bag 103-113 seats",
       "seatProjection": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
+        "dmk": {
+          "value": 108,
+          "display": "103-113"
+        },
+        "bjpAlliance": {
+          "value": 75,
+          "display": "75"
+        },
+        "tvk": {
+          "value": 7,
+          "display": "4-10"
+        },
+        "aiadmk": {
+          "value": 119,
+          "display": "114-124"
+        }
       },
       "voteShare": {
-        "dmk": null,
-        "bjpAlliance": {
-          "value": 39.5,
-          "display": "39-40%"
+        "dmk": {
+          "value": 38.9,
+          "display": "38.9%"
         },
-        "tvk": null,
+        "bjpAlliance": {
+          "value": 39.9,
+          "display": "39.9%"
+        },
+        "tvk": {
+          "value": 15.8,
+          "display": "15.8%"
+        },
         "aiadmk": {
-          "value": 39.5,
-          "display": "39-40%"
+          "value": 39.9,
+          "display": "39.9%"
         }
       },
       "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T10:11:58.676Z",
+        "checkedAt": "2026-04-29T14:15:53.622Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
         "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html"
+        "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629.html"
       },
       "confidence": "auto",
-      "id": "ians-matrize-2026-03-20-moneycontrol-com-https-www-moneycontrol-com-news-india-tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012-html",
-      "sortDate": "2026-03-20T02:36:00.000Z"
+      "id": "vote-vibe-2026-04-29-moneycontrol-com-https-www-moneycontrol-com-news-india-tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629-html",
+      "sortDate": "2026-04-29T06:57:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T06:29:00.000Z",
+      "updatedAt": "2026-04-29T14:15:53.752Z",
+      "pollster": "IANS-Matrize",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Election Predictions: Who'll Be The Winner? It's DMK, Declares People's Pulse Survey",
+      "summary": "A People",
+      "seatProjection": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 21,
+          "display": "18-24"
+        },
+        "aiadmk": {
+          "value": 72.5,
+          "display": "65-80"
+        }
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 38.4,
+          "display": "38.4%"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 23.6,
+          "display": "23.6%"
+        },
+        "aiadmk": {
+          "value": 31.5,
+          "display": "31.5%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-29T14:15:53.752Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129.html"
+      },
+      "confidence": "auto",
+      "id": "ians-matrize-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129-html",
+      "sortDate": "2026-04-29T06:29:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
