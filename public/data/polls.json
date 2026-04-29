@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-28T23:01:00.237Z",
-    "lastAttemptAt": "2026-04-28T23:01:00.237Z",
-    "lastSuccessfulUpdate": "2026-04-28T21:12:17.338Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-04-29T03:43:43.943Z",
+    "lastAttemptAt": "2026-04-29T03:43:43.943Z",
+    "lastSuccessfulUpdate": "2026-04-29T03:43:43.943Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
-      "polls": 5,
-      "sources": 5,
-      "validatedLinks": 5,
+      "polls": 6,
+      "sources": 6,
+      "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 19,
+    "articlesScanned": 21,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -29,9 +29,57 @@
   },
   "polls": [
     {
+      "pollDate": "2026-04-18",
+      "publishedAt": "2026-04-18T00:14:00.000Z",
+      "updatedAt": "2026-04-29T03:43:51.576Z",
+      "pollster": "IANS-Matrize",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-result-prediction-will-vijay-win-perambur-trichy-tvk-defeat-dmk-vikatan-surv-8061991.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Election Result Prediction: Will Vijay Win Perambur-Trichy & TVK Defeat DMK? Vikatan Survey Out",
+      "summary": "Tamil Nadu Election Result Prediction: Going by Junior Vikatan survey, Vijay will emerge victorious in Perambur and Trichy East. It says that there is a possibility of a hung assembly.",
+      "seatProjection": {
+        "dmk": {
+          "value": 121,
+          "display": "121"
+        },
+        "bjpAlliance": {
+          "value": 83,
+          "display": "83"
+        },
+        "tvk": null,
+        "aiadmk": {
+          "value": 83,
+          "display": "83"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-29T03:43:51.576Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-result-prediction-will-vijay-win-perambur-trichy-tvk-defeat-dmk-vikatan-surv-8061991.html"
+      },
+      "confidence": "auto",
+      "id": "ians-matrize-2026-04-18-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-result-prediction-will-vijay-win-perambur-trichy-tvk-defeat-dmk-vikatan-surv-8061991-html",
+      "sortDate": "2026-04-18T00:14:00.000Z"
+    },
+    {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-04-28T21:12:23.855Z",
+      "updatedAt": "2026-04-29T03:43:51.466Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -61,7 +109,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-28T21:12:23.855Z",
+        "checkedAt": "2026-04-29T03:43:51.466Z",
         "mode": "live"
       },
       "discovery": {
