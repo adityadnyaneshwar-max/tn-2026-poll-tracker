@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-29T23:01:21.227Z",
-    "lastAttemptAt": "2026-04-29T23:01:21.227Z",
-    "lastSuccessfulUpdate": "2026-04-29T23:01:21.227Z",
+    "generatedAt": "2026-04-30T03:45:21.553Z",
+    "lastAttemptAt": "2026-04-30T03:45:21.553Z",
+    "lastSuccessfulUpdate": "2026-04-30T03:45:21.553Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
@@ -42,14 +42,14 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T07:35:00.000Z",
-      "updatedAt": "2026-04-29T23:01:36.874Z",
+      "updatedAt": "2026-04-30T03:45:46.002Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
       "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html",
       "sourceDomain": "oneindia.com",
       "headline": "Tamil Nadu Elections Survey: Not DMK or AIADMK, TN Heads For Hung Assembly, Claims Vote Vibe Exit Poll",
-      "summary": "Tamil Nadu Elections Survey: Not DMK or AIADMK, TN Heads For Hung Assembly",
+      "summary": "Tamil Nadu Elections Survey: While many surveys claimed that the DMK is winning the 2026 polls, Vote Vibe post poll survey indicated that the state is heading for a hung assembly.",
       "seatProjection": {
         "dmk": {
           "value": 108,
@@ -78,7 +78,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T23:01:36.874Z",
+        "checkedAt": "2026-04-30T03:45:46.002Z",
         "mode": "live"
       },
       "discovery": {
@@ -93,11 +93,11 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:57:00.000Z",
-      "updatedAt": "2026-04-29T23:01:32.702Z",
+      "updatedAt": "2026-04-30T03:45:44.276Z",
       "pollster": "Vote Vibe",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
-      "sourceUrl": "https://www.moneycontrol.com/news/india/tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629.html",
+      "sourceUrl": "https://www.moneycontrol.com/europe/?url=https://www.moneycontrol.com/news/india/tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629.html",
       "sourceDomain": "moneycontrol.com",
       "headline": "Tamil Nadu Exit Polls 2026: AIADMK holds narrow edge in tough fight with DMK; Vijay’s star power falls short of big gains, predicts survey",
       "summary": "According to exit poll projections by VoteVibe, released exclusively on CNN-News18, the AIADMK-led alliance is projected to secure 114-124 seats in the 234-member Assembly, while the DMK front is expected to bag 103-113 seats",
@@ -107,41 +107,26 @@
           "display": "103-113"
         },
         "bjpAlliance": {
-          "value": 75,
-          "display": "75"
+          "value": 119,
+          "display": "114-124"
         },
-        "tvk": {
-          "value": 7,
-          "display": "4-10"
-        },
+        "tvk": null,
         "aiadmk": {
           "value": 119,
           "display": "114-124"
         }
       },
       "voteShare": {
-        "dmk": {
-          "value": 38.9,
-          "display": "38.9%"
-        },
-        "bjpAlliance": {
-          "value": 39.9,
-          "display": "39.9%"
-        },
-        "tvk": {
-          "value": 15.8,
-          "display": "15.8%"
-        },
-        "aiadmk": {
-          "value": 39.9,
-          "display": "39.9%"
-        }
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
       },
       "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T23:01:32.702Z",
+        "checkedAt": "2026-04-30T03:45:44.275Z",
         "mode": "live"
       },
       "discovery": {
@@ -150,13 +135,13 @@
         "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629.html"
       },
       "confidence": "auto",
-      "id": "vote-vibe-2026-04-29-moneycontrol-com-https-www-moneycontrol-com-news-india-tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629-html",
+      "id": "vote-vibe-2026-04-29-moneycontrol-com-https-www-moneycontrol-com-europe-url-https-www-moneycontrol-com-news-india-tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629-html",
       "sortDate": "2026-04-29T06:57:00.000Z"
     },
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:29:00.000Z",
-      "updatedAt": "2026-04-29T23:01:31.532Z",
+      "updatedAt": "2026-04-30T03:45:30.413Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -195,7 +180,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-29T23:01:31.532Z",
+        "checkedAt": "2026-04-30T03:45:30.413Z",
         "mode": "live"
       },
       "discovery": {
