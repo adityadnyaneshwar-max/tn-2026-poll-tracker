@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-30T17:26:11.812Z",
-    "lastAttemptAt": "2026-04-30T17:26:11.812Z",
-    "lastSuccessfulUpdate": "2026-04-30T14:12:00.357Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-04-30T19:41:50.082Z",
+    "lastAttemptAt": "2026-04-30T19:41:50.082Z",
+    "lastSuccessfulUpdate": "2026-04-30T19:41:50.082Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
-      "polls": 5,
-      "sources": 5,
-      "validatedLinks": 5,
+      "polls": 8,
+      "sources": 6,
+      "validatedLinks": 8,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 4
     },
     "sourcesChecked": 15,
-    "articlesScanned": 37,
+    "articlesScanned": 46,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-30",
       "publishedAt": "2026-04-30T06:24:00.000Z",
-      "updatedAt": "2026-04-30T14:12:08.274Z",
+      "updatedAt": "2026-04-30T19:41:59.154Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -64,17 +64,164 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-30T14:12:08.274Z",
+        "checkedAt": "2026-04-30T19:41:59.154Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447"
       },
       "confidence": "auto",
       "id": "axis-my-india-2026-04-30-ndtv-com-https-www-ndtv-com-india-news-exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
       "sortDate": "2026-04-30T06:24:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T19:55:00.000Z",
+      "updatedAt": "2026-04-30T19:41:58.298Z",
+      "pollster": "IANS-Matrize",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Exit Polls 2026: DMK, AIADMK or TVK - Who Will Emerge Victorious? P-Marq Survey Out",
+      "summary": "Tamil Nadu Exit Polls 2026: The DMK will emerge victorious in the 2026 polls, according to the latest P Marq survey.",
+      "seatProjection": {
+        "dmk": {
+          "value": 135,
+          "display": "125-145"
+        },
+        "bjpAlliance": {
+          "value": 75,
+          "display": "65-85"
+        },
+        "tvk": null,
+        "aiadmk": {
+          "value": 75,
+          "display": "65-85"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-30T19:41:58.298Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223.html"
+      },
+      "confidence": "auto",
+      "id": "ians-matrize-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223-html",
+      "sortDate": "2026-04-29T19:55:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T19:50:00.000Z",
+      "updatedAt": "2026-04-30T19:42:01.810Z",
+      "pollster": "Vote Vibe",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Elections Survey: Not DMK or AIADMK, TN Heads For Hung Assembly, Claims Vote Vibe Exit Poll",
+      "summary": "Tamil Nadu Elections Survey: While many surveys claimed that the DMK is winning the 2026 polls, Vote Vibe post poll survey indicated that the state is heading for a hung assembly.",
+      "seatProjection": {
+        "dmk": {
+          "value": 108,
+          "display": "103-113"
+        },
+        "bjpAlliance": {
+          "value": 119,
+          "display": "114-124"
+        },
+        "tvk": {
+          "value": 5.5,
+          "display": "4-7"
+        },
+        "aiadmk": {
+          "value": 119,
+          "display": "114-124"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-30T19:42:01.810Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html"
+      },
+      "confidence": "auto",
+      "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261-html",
+      "sortDate": "2026-04-29T19:50:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T19:46:00.000Z",
+      "updatedAt": "2026-04-30T19:41:58.446Z",
+      "pollster": "Vote Vibe",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Elections Poll of Exit Polls: Who Will Be The Winner In 2026?",
+      "summary": "Tamil Nadu Elections 2026: Surveys done by six pollsters clearly indicate that the DMK is returning to power, creating a history in Tamil Nadu.",
+      "seatProjection": {
+        "dmk": null,
+        "bjpAlliance": {
+          "value": 75,
+          "display": "50-100"
+        },
+        "tvk": {
+          "value": 19,
+          "display": "12-26"
+        },
+        "aiadmk": {
+          "value": 75,
+          "display": "50-100"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-30T19:41:58.446Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html"
+      },
+      "confidence": "auto",
+      "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307-html",
+      "sortDate": "2026-04-29T19:46:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
