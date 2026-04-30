@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-30T03:45:21.553Z",
-    "lastAttemptAt": "2026-04-30T03:45:21.553Z",
+    "generatedAt": "2026-04-30T06:32:37.507Z",
+    "lastAttemptAt": "2026-04-30T06:32:37.507Z",
     "lastSuccessfulUpdate": "2026-04-30T03:45:21.553Z",
-    "usingCachedData": false,
-    "hadErrors": true,
-    "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "usingCachedData": true,
+    "hadErrors": false,
+    "fetchMode": "cached",
+    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
       "polls": 7,
       "sources": 6,
       "validatedLinks": 7,
       "manualSeeds": 4,
-      "autoDiscovered": 3
+      "autoDiscovered": 0
     },
     "sourcesChecked": 15,
-    "articlesScanned": 46,
+    "articlesScanned": 39,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,18 +25,7 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
-        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
-        "message": "Request failed with status 403"
-      },
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-matrize-exit-poll-predicts-dmk-led-alliance-to-retain-power-in-tamil-nadu-with-clear-majority-2026-04-29-1039327",
-        "title": "Tamil Nadu Exit Poll: Stalin's DMK-led alliance to retain power with a clear majority, predicts Matrize",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
