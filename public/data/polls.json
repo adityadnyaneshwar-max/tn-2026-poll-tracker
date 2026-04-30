@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-04-30T21:06:55.111Z",
-    "lastAttemptAt": "2026-04-30T21:06:55.111Z",
-    "lastSuccessfulUpdate": "2026-04-30T21:06:55.111Z",
+    "generatedAt": "2026-04-30T22:57:32.747Z",
+    "lastAttemptAt": "2026-04-30T22:57:32.747Z",
+    "lastSuccessfulUpdate": "2026-04-30T22:57:32.747Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
     "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 8,
+      "polls": 9,
       "sources": 6,
-      "validatedLinks": 8,
+      "validatedLinks": 9,
       "manualSeeds": 4,
-      "autoDiscovered": 4
+      "autoDiscovered": 5
     },
     "sourcesChecked": 15,
-    "articlesScanned": 42,
+    "articlesScanned": 47,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -37,7 +37,7 @@
     {
       "pollDate": "2026-04-30",
       "publishedAt": "2026-04-30T06:24:00.000Z",
-      "updatedAt": "2026-04-30T21:07:05.582Z",
+      "updatedAt": "2026-04-30T22:57:41.412Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -70,7 +70,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-30T21:07:05.582Z",
+        "checkedAt": "2026-04-30T22:57:41.412Z",
         "mode": "live"
       },
       "discovery": {
@@ -85,7 +85,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:55:00.000Z",
-      "updatedAt": "2026-04-30T21:07:04.267Z",
+      "updatedAt": "2026-04-30T22:57:40.143Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -118,7 +118,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-30T21:07:04.267Z",
+        "checkedAt": "2026-04-30T22:57:40.143Z",
         "mode": "live"
       },
       "discovery": {
@@ -133,7 +133,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:50:00.000Z",
-      "updatedAt": "2026-04-30T21:07:06.862Z",
+      "updatedAt": "2026-04-30T22:57:42.395Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -169,7 +169,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-30T21:07:06.861Z",
+        "checkedAt": "2026-04-30T22:57:42.395Z",
         "mode": "live"
       },
       "discovery": {
@@ -184,7 +184,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-04-30T21:07:04.360Z",
+      "updatedAt": "2026-04-30T22:57:42.487Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -217,17 +217,71 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-04-30T21:07:04.360Z",
+        "checkedAt": "2026-04-30T22:57:42.487Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
         "feedLink": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html"
       },
       "confidence": "auto",
       "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307-html",
       "sortDate": "2026-04-29T19:46:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T06:29:00.000Z",
+      "updatedAt": "2026-04-30T22:57:40.287Z",
+      "pollster": "IANS-Matrize",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Election Predictions: Who'll Be The Winner? It's DMK, Declares People's Pulse Survey",
+      "summary": "A People",
+      "seatProjection": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 21,
+          "display": "18-24"
+        },
+        "aiadmk": {
+          "value": 72.5,
+          "display": "65-80"
+        }
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 38.4,
+          "display": "38.4%"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 23.6,
+          "display": "23.6%"
+        },
+        "aiadmk": {
+          "value": 31.5,
+          "display": "31.5%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-04-30T22:57:40.287Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129.html"
+      },
+      "confidence": "auto",
+      "id": "ians-matrize-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129-html",
+      "sortDate": "2026-04-29T06:29:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
