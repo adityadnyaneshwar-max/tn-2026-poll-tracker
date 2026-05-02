@@ -1,19 +1,19 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-01T22:54:44.297Z",
-    "lastAttemptAt": "2026-05-01T22:54:44.297Z",
-    "lastSuccessfulUpdate": "2026-05-01T20:59:55.399Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-05-02T03:30:43.184Z",
+    "lastAttemptAt": "2026-05-02T03:30:43.184Z",
+    "lastSuccessfulUpdate": "2026-05-02T03:30:43.184Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
-      "polls": 7,
-      "sources": 6,
-      "validatedLinks": 7,
+      "polls": 6,
+      "sources": 5,
+      "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
     "articlesScanned": 34,
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:50:00.000Z",
-      "updatedAt": "2026-05-01T21:00:06.857Z",
+      "updatedAt": "2026-05-02T03:30:50.626Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -67,7 +67,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-01T21:00:06.857Z",
+        "checkedAt": "2026-05-02T03:30:50.626Z",
         "mode": "live"
       },
       "discovery": {
@@ -82,7 +82,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-01T21:00:01.489Z",
+      "updatedAt": "2026-05-02T03:30:50.799Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -115,65 +115,17 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-01T21:00:01.489Z",
+        "checkedAt": "2026-05-02T03:30:50.799Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
         "feedLink": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html"
       },
       "confidence": "auto",
       "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307-html",
       "sortDate": "2026-04-29T19:46:00.000Z"
-    },
-    {
-      "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T06:57:00.000Z",
-      "updatedAt": "2026-05-01T21:00:04.767Z",
-      "pollster": "Vote Vibe",
-      "sourceName": "Moneycontrol",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.moneycontrol.com/europe/?url=https://www.moneycontrol.com/news/india/tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629.html",
-      "sourceDomain": "moneycontrol.com",
-      "headline": "Tamil Nadu Exit Polls 2026: AIADMK holds narrow edge in tough fight with DMK; Vijay’s star power falls short of big gains, predicts survey",
-      "summary": "According to exit poll projections by VoteVibe, released exclusively on CNN-News18, the AIADMK-led alliance is projected to secure 114-124 seats in the 234-member Assembly, while the DMK front is expected to bag 103-113 seats",
-      "seatProjection": {
-        "dmk": {
-          "value": 108,
-          "display": "103-113"
-        },
-        "bjpAlliance": {
-          "value": 119,
-          "display": "114-124"
-        },
-        "tvk": null,
-        "aiadmk": {
-          "value": 119,
-          "display": "114-124"
-        }
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-05-01T21:00:04.767Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629.html"
-      },
-      "confidence": "auto",
-      "id": "vote-vibe-2026-04-29-moneycontrol-com-https-www-moneycontrol-com-europe-url-https-www-moneycontrol-com-news-india-tamil-nadu-exit-polls-2026-aiadmk-holds-narrow-edge-in-tough-fight-with-dmk-vijay-s-star-power-falls-short-of-big-gains-predicts-survey-13903629-html",
-      "sortDate": "2026-04-29T06:57:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
