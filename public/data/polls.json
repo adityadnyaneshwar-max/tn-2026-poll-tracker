@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-02T09:13:44.521Z",
-    "lastAttemptAt": "2026-05-02T09:13:44.521Z",
-    "lastSuccessfulUpdate": "2026-05-02T09:13:44.521Z",
+    "generatedAt": "2026-05-02T10:57:11.293Z",
+    "lastAttemptAt": "2026-05-02T10:57:11.293Z",
+    "lastSuccessfulUpdate": "2026-05-02T10:57:11.293Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
     "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 7,
-      "sources": 5,
-      "validatedLinks": 7,
+      "polls": 8,
+      "sources": 6,
+      "validatedLinks": 8,
       "manualSeeds": 4,
-      "autoDiscovered": 3
+      "autoDiscovered": 4
     },
     "sourcesChecked": 15,
-    "articlesScanned": 35,
+    "articlesScanned": 40,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -35,9 +35,57 @@
   },
   "polls": [
     {
+      "pollDate": "2026-04-30",
+      "publishedAt": "2026-04-30T06:24:00.000Z",
+      "updatedAt": "2026-05-02T10:57:20.185Z",
+      "pollster": "Axis My India",
+      "sourceName": "NDTV",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
+      "sourceDomain": "ndtv.com",
+      "headline": "NDTV Exit Poll Highlights: TVK Shock, NDA Sweep In Assam, LDF Upset In Kerala: Axis My India Exit Poll",
+      "summary": "Assembly elections exit poll live updates: The weeks-long voting process saw the participation of 17 crore voters across 824 assembly constituencies.",
+      "seatProjection": {
+        "dmk": {
+          "value": 180,
+          "display": "180"
+        },
+        "bjpAlliance": {
+          "value": 22.5,
+          "display": "22-23"
+        },
+        "tvk": null,
+        "aiadmk": {
+          "value": 22.5,
+          "display": "22-23"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-05-02T10:57:20.185Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "feedLink": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447"
+      },
+      "confidence": "auto",
+      "id": "axis-my-india-2026-04-30-ndtv-com-https-www-ndtv-com-india-news-exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
+      "sortDate": "2026-04-30T06:24:00.000Z"
+    },
+    {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:55:00.000Z",
-      "updatedAt": "2026-05-02T09:13:52.185Z",
+      "updatedAt": "2026-05-02T10:57:18.742Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -70,7 +118,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-02T09:13:52.185Z",
+        "checkedAt": "2026-05-02T10:57:18.742Z",
         "mode": "live"
       },
       "discovery": {
@@ -85,7 +133,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:50:00.000Z",
-      "updatedAt": "2026-05-02T09:13:53.640Z",
+      "updatedAt": "2026-05-02T10:57:21.231Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -121,7 +169,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-02T09:13:53.640Z",
+        "checkedAt": "2026-05-02T10:57:21.231Z",
         "mode": "live"
       },
       "discovery": {
@@ -136,7 +184,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-02T09:13:50.693Z",
+      "updatedAt": "2026-05-02T10:57:18.636Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -169,7 +217,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-02T09:13:50.693Z",
+        "checkedAt": "2026-05-02T10:57:18.636Z",
         "mode": "live"
       },
       "discovery": {
