@@ -1,19 +1,19 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-02T19:10:08.793Z",
-    "lastAttemptAt": "2026-05-02T19:10:08.793Z",
+    "generatedAt": "2026-05-02T20:51:27.506Z",
+    "lastAttemptAt": "2026-05-02T20:51:27.506Z",
     "lastSuccessfulUpdate": "2026-05-02T19:10:08.793Z",
-    "usingCachedData": false,
-    "hadErrors": false,
-    "fetchMode": "live+manual",
-    "warning": null,
+    "usingCachedData": true,
+    "hadErrors": true,
+    "fetchMode": "cached",
+    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
       "polls": 6,
       "sources": 5,
       "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 2
+      "autoDiscovered": 0
     },
     "sourcesChecked": 15,
     "articlesScanned": 34,
@@ -25,7 +25,18 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
+        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
+        "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
+        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
