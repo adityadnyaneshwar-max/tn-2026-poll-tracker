@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-03T10:58:23.227Z",
-    "lastAttemptAt": "2026-05-03T10:58:23.227Z",
-    "lastSuccessfulUpdate": "2026-05-03T10:58:23.227Z",
+    "generatedAt": "2026-05-03T13:25:00.191Z",
+    "lastAttemptAt": "2026-05-03T13:25:00.191Z",
+    "lastSuccessfulUpdate": "2026-05-03T13:25:00.191Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 7,
+      "polls": 6,
       "sources": 5,
-      "validatedLinks": 7,
+      "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 3
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 33,
+    "articlesScanned": 6,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,61 +25,44 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 Parawheel survey",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 opinion poll local channel",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T19:55:00.000Z",
-      "updatedAt": "2026-05-03T10:58:30.395Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Exit Polls 2026: DMK, AIADMK or TVK - Who Will Emerge Victorious? P-Marq Survey Out",
-      "summary": "Tamil Nadu Exit Polls 2026: The DMK will emerge victorious in the 2026 polls, according to the latest P Marq survey.",
-      "seatProjection": {
-        "dmk": {
-          "value": 135,
-          "display": "125-145"
-        },
-        "bjpAlliance": {
-          "value": 75,
-          "display": "65-85"
-        },
-        "tvk": null,
-        "aiadmk": {
-          "value": 75,
-          "display": "65-85"
-        }
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-05-03T10:58:30.394Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-exit-polls-2026-dmk-aiadmk-or-tvk-who-will-emerge-victorious-p-marq-survey-out-8073223-html",
-      "sortDate": "2026-04-29T19:55:00.000Z"
-    },
-    {
-      "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:50:00.000Z",
-      "updatedAt": "2026-05-03T10:58:32.872Z",
+      "updatedAt": "2026-05-03T13:25:45.764Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -115,7 +98,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-03T10:58:32.872Z",
+        "checkedAt": "2026-05-03T13:25:45.764Z",
         "mode": "live"
       },
       "discovery": {
@@ -130,7 +113,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-03T10:58:29.488Z",
+      "updatedAt": "2026-05-03T13:25:45.570Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -163,7 +146,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-03T10:58:29.488Z",
+        "checkedAt": "2026-05-03T13:25:45.569Z",
         "mode": "live"
       },
       "discovery": {
