@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-03T19:08:53.354Z",
-    "lastAttemptAt": "2026-05-03T19:08:53.354Z",
-    "lastSuccessfulUpdate": "2026-05-03T16:58:35.467Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-05-03T20:53:45.904Z",
+    "lastAttemptAt": "2026-05-03T20:53:45.904Z",
+    "lastSuccessfulUpdate": "2026-05-03T20:53:45.904Z",
+    "usingCachedData": false,
     "hadErrors": true,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 26,
+    "articlesScanned": 27,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,6 +30,11 @@
         "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
         "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
         "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
+        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
+        "message": "Request failed with status 403"
       }
     ]
   },
@@ -37,7 +42,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-03T16:58:41.869Z",
+      "updatedAt": "2026-05-03T20:53:52.152Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -70,7 +75,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-03T16:58:41.869Z",
+        "checkedAt": "2026-05-03T20:53:52.152Z",
         "mode": "live"
       },
       "discovery": {
