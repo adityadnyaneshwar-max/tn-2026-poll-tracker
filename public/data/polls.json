@@ -1,19 +1,19 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-03T03:52:00.552Z",
-    "lastAttemptAt": "2026-05-03T03:52:00.552Z",
-    "lastSuccessfulUpdate": "2026-05-03T03:52:00.552Z",
+    "generatedAt": "2026-05-03T06:31:27.603Z",
+    "lastAttemptAt": "2026-05-03T06:31:27.603Z",
+    "lastSuccessfulUpdate": "2026-05-03T06:31:27.603Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 6,
+      "polls": 7,
       "sources": 5,
-      "validatedLinks": 6,
+      "validatedLinks": 7,
       "manualSeeds": 4,
-      "autoDiscovered": 2
+      "autoDiscovered": 3
     },
     "sourcesChecked": 15,
     "articlesScanned": 34,
@@ -25,13 +25,24 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
+        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
+        "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-matrize-exit-poll-predicts-dmk-led-alliance-to-retain-power-in-tamil-nadu-with-clear-majority-2026-04-29-1039327",
+        "title": "Tamil Nadu Exit Poll: Stalin's DMK-led alliance to retain power with a clear majority, predicts Matrize",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:55:00.000Z",
-      "updatedAt": "2026-05-03T03:52:09.888Z",
+      "updatedAt": "2026-05-03T06:31:35.646Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -64,7 +75,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-03T03:52:09.888Z",
+        "checkedAt": "2026-05-03T06:31:35.646Z",
         "mode": "live"
       },
       "discovery": {
@@ -78,8 +89,59 @@
     },
     {
       "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T19:50:00.000Z",
+      "updatedAt": "2026-05-03T06:31:38.514Z",
+      "pollster": "Vote Vibe",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Elections Survey: Not DMK or AIADMK, TN Heads For Hung Assembly, Claims Vote Vibe Exit Poll",
+      "summary": "Tamil Nadu Elections Survey: While many surveys claimed that the DMK is winning the 2026 polls, Vote Vibe post poll survey indicated that the state is heading for a hung assembly.",
+      "seatProjection": {
+        "dmk": {
+          "value": 108,
+          "display": "103-113"
+        },
+        "bjpAlliance": {
+          "value": 119,
+          "display": "114-124"
+        },
+        "tvk": {
+          "value": 5.5,
+          "display": "4-7"
+        },
+        "aiadmk": {
+          "value": 119,
+          "display": "114-124"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-05-03T06:31:38.514Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html"
+      },
+      "confidence": "auto",
+      "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261-html",
+      "sortDate": "2026-04-29T19:50:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-03T03:52:08.963Z",
+      "updatedAt": "2026-05-03T06:31:34.983Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -112,7 +174,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-03T03:52:08.963Z",
+        "checkedAt": "2026-05-03T06:31:34.983Z",
         "mode": "live"
       },
       "discovery": {
