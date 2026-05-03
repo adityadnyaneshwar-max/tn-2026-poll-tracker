@@ -1,19 +1,19 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-03T14:54:42.033Z",
-    "lastAttemptAt": "2026-05-03T14:54:42.033Z",
-    "lastSuccessfulUpdate": "2026-05-03T14:54:42.033Z",
+    "generatedAt": "2026-05-03T16:58:35.467Z",
+    "lastAttemptAt": "2026-05-03T16:58:35.467Z",
+    "lastSuccessfulUpdate": "2026-05-03T16:58:35.467Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 7,
-      "sources": 6,
-      "validatedLinks": 7,
+      "polls": 5,
+      "sources": 5,
+      "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 3
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
     "articlesScanned": 32,
@@ -25,112 +25,24 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
+        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
+        "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
+        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
-      "pollDate": "2026-04-30",
-      "publishedAt": "2026-04-30T06:24:00.000Z",
-      "updatedAt": "2026-05-03T14:54:49.909Z",
-      "pollster": "Axis My India",
-      "sourceName": "NDTV",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
-      "sourceDomain": "ndtv.com",
-      "headline": "NDTV Exit Poll Highlights: TVK Shock, NDA Sweep In Assam, LDF Upset In Kerala: Axis My India Exit Poll",
-      "summary": "Assembly elections exit poll live updates: The weeks-long voting process saw the participation of 17 crore voters across 824 assembly constituencies.",
-      "seatProjection": {
-        "dmk": {
-          "value": 180,
-          "display": "180"
-        },
-        "bjpAlliance": {
-          "value": 22.5,
-          "display": "22-23"
-        },
-        "tvk": null,
-        "aiadmk": {
-          "value": 22.5,
-          "display": "22-23"
-        }
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-05-03T14:54:49.909Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
-        "feedLink": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447"
-      },
-      "confidence": "auto",
-      "id": "axis-my-india-2026-04-30-ndtv-com-https-www-ndtv-com-india-news-exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
-      "sortDate": "2026-04-30T06:24:00.000Z"
-    },
-    {
-      "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T19:50:00.000Z",
-      "updatedAt": "2026-05-03T14:54:50.859Z",
-      "pollster": "Vote Vibe",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Elections Survey: Not DMK or AIADMK, TN Heads For Hung Assembly, Claims Vote Vibe Exit Poll",
-      "summary": "Tamil Nadu Elections Survey: While many surveys claimed that the DMK is winning the 2026 polls, Vote Vibe post poll survey indicated that the state is heading for a hung assembly.",
-      "seatProjection": {
-        "dmk": {
-          "value": 108,
-          "display": "103-113"
-        },
-        "bjpAlliance": {
-          "value": 119,
-          "display": "114-124"
-        },
-        "tvk": {
-          "value": 5.5,
-          "display": "4-7"
-        },
-        "aiadmk": {
-          "value": 119,
-          "display": "114-124"
-        }
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-05-03T14:54:50.859Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261.html"
-      },
-      "confidence": "auto",
-      "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-elections-survey-not-dmk-or-aiadmk-tn-heads-for-hung-assembly-claims-vote-vibe-exit-pol-8073261-html",
-      "sortDate": "2026-04-29T19:50:00.000Z"
-    },
-    {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-03T14:54:48.154Z",
+      "updatedAt": "2026-05-03T16:58:41.869Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -163,7 +75,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-03T14:54:48.154Z",
+        "checkedAt": "2026-05-03T16:58:41.869Z",
         "mode": "live"
       },
       "discovery": {
