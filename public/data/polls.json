@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-05T17:42:32.177Z",
-    "lastAttemptAt": "2026-05-05T17:42:32.177Z",
-    "lastSuccessfulUpdate": "2026-05-05T17:42:32.177Z",
+    "generatedAt": "2026-05-05T19:43:22.218Z",
+    "lastAttemptAt": "2026-05-05T19:43:22.218Z",
+    "lastSuccessfulUpdate": "2026-05-05T19:43:22.218Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 20,
+    "articlesScanned": 21,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -37,7 +37,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-05T17:42:36.729Z",
+      "updatedAt": "2026-05-05T19:43:28.394Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -70,12 +70,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-05T17:42:36.729Z",
+        "checkedAt": "2026-05-05T19:43:28.394Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
         "feedLink": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html"
       },
       "confidence": "auto",
