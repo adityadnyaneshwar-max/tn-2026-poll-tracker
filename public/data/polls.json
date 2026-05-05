@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-05T03:31:59.795Z",
-    "lastAttemptAt": "2026-05-05T03:31:59.795Z",
-    "lastSuccessfulUpdate": "2026-05-05T03:31:59.795Z",
+    "generatedAt": "2026-05-05T06:23:23.496Z",
+    "lastAttemptAt": "2026-05-05T06:23:23.496Z",
+    "lastSuccessfulUpdate": "2026-05-05T06:23:23.496Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 5,
       "sources": 5,
@@ -16,7 +16,7 @@
       "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 23,
+    "articlesScanned": 24,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,13 +25,24 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
+        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
+        "message": "Request failed with status 403"
+      },
+      {
+        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
+        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-05T03:32:06.874Z",
+      "updatedAt": "2026-05-05T06:23:32.168Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -64,7 +75,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-05T03:32:06.874Z",
+        "checkedAt": "2026-05-05T06:23:32.168Z",
         "mode": "live"
       },
       "discovery": {
