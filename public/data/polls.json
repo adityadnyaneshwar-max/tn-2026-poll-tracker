@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-06T10:23:45.479Z",
-    "lastAttemptAt": "2026-05-06T10:23:45.479Z",
-    "lastSuccessfulUpdate": "2026-05-06T10:23:45.479Z",
+    "generatedAt": "2026-05-06T14:30:26.746Z",
+    "lastAttemptAt": "2026-05-06T14:30:26.746Z",
+    "lastSuccessfulUpdate": "2026-05-06T14:30:26.746Z",
     "usingCachedData": false,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
@@ -16,7 +16,7 @@
       "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 19,
+    "articlesScanned": 21,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,19 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
-        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-06T10:23:50.695Z",
+      "updatedAt": "2026-05-06T14:30:31.478Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -70,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-06T10:23:50.695Z",
+        "checkedAt": "2026-05-06T14:30:31.478Z",
         "mode": "live"
       },
       "discovery": {
