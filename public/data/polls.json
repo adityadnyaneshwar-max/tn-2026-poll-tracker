@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-10T13:41:57.473Z",
-    "lastAttemptAt": "2026-05-10T13:41:57.473Z",
-    "lastSuccessfulUpdate": "2026-05-10T13:41:57.473Z",
+    "generatedAt": "2026-05-10T14:59:13.213Z",
+    "lastAttemptAt": "2026-05-10T14:59:13.213Z",
+    "lastSuccessfulUpdate": "2026-05-10T14:59:13.213Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 6,
       "sources": 5,
@@ -16,7 +16,7 @@
       "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 22,
+    "articlesScanned": 21,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,13 +25,19 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
+        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-10T13:42:05.860Z",
+      "updatedAt": "2026-05-10T14:59:17.931Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -64,12 +70,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-10T13:42:05.860Z",
+        "checkedAt": "2026-05-10T14:59:17.931Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
         "feedLink": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html"
       },
       "confidence": "auto",
@@ -79,7 +85,7 @@
     {
       "pollDate": "2026-04-21",
       "publishedAt": "2026-04-21T08:32:00.000Z",
-      "updatedAt": "2026-05-10T13:42:02.170Z",
+      "updatedAt": "2026-05-10T14:59:17.814Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -109,7 +115,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-10T13:42:02.170Z",
+        "checkedAt": "2026-05-10T14:59:17.813Z",
         "mode": "live"
       },
       "discovery": {
