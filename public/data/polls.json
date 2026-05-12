@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-11T23:00:00.365Z",
-    "lastAttemptAt": "2026-05-11T23:00:00.365Z",
-    "lastSuccessfulUpdate": "2026-05-11T23:00:00.365Z",
+    "generatedAt": "2026-05-12T03:48:54.252Z",
+    "lastAttemptAt": "2026-05-12T03:48:54.252Z",
+    "lastSuccessfulUpdate": "2026-05-12T03:48:54.252Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 25,
+    "articlesScanned": 21,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,11 +30,6 @@
         "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
         "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
         "message": "Request failed with status 403"
-      },
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-elections-opinion-polls-2026-live-updates-dmk-aiadmk-bjp-congress-mk-stalin-edappadi-k-palaniswami-2026-04-06-1036499",
-        "title": "Tamil Nadu Elections Opinion Poll: Neck-and-neck contest expected between NDA, DMK+, predicts Matrize",
-        "message": "Request failed with status 403"
       }
     ]
   },
@@ -42,7 +37,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-11T23:00:08.365Z",
+      "updatedAt": "2026-05-12T03:49:04.435Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -75,7 +70,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-11T23:00:08.365Z",
+        "checkedAt": "2026-05-12T03:49:04.435Z",
         "mode": "live"
       },
       "discovery": {
@@ -90,7 +85,7 @@
     {
       "pollDate": "2026-04-21",
       "publishedAt": "2026-04-21T08:32:00.000Z",
-      "updatedAt": "2026-05-11T23:00:05.837Z",
+      "updatedAt": "2026-05-12T03:49:00.158Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -120,7 +115,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-11T23:00:05.837Z",
+        "checkedAt": "2026-05-12T03:49:00.158Z",
         "mode": "live"
       },
       "discovery": {
