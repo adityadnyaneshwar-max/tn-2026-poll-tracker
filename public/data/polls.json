@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-13T03:57:19.835Z",
-    "lastAttemptAt": "2026-05-13T03:57:19.835Z",
-    "lastSuccessfulUpdate": "2026-05-13T03:57:19.835Z",
+    "generatedAt": "2026-05-13T06:53:05.942Z",
+    "lastAttemptAt": "2026-05-13T06:53:05.942Z",
+    "lastSuccessfulUpdate": "2026-05-13T06:53:05.942Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 26,
+    "articlesScanned": 24,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,19 +30,65 @@
         "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
         "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
         "message": "Request failed with status 403"
-      },
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-elections-opinion-polls-2026-live-updates-dmk-aiadmk-bjp-congress-mk-stalin-edappadi-k-palaniswami-2026-04-06-1036499",
-        "title": "Tamil Nadu Elections Opinion Poll: Neck-and-neck contest expected between NDA, DMK+, predicts Matrize",
-        "message": "Request failed with status 403"
       }
     ]
   },
   "polls": [
     {
+      "pollDate": "2026-04-30",
+      "publishedAt": "2026-04-30T05:17:00.000Z",
+      "updatedAt": "2026-05-13T06:53:15.329Z",
+      "pollster": "Vote Vibe",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/election/states/tamilnadu/numbers-that-dont-add-up-reading-tamil-nadus-2026-exit-polls-8073775.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Numbers That Don't Add Up: Reading Tamil Nadu's 2026 Exit Polls",
+      "summary": "Eleven agencies released exit poll projections after voting closed on April 23. Nine tell broadly the same story: DMK-led alliance crosses 118 comfortably. One — Axis My India — predicts a TVK wave of 98–120 seats. The gap is not a rounding difference. It is a different election.",
+      "seatProjection": {
+        "dmk": {
+          "value": 109,
+          "display": "98-120"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 109,
+          "display": "98-120"
+        },
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 35,
+          "display": "35%"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 35,
+          "display": "35%"
+        },
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-05-13T06:53:15.329Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feedLink": "https://www.oneindia.com/election/states/tamilnadu/numbers-that-dont-add-up-reading-tamil-nadus-2026-exit-polls-8073775.html"
+      },
+      "confidence": "auto",
+      "id": "vote-vibe-2026-04-30-oneindia-com-https-www-oneindia-com-election-states-tamilnadu-numbers-that-dont-add-up-reading-tamil-nadus-2026-exit-polls-8073775-html",
+      "sortDate": "2026-04-30T05:17:00.000Z"
+    },
+    {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-13T03:57:26.555Z",
+      "updatedAt": "2026-05-13T06:53:13.666Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -75,7 +121,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-13T03:57:26.555Z",
+        "checkedAt": "2026-05-13T06:53:13.666Z",
         "mode": "live"
       },
       "discovery": {
@@ -86,60 +132,6 @@
       "confidence": "auto",
       "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307-html",
       "sortDate": "2026-04-29T19:46:00.000Z"
-    },
-    {
-      "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T06:29:00.000Z",
-      "updatedAt": "2026-05-13T03:57:24.812Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Election Predictions: Who'll Be The Winner? It's DMK, Declares People's Pulse Survey",
-      "summary": "A People",
-      "seatProjection": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": {
-          "value": 21,
-          "display": "18-24"
-        },
-        "aiadmk": {
-          "value": 72.5,
-          "display": "65-80"
-        }
-      },
-      "voteShare": {
-        "dmk": {
-          "value": 38.4,
-          "display": "38.4%"
-        },
-        "bjpAlliance": null,
-        "tvk": {
-          "value": 23.6,
-          "display": "23.6%"
-        },
-        "aiadmk": {
-          "value": 31.5,
-          "display": "31.5%"
-        }
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-05-13T03:57:24.811Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129-html",
-      "sortDate": "2026-04-29T06:29:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
