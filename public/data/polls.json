@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-15T11:59:06.712Z",
-    "lastAttemptAt": "2026-05-15T11:59:06.712Z",
-    "lastSuccessfulUpdate": "2026-05-15T04:00:53.621Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-05-15T14:29:52.308Z",
+    "lastAttemptAt": "2026-05-15T14:29:52.308Z",
+    "lastSuccessfulUpdate": "2026-05-15T14:29:52.308Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 6,
       "sources": 5,
       "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 21,
+    "articlesScanned": 25,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-30",
       "publishedAt": "2026-04-30T05:17:00.000Z",
-      "updatedAt": "2026-05-15T04:01:02.234Z",
+      "updatedAt": "2026-05-15T14:29:59.941Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -67,7 +67,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-15T04:01:02.234Z",
+        "checkedAt": "2026-05-15T14:29:59.941Z",
         "mode": "live"
       },
       "discovery": {
@@ -82,7 +82,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-15T04:01:01.622Z",
+      "updatedAt": "2026-05-15T14:29:59.836Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -115,7 +115,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-15T04:01:01.622Z",
+        "checkedAt": "2026-05-15T14:29:59.836Z",
         "mode": "live"
       },
       "discovery": {
