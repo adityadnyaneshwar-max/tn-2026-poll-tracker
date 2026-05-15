@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-15T21:12:13.884Z",
-    "lastAttemptAt": "2026-05-15T21:12:13.884Z",
-    "lastSuccessfulUpdate": "2026-05-15T21:12:13.884Z",
+    "generatedAt": "2026-05-15T23:00:51.227Z",
+    "lastAttemptAt": "2026-05-15T23:00:51.227Z",
+    "lastSuccessfulUpdate": "2026-05-15T23:00:51.227Z",
     "usingCachedData": false,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "warning": null,
     "totals": {
-      "polls": 5,
+      "polls": 7,
       "sources": 5,
-      "validatedLinks": 5,
+      "validatedLinks": 7,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 3
     },
     "sourcesChecked": 15,
-    "articlesScanned": 29,
+    "articlesScanned": 28,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,19 +25,112 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
-        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
+      "pollDate": "2026-04-30",
+      "publishedAt": "2026-04-30T05:17:00.000Z",
+      "updatedAt": "2026-05-15T23:01:00.506Z",
+      "pollster": "Vote Vibe",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/election/states/tamilnadu/numbers-that-dont-add-up-reading-tamil-nadus-2026-exit-polls-8073775.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Numbers That Don't Add Up: Reading Tamil Nadu's 2026 Exit Polls",
+      "summary": "Eleven agencies released exit poll projections after voting closed on April 23. Nine tell broadly the same story: DMK-led alliance crosses 118 comfortably. One — Axis My India — predicts a TVK wave of 98–120 seats. The gap is not a rounding difference. It is a different election.",
+      "seatProjection": {
+        "dmk": {
+          "value": 109,
+          "display": "98-120"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 109,
+          "display": "98-120"
+        },
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": {
+          "value": 35,
+          "display": "35%"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 35,
+          "display": "35%"
+        },
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-05-15T23:01:00.505Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feedLink": "https://www.oneindia.com/election/states/tamilnadu/numbers-that-dont-add-up-reading-tamil-nadus-2026-exit-polls-8073775.html"
+      },
+      "confidence": "auto",
+      "id": "vote-vibe-2026-04-30-oneindia-com-https-www-oneindia-com-election-states-tamilnadu-numbers-that-dont-add-up-reading-tamil-nadus-2026-exit-polls-8073775-html",
+      "sortDate": "2026-04-30T05:17:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T19:46:00.000Z",
+      "updatedAt": "2026-05-15T23:01:00.349Z",
+      "pollster": "Vote Vibe",
+      "sourceName": "Oneindia",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html",
+      "sourceDomain": "oneindia.com",
+      "headline": "Tamil Nadu Elections Poll of Exit Polls: Who Will Be The Winner In 2026?",
+      "summary": "Tamil Nadu Elections 2026: Surveys done by six pollsters clearly indicate that the DMK is returning to power, creating a history in Tamil Nadu.",
+      "seatProjection": {
+        "dmk": null,
+        "bjpAlliance": {
+          "value": 75,
+          "display": "50-100"
+        },
+        "tvk": {
+          "value": 19,
+          "display": "12-26"
+        },
+        "aiadmk": {
+          "value": 75,
+          "display": "50-100"
+        }
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-05-15T23:01:00.349Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feedLink": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html"
+      },
+      "confidence": "auto",
+      "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307-html",
+      "sortDate": "2026-04-29T19:46:00.000Z"
+    },
+    {
       "pollDate": "2026-04-21",
       "publishedAt": "2026-04-21T08:32:00.000Z",
-      "updatedAt": "2026-05-15T21:12:19.709Z",
+      "updatedAt": "2026-05-15T23:00:56.824Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -67,7 +160,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-15T21:12:19.709Z",
+        "checkedAt": "2026-05-15T23:00:56.824Z",
         "mode": "live"
       },
       "discovery": {
