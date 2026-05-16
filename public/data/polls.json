@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-16T06:26:19.725Z",
-    "lastAttemptAt": "2026-05-16T06:26:19.725Z",
-    "lastSuccessfulUpdate": "2026-05-16T06:26:19.725Z",
+    "generatedAt": "2026-05-16T09:46:28.633Z",
+    "lastAttemptAt": "2026-05-16T09:46:28.633Z",
+    "lastSuccessfulUpdate": "2026-05-16T09:46:28.633Z",
     "usingCachedData": false,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "warning": null,
     "totals": {
       "polls": 7,
       "sources": 5,
@@ -16,7 +16,7 @@
       "autoDiscovered": 3
     },
     "sourcesChecked": 15,
-    "articlesScanned": 28,
+    "articlesScanned": 26,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,19 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/news/india/assembly-election-opinion-poll-live-updates-of-west-bengal-assam-tamil-nadu-kerala-puducherry-bjp-congress-left-tmc-aiudf-dmk-ldf-udf-2026-04-06-1036492",
-        "title": "Assembly Election Opinion Poll: Mamata ahead of BJP in Bengal, close fight in TN, Kerala, predicts Matrize",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
       "pollDate": "2026-04-30",
       "publishedAt": "2026-04-30T05:17:00.000Z",
-      "updatedAt": "2026-05-16T06:26:29.708Z",
+      "updatedAt": "2026-05-16T09:46:35.081Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -73,7 +67,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-16T06:26:29.708Z",
+        "checkedAt": "2026-05-16T09:46:35.081Z",
         "mode": "live"
       },
       "discovery": {
@@ -88,7 +82,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-16T06:26:29.493Z",
+      "updatedAt": "2026-05-16T09:46:35.008Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -121,7 +115,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-16T06:26:29.493Z",
+        "checkedAt": "2026-05-16T09:46:35.008Z",
         "mode": "live"
       },
       "discovery": {
@@ -136,7 +130,7 @@
     {
       "pollDate": "2026-04-21",
       "publishedAt": "2026-04-21T08:32:00.000Z",
-      "updatedAt": "2026-05-16T06:26:26.354Z",
+      "updatedAt": "2026-05-16T09:46:33.153Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -166,7 +160,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-16T06:26:26.354Z",
+        "checkedAt": "2026-05-16T09:46:33.153Z",
         "mode": "live"
       },
       "discovery": {
