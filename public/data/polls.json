@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-19T09:57:16.743Z",
-    "lastAttemptAt": "2026-05-19T09:57:16.743Z",
-    "lastSuccessfulUpdate": "2026-05-19T09:57:16.743Z",
+    "generatedAt": "2026-05-19T12:47:40.831Z",
+    "lastAttemptAt": "2026-05-19T12:47:40.831Z",
+    "lastSuccessfulUpdate": "2026-05-19T12:47:40.831Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 7,
       "sources": 5,
@@ -16,7 +16,7 @@
       "autoDiscovered": 3
     },
     "sourcesChecked": 15,
-    "articlesScanned": 26,
+    "articlesScanned": 28,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,13 +25,19 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-elections-opinion-polls-2026-live-updates-dmk-aiadmk-bjp-congress-mk-stalin-edappadi-k-palaniswami-2026-04-06-1036499",
+        "title": "Tamil Nadu Elections Opinion Poll: Neck-and-neck contest expected between NDA, DMK+, predicts Matrize",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-19T09:57:24.168Z",
+      "updatedAt": "2026-05-19T12:47:49.965Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -64,7 +70,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-19T09:57:24.168Z",
+        "checkedAt": "2026-05-19T12:47:49.965Z",
         "mode": "live"
       },
       "discovery": {
@@ -79,7 +85,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:29:00.000Z",
-      "updatedAt": "2026-05-19T09:57:22.366Z",
+      "updatedAt": "2026-05-19T12:47:46.784Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -118,7 +124,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-19T09:57:22.366Z",
+        "checkedAt": "2026-05-19T12:47:46.784Z",
         "mode": "live"
       },
       "discovery": {
@@ -133,7 +139,7 @@
     {
       "pollDate": "2026-04-21",
       "publishedAt": "2026-04-21T08:32:00.000Z",
-      "updatedAt": "2026-05-19T09:57:21.333Z",
+      "updatedAt": "2026-05-19T12:47:46.108Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -163,7 +169,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-19T09:57:21.333Z",
+        "checkedAt": "2026-05-19T12:47:46.108Z",
         "mode": "live"
       },
       "discovery": {
