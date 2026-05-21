@@ -1,19 +1,19 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-21T09:54:25.813Z",
-    "lastAttemptAt": "2026-05-21T09:54:25.813Z",
+    "generatedAt": "2026-05-21T12:48:31.999Z",
+    "lastAttemptAt": "2026-05-21T12:48:31.999Z",
     "lastSuccessfulUpdate": "2026-05-21T09:54:25.813Z",
-    "usingCachedData": false,
-    "hadErrors": true,
-    "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "usingCachedData": true,
+    "hadErrors": false,
+    "fetchMode": "cached",
+    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 0
     },
     "sourcesChecked": 15,
     "articlesScanned": 22,
@@ -25,13 +25,7 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-poll-of-polls-four-exit-polls-give-edge-to-dmk-axis-my-india-predicts-vijay-led-tvk-s-win-2026-04-29-1039360",
-        "title": "Tamil Nadu Poll of Polls: Four exit polls give edge to DMK, Axis My India predicts Vijay-led TVK's win",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
