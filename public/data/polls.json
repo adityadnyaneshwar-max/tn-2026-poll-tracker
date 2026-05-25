@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-25T17:48:42.255Z",
-    "lastAttemptAt": "2026-05-25T17:48:42.255Z",
-    "lastSuccessfulUpdate": "2026-05-25T17:48:42.255Z",
+    "generatedAt": "2026-05-25T19:49:31.903Z",
+    "lastAttemptAt": "2026-05-25T19:49:31.903Z",
+    "lastSuccessfulUpdate": "2026-05-25T19:49:31.903Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-25T17:48:47.831Z",
+      "updatedAt": "2026-05-25T19:49:36.752Z",
       "pollster": "Vote Vibe",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -64,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-25T17:48:47.831Z",
+        "checkedAt": "2026-05-25T19:49:36.752Z",
         "mode": "live"
       },
       "discovery": {
@@ -79,7 +79,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:29:00.000Z",
-      "updatedAt": "2026-05-25T17:48:48.610Z",
+      "updatedAt": "2026-05-25T19:49:37.555Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -118,7 +118,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-25T17:48:48.610Z",
+        "checkedAt": "2026-05-25T19:49:37.554Z",
         "mode": "live"
       },
       "discovery": {
