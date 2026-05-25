@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-25T21:16:01.945Z",
-    "lastAttemptAt": "2026-05-25T21:16:01.945Z",
-    "lastSuccessfulUpdate": "2026-05-25T21:16:01.945Z",
+    "generatedAt": "2026-05-25T23:11:24.043Z",
+    "lastAttemptAt": "2026-05-25T23:11:24.043Z",
+    "lastSuccessfulUpdate": "2026-05-25T23:11:24.043Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
     "warning": null,
     "totals": {
-      "polls": 6,
+      "polls": 5,
       "sources": 5,
-      "validatedLinks": 6,
+      "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 2
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 24,
+    "articlesScanned": 20,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,56 +30,8 @@
   "polls": [
     {
       "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T19:46:00.000Z",
-      "updatedAt": "2026-05-25T21:16:06.943Z",
-      "pollster": "Vote Vibe",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Elections Poll of Exit Polls: Who Will Be The Winner In 2026?",
-      "summary": "Tamil Nadu Elections 2026: Surveys done by six pollsters clearly indicate that the DMK is returning to power, creating a history in Tamil Nadu.",
-      "seatProjection": {
-        "dmk": null,
-        "bjpAlliance": {
-          "value": 75,
-          "display": "50-100"
-        },
-        "tvk": {
-          "value": 19,
-          "display": "12-26"
-        },
-        "aiadmk": {
-          "value": 75,
-          "display": "50-100"
-        }
-      },
-      "voteShare": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-05-25T21:16:06.943Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feedLink": "https://www.oneindia.com/chennai/who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307.html"
-      },
-      "confidence": "auto",
-      "id": "vote-vibe-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-who-will-be-the-winner-in-tamil-nadu-elections-2026-heres-poll-of-exit-polls-8073307-html",
-      "sortDate": "2026-04-29T19:46:00.000Z"
-    },
-    {
-      "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:29:00.000Z",
-      "updatedAt": "2026-05-25T21:16:07.628Z",
+      "updatedAt": "2026-05-25T23:11:28.546Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -118,7 +70,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-25T21:16:07.628Z",
+        "checkedAt": "2026-05-25T23:11:28.546Z",
         "mode": "live"
       },
       "discovery": {
