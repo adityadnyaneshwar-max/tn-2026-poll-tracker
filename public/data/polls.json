@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-26T18:32:12.366Z",
-    "lastAttemptAt": "2026-05-26T18:32:12.366Z",
-    "lastSuccessfulUpdate": "2026-05-26T18:32:12.366Z",
+    "generatedAt": "2026-05-26T21:50:34.735Z",
+    "lastAttemptAt": "2026-05-26T21:50:34.735Z",
+    "lastSuccessfulUpdate": "2026-05-26T21:50:34.735Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
     "warning": null,
     "totals": {
-      "polls": 6,
+      "polls": 5,
       "sources": 5,
-      "validatedLinks": 6,
+      "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 2
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 24,
+    "articlesScanned": 23,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T06:29:00.000Z",
-      "updatedAt": "2026-05-26T18:32:18.176Z",
+      "updatedAt": "2026-05-26T21:50:41.252Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Oneindia",
       "sourceCategory": "national",
@@ -70,7 +70,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-26T18:32:18.176Z",
+        "checkedAt": "2026-05-26T21:50:41.252Z",
         "mode": "live"
       },
       "discovery": {
@@ -81,57 +81,6 @@
       "confidence": "auto",
       "id": "ians-matrize-2026-04-29-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-predictions-dmk-will-be-the-winner-people-s-pulse-survey-predicts-011-8073129-html",
       "sortDate": "2026-04-29T06:29:00.000Z"
-    },
-    {
-      "pollDate": "2026-04-19",
-      "publishedAt": "2026-04-19T23:18:00.000Z",
-      "updatedAt": "2026-05-26T18:32:18.046Z",
-      "pollster": "IANS-Matrize",
-      "sourceName": "Oneindia",
-      "sourceCategory": "national",
-      "sourceUrl": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-dmk-will-emerge-winner-hints-nakkheeran-survey-8063721.html",
-      "sourceDomain": "oneindia.com",
-      "headline": "Tamil Nadu Election Predictions: Who Will Be The Winner? Nakkheeran Pre Poll Survey Gives Hints",
-      "summary": "Tamil Nadu Election Predictions: The DMK will emerge victorious in the upcoming assembly polls, Nakkheeran Survey has hinted. The ruling party is predicted to secure over 45% votes.",
-      "seatProjection": {
-        "dmk": null,
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": null
-      },
-      "voteShare": {
-        "dmk": {
-          "value": 45.5,
-          "display": "45.5%"
-        },
-        "bjpAlliance": {
-          "value": 38,
-          "display": "38%"
-        },
-        "tvk": {
-          "value": 9.5,
-          "display": "9.5%"
-        },
-        "aiadmk": {
-          "value": 38,
-          "display": "38%"
-        }
-      },
-      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
-      "validation": {
-        "ok": true,
-        "statusCode": 200,
-        "checkedAt": "2026-05-26T18:32:18.046Z",
-        "mode": "live"
-      },
-      "discovery": {
-        "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feedLink": "https://www.oneindia.com/chennai/tamil-nadu-election-predictions-dmk-will-emerge-winner-hints-nakkheeran-survey-8063721.html"
-      },
-      "confidence": "auto",
-      "id": "ians-matrize-2026-04-19-oneindia-com-https-www-oneindia-com-chennai-tamil-nadu-election-predictions-dmk-will-emerge-winner-hints-nakkheeran-survey-8063721-html",
-      "sortDate": "2026-04-19T23:18:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
