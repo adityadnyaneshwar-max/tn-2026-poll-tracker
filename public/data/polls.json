@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-05-31T15:23:38.592Z",
-    "lastAttemptAt": "2026-05-31T15:23:38.592Z",
-    "lastSuccessfulUpdate": "2026-05-31T15:23:38.592Z",
+    "generatedAt": "2026-05-31T17:15:20.639Z",
+    "lastAttemptAt": "2026-05-31T17:15:20.639Z",
+    "lastSuccessfulUpdate": "2026-05-31T17:15:20.639Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-07",
       "publishedAt": "2026-04-07T04:15:00.000Z",
-      "updatedAt": "2026-05-31T15:23:43.463Z",
+      "updatedAt": "2026-05-31T17:15:25.483Z",
       "pollster": "C-Voter",
       "sourceName": "The Times of India",
       "sourceCategory": "national",
@@ -61,7 +61,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-05-31T15:23:43.463Z",
+        "checkedAt": "2026-05-31T17:15:25.483Z",
         "mode": "live"
       },
       "discovery": {
