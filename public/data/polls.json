@@ -1,19 +1,19 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-06-02T16:44:57.652Z",
-    "lastAttemptAt": "2026-06-02T16:44:57.652Z",
-    "lastSuccessfulUpdate": "2026-06-02T10:46:25.034Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-06-02T20:56:57.163Z",
+    "lastAttemptAt": "2026-06-02T20:56:57.163Z",
+    "lastSuccessfulUpdate": "2026-06-02T20:56:57.163Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
     "articlesScanned": 18,
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-07",
       "publishedAt": "2026-04-07T04:15:00.000Z",
-      "updatedAt": "2026-06-02T10:46:29.616Z",
+      "updatedAt": "2026-06-02T20:57:01.383Z",
       "pollster": "C-Voter",
       "sourceName": "The Times of India",
       "sourceCategory": "national",
@@ -61,7 +61,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-06-02T10:46:29.616Z",
+        "checkedAt": "2026-06-02T20:57:01.383Z",
         "mode": "live"
       },
       "discovery": {
