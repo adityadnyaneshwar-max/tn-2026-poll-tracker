@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-06-05T15:16:50.859Z",
-    "lastAttemptAt": "2026-06-05T15:16:50.859Z",
-    "lastSuccessfulUpdate": "2026-06-05T10:02:21.980Z",
-    "usingCachedData": true,
-    "hadErrors": true,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "generatedAt": "2026-06-05T18:00:25.385Z",
+    "lastAttemptAt": "2026-06-05T18:00:25.385Z",
+    "lastSuccessfulUpdate": "2026-06-05T18:00:25.385Z",
+    "usingCachedData": false,
+    "hadErrors": false,
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 18,
+    "articlesScanned": 20,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,19 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
-        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
       "pollDate": "2026-04-30",
       "publishedAt": "2026-04-30T06:24:00.000Z",
-      "updatedAt": "2026-06-05T10:02:28.285Z",
+      "updatedAt": "2026-06-05T18:00:31.164Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -70,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-06-05T10:02:28.285Z",
+        "checkedAt": "2026-06-05T18:00:31.164Z",
         "mode": "live"
       },
       "discovery": {
