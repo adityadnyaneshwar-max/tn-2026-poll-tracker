@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-06-05T04:20:30.222Z",
-    "lastAttemptAt": "2026-06-05T04:20:30.222Z",
-    "lastSuccessfulUpdate": "2026-06-04T04:45:52.285Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-06-05T10:02:21.980Z",
+    "lastAttemptAt": "2026-06-05T10:02:21.980Z",
+    "lastSuccessfulUpdate": "2026-06-05T10:02:21.980Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 19,
+    "articlesScanned": 20,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -29,49 +29,52 @@
   },
   "polls": [
     {
-      "pollDate": "2026-04-07",
-      "publishedAt": "2026-04-07T04:15:00.000Z",
-      "updatedAt": "2026-06-04T04:45:57.077Z",
-      "pollster": "C-Voter",
-      "sourceName": "The Times of India",
+      "pollDate": "2026-04-30",
+      "publishedAt": "2026-04-30T06:24:00.000Z",
+      "updatedAt": "2026-06-05T10:02:28.285Z",
+      "pollster": "Axis My India",
+      "sourceName": "NDTV",
       "sourceCategory": "national",
-      "sourceUrl": "https://timesofindia.indiatimes.com/videos/the-narrative-election-special/news/assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu/videoshow/130084989.cms",
-      "sourceDomain": "timesofindia.indiatimes.com",
-      "headline": "Assembly Election 2026: CVOTER's BIGGEST Opinion Poll In Bengal, Kerala, Assam, Tamil Nadu",
-      "summary": "The Assembly Election 2026 is set to reshape the political landscape, and the big question remains are incumbents holding their ground or is the nation ready for a change? CVOTER decodes the mood of the electorate with exclusive projections from key battlegrounds. In Assam, BJP+ leads at 48% while INC+ stands at 35%, testing the “double engine” strategy. Kerala sees UDF ahead at 40% against LDF’s 36%, keeping the state in suspense. West Bengal is a close fight with TMC at 44% and BJP at 40%, while Tamil Nadu’s contest remains tight with DMK at 41% and AIADMK at 38%. With data-driven insights, sharp analysis, and a finger on voter sentiment, this show unpacks the trends, numbers, and narratives defining India’s Assembly Election 2026.",
+      "sourceUrl": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
+      "sourceDomain": "ndtv.com",
+      "headline": "NDTV Exit Poll Highlights: TVK Shock, NDA Sweep In Assam, LDF Upset In Kerala: Axis My India Exit Poll",
+      "summary": "Assembly elections exit poll live updates: The weeks-long voting process saw the participation of 17 crore voters across 824 assembly constituencies.",
       "seatProjection": {
+        "dmk": {
+          "value": 101,
+          "display": "92-110"
+        },
+        "bjpAlliance": {
+          "value": 22.5,
+          "display": "22-23"
+        },
+        "tvk": null,
+        "aiadmk": {
+          "value": 22.5,
+          "display": "22-23"
+        }
+      },
+      "voteShare": {
         "dmk": null,
         "bjpAlliance": null,
         "tvk": null,
         "aiadmk": null
       },
-      "voteShare": {
-        "dmk": {
-          "value": 41,
-          "display": "41%"
-        },
-        "bjpAlliance": null,
-        "tvk": null,
-        "aiadmk": {
-          "value": 38,
-          "display": "38%"
-        }
-      },
       "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-06-04T04:45:57.077Z",
+        "checkedAt": "2026-06-05T10:02:28.285Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feedLink": "https://timesofindia.indiatimes.com/videos/the-narrative-election-special/news/assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu/videoshow/130084989.cms"
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "feedLink": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447"
       },
       "confidence": "auto",
-      "id": "c-voter-2026-04-07-timesofindia-indiatimes-com-https-timesofindia-indiatimes-com-videos-the-narrative-election-special-news-assembly-election-2026-cvoters-biggest-opinion-poll-in-bengal-kerala-assam-tamil-nadu-videoshow-130084989-cms",
-      "sortDate": "2026-04-07T04:15:00.000Z"
+      "id": "axis-my-india-2026-04-30-ndtv-com-https-www-ndtv-com-india-news-exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
+      "sortDate": "2026-04-30T06:24:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
