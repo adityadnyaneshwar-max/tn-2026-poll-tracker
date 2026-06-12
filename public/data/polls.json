@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-06-11T23:41:41.828Z",
-    "lastAttemptAt": "2026-06-11T23:41:41.828Z",
-    "lastSuccessfulUpdate": "2026-06-05T21:38:07.824Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-06-12T04:42:32.586Z",
+    "lastAttemptAt": "2026-06-12T04:42:32.586Z",
+    "lastSuccessfulUpdate": "2026-06-12T04:42:32.586Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 17,
+    "articlesScanned": 18,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-30",
       "publishedAt": "2026-04-30T06:24:00.000Z",
-      "updatedAt": "2026-06-05T21:38:13.578Z",
+      "updatedAt": "2026-06-12T04:42:38.416Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -64,12 +64,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-06-05T21:38:13.578Z",
+        "checkedAt": "2026-06-12T04:42:38.416Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447"
       },
       "confidence": "auto",
