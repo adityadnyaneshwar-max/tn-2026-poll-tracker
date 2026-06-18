@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-06-18T18:29:08.342Z",
-    "lastAttemptAt": "2026-06-18T18:29:08.342Z",
-    "lastSuccessfulUpdate": "2026-06-18T18:29:08.342Z",
+    "generatedAt": "2026-06-18T22:19:15.752Z",
+    "lastAttemptAt": "2026-06-18T22:19:15.752Z",
+    "lastSuccessfulUpdate": "2026-06-18T22:19:15.752Z",
     "usingCachedData": false,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
@@ -25,19 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
-        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
-        "message": "Request failed with status 403"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
       "pollDate": "2026-04-30",
       "publishedAt": "2026-04-30T06:24:00.000Z",
-      "updatedAt": "2026-06-18T18:29:14.509Z",
+      "updatedAt": "2026-06-18T22:19:21.569Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -70,12 +64,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-06-18T18:29:14.509Z",
+        "checkedAt": "2026-06-18T22:19:21.569Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
         "feedLink": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447"
       },
       "confidence": "auto",
