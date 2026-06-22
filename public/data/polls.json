@@ -1,11 +1,11 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-06-22T18:14:07.488Z",
-    "lastAttemptAt": "2026-06-22T18:14:07.488Z",
+    "generatedAt": "2026-06-22T22:08:22.467Z",
+    "lastAttemptAt": "2026-06-22T22:08:22.467Z",
     "lastSuccessfulUpdate": "2026-06-19T10:46:58.279Z",
     "usingCachedData": true,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "cached",
     "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
@@ -25,7 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-exit-poll-2026-live-updates-dmk-aiadmk-tvk-bjp-mk-stalin-palaniswami-vijay-election-results-2026-1039320",
+        "title": "Tamil Nadu Exit Poll 2026: Matrize predicts DMK-led alliance to retain power",
+        "message": "Request failed with status 403"
+      }
+    ]
   },
   "polls": [
     {
