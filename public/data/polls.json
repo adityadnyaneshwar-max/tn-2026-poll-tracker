@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-06-27T13:55:40.169Z",
-    "lastAttemptAt": "2026-06-27T13:55:40.169Z",
-    "lastSuccessfulUpdate": "2026-06-27T13:55:40.169Z",
+    "generatedAt": "2026-06-27T15:20:25.169Z",
+    "lastAttemptAt": "2026-06-27T15:20:25.169Z",
+    "lastSuccessfulUpdate": "2026-06-27T15:20:25.169Z",
     "usingCachedData": false,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
@@ -16,7 +16,7 @@
       "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 1,
+    "articlesScanned": 17,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,44 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 Parawheel survey",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 opinion poll local channel",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
       "pollDate": "2026-04-30",
       "publishedAt": "2026-04-30T06:24:00.000Z",
-      "updatedAt": "2026-06-27T13:56:25.898Z",
+      "updatedAt": "2026-06-27T15:20:30.875Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -95,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-06-27T13:56:25.898Z",
+        "checkedAt": "2026-06-27T15:20:30.875Z",
         "mode": "live"
       },
       "discovery": {
