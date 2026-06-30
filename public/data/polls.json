@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-06-30T16:24:20.662Z",
-    "lastAttemptAt": "2026-06-30T16:24:20.662Z",
-    "lastSuccessfulUpdate": "2026-06-30T16:24:20.662Z",
+    "generatedAt": "2026-06-30T20:05:57.022Z",
+    "lastAttemptAt": "2026-06-30T20:05:57.022Z",
+    "lastSuccessfulUpdate": "2026-06-30T20:05:57.022Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 20,
+    "articlesScanned": 18,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,8 +30,8 @@
   "polls": [
     {
       "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T22:56:00.000Z",
-      "updatedAt": "2026-06-30T16:24:26.888Z",
+      "publishedAt": "2026-04-29T11:56:00.000Z",
+      "updatedAt": "2026-06-30T20:06:01.888Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -64,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-06-30T16:24:26.888Z",
+        "checkedAt": "2026-06-30T20:06:01.888Z",
         "mode": "live"
       },
       "discovery": {
@@ -74,7 +74,7 @@
       },
       "confidence": "auto",
       "id": "axis-my-india-2026-04-29-ndtv-com-https-www-ndtv-com-india-news-exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
-      "sortDate": "2026-04-29T22:56:00.000Z"
+      "sortDate": "2026-04-29T11:56:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
