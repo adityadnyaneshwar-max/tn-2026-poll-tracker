@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-07-02T12:12:37.538Z",
-    "lastAttemptAt": "2026-07-02T12:12:37.538Z",
-    "lastSuccessfulUpdate": "2026-07-02T12:12:37.538Z",
+    "generatedAt": "2026-07-02T16:07:31.256Z",
+    "lastAttemptAt": "2026-07-02T16:07:31.256Z",
+    "lastSuccessfulUpdate": "2026-07-02T16:07:31.256Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T22:56:00.000Z",
-      "updatedAt": "2026-07-02T12:12:42.556Z",
+      "updatedAt": "2026-07-02T16:07:36.059Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -64,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-07-02T12:12:42.556Z",
+        "checkedAt": "2026-07-02T16:07:36.059Z",
         "mode": "live"
       },
       "discovery": {
