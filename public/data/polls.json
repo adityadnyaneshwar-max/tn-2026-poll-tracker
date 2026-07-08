@@ -1,19 +1,19 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-07-08T17:43:39.038Z",
-    "lastAttemptAt": "2026-07-08T17:43:39.038Z",
-    "lastSuccessfulUpdate": "2026-07-08T06:33:20.690Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-07-08T19:42:22.482Z",
+    "lastAttemptAt": "2026-07-08T19:42:22.482Z",
+    "lastSuccessfulUpdate": "2026-07-08T19:42:22.482Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
     "articlesScanned": 18,
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T22:56:00.000Z",
-      "updatedAt": "2026-07-08T06:33:27.142Z",
+      "updatedAt": "2026-07-08T19:42:28.543Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -64,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-07-08T06:33:27.142Z",
+        "checkedAt": "2026-07-08T19:42:28.543Z",
         "mode": "live"
       },
       "discovery": {
