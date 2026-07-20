@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-07-20T21:15:33.792Z",
-    "lastAttemptAt": "2026-07-20T21:15:33.792Z",
-    "lastSuccessfulUpdate": "2026-07-20T18:09:26.450Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-07-20T23:04:36.092Z",
+    "lastAttemptAt": "2026-07-20T23:04:36.092Z",
+    "lastSuccessfulUpdate": "2026-07-20T23:04:36.092Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 14,
+    "articlesScanned": 15,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,8 +30,8 @@
   "polls": [
     {
       "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T11:56:00.000Z",
-      "updatedAt": "2026-07-20T18:09:31.482Z",
+      "publishedAt": "2026-04-29T17:26:00.000Z",
+      "updatedAt": "2026-07-20T23:04:40.823Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -64,17 +64,17 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-07-20T18:09:31.482Z",
+        "checkedAt": "2026-07-20T23:04:40.823Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
         "feedLink": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447"
       },
       "confidence": "auto",
       "id": "axis-my-india-2026-04-29-ndtv-com-https-www-ndtv-com-india-news-exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
-      "sortDate": "2026-04-29T11:56:00.000Z"
+      "sortDate": "2026-04-29T17:26:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
