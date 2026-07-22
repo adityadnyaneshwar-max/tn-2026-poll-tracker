@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-07-22T10:30:12.953Z",
-    "lastAttemptAt": "2026-07-22T10:30:12.953Z",
-    "lastSuccessfulUpdate": "2026-07-22T10:30:12.953Z",
+    "generatedAt": "2026-07-22T14:09:06.381Z",
+    "lastAttemptAt": "2026-07-22T14:09:06.381Z",
+    "lastSuccessfulUpdate": "2026-07-22T14:09:06.381Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
     "warning": null,
     "totals": {
-      "polls": 5,
-      "sources": 5,
-      "validatedLinks": 5,
+      "polls": 6,
+      "sources": 6,
+      "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 16,
+    "articlesScanned": 17,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T17:26:00.000Z",
-      "updatedAt": "2026-07-22T10:30:18.508Z",
+      "updatedAt": "2026-07-22T14:09:12.617Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -64,7 +64,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-07-22T10:30:18.508Z",
+        "checkedAt": "2026-07-22T14:09:12.617Z",
         "mode": "live"
       },
       "discovery": {
@@ -269,6 +269,51 @@
       },
       "confidence": "medium",
       "sortDate": "2025-12-23T09:00:00+05:30"
+    },
+    {
+      "pollDate": "2024-06-03",
+      "publishedAt": "2024-06-03T23:42:00.000Z",
+      "updatedAt": "2026-07-22T14:09:11.769Z",
+      "pollster": "Moneycontrol",
+      "sourceName": "Moneycontrol",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.moneycontrol.com/elections/lok-sabha-election/tamil-nadu/news/",
+      "sourceDomain": "moneycontrol.com",
+      "headline": "Tamil Nadu Lok Sabha Election News",
+      "summary": "Tamil Nadu Lok Sabha Elections 2024: Explore all the latest news on Lok Sabha polls with election dates, exit polls, opinion polls, election results, and other details only at Moneycontrol",
+      "seatProjection": {
+        "dmk": {
+          "value": 21,
+          "display": "21"
+        },
+        "bjpAlliance": {
+          "value": 2,
+          "display": "1-3"
+        },
+        "tvk": null,
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-07-22T14:09:11.769Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feedLink": "https://www.moneycontrol.com/elections/lok-sabha-election/tamil-nadu/news/"
+      },
+      "confidence": "auto",
+      "id": "moneycontrol-2024-06-03-moneycontrol-com-https-www-moneycontrol-com-elections-lok-sabha-election-tamil-nadu-news",
+      "sortDate": "2024-06-03T23:42:00.000Z"
     }
   ]
 }
