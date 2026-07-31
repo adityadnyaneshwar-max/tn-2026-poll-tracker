@@ -1,11 +1,11 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-07-31T19:42:37.392Z",
-    "lastAttemptAt": "2026-07-31T19:42:37.392Z",
+    "generatedAt": "2026-07-31T21:12:20.927Z",
+    "lastAttemptAt": "2026-07-31T21:12:20.927Z",
     "lastSuccessfulUpdate": "2026-07-28T19:40:08.500Z",
     "usingCachedData": true,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "cached",
     "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
@@ -16,7 +16,7 @@
       "autoDiscovered": 0
     },
     "sourcesChecked": 15,
-    "articlesScanned": 0,
+    "articlesScanned": 16,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,38 +25,7 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 Parawheel survey",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 opinion poll local channel",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
