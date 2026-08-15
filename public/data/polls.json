@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-08-15T06:47:03.263Z",
-    "lastAttemptAt": "2026-08-15T06:47:03.263Z",
-    "lastSuccessfulUpdate": "2026-08-15T06:47:03.263Z",
+    "generatedAt": "2026-08-15T08:35:14.142Z",
+    "lastAttemptAt": "2026-08-15T08:35:14.142Z",
+    "lastSuccessfulUpdate": "2026-08-15T08:35:14.142Z",
     "usingCachedData": false,
     "hadErrors": false,
     "fetchMode": "live+manual",
     "warning": null,
     "totals": {
-      "polls": 5,
+      "polls": 6,
       "sources": 5,
-      "validatedLinks": 5,
+      "validatedLinks": 6,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 2
     },
     "sourcesChecked": 15,
-    "articlesScanned": 17,
+    "articlesScanned": 18,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,8 +30,62 @@
   "polls": [
     {
       "pollDate": "2026-04-29",
+      "publishedAt": "2026-04-29T07:38:00.000Z",
+      "updatedAt": "2026-08-15T08:35:19.376Z",
+      "pollster": "Axis My India",
+      "sourceName": "India Today",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.indiatoday.in/elections/assembly/story/axis-my-india-exit-poll-predicts-98-120-of-234-seats-for-debutant-vijays-tvk-in-tamil-nadu-stunner-2903438-2026-04-29",
+      "sourceDomain": "indiatoday.in",
+      "headline": "Vijay the next MGR: Axis My India exit poll predicts stunner in Tamil Nadu",
+      "summary": "A political debut could shake Tamil Nadu’s two-party system as the Axis My India exit poll has hinted at a generational shift. Can Vijay’s TVK convert youth momentum into power, or will established players hold ground on counting day?",
+      "seatProjection": {
+        "dmk": {
+          "value": 125,
+          "display": "125"
+        },
+        "bjpAlliance": null,
+        "tvk": {
+          "value": 109,
+          "display": "98-120"
+        },
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": {
+          "value": 23,
+          "display": "23%"
+        },
+        "tvk": {
+          "value": 35,
+          "display": "35%"
+        },
+        "aiadmk": {
+          "value": 23,
+          "display": "23%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-08-15T08:35:19.376Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.indiatoday.in/elections/assembly/story/axis-my-india-exit-poll-predicts-98-120-of-234-seats-for-debutant-vijays-tvk-in-tamil-nadu-stunner-2903438-2026-04-29"
+      },
+      "confidence": "auto",
+      "id": "axis-my-india-2026-04-29-indiatoday-in-https-www-indiatoday-in-elections-assembly-story-axis-my-india-exit-poll-predicts-98-120-of-234-seats-for-debutant-vijays-tvk-in-tamil-nadu-stunner-2903438-2026-04-29",
+      "sortDate": "2026-04-29T07:38:00.000Z"
+    },
+    {
+      "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T04:02:00.000Z",
-      "updatedAt": "2026-08-15T06:47:08.485Z",
+      "updatedAt": "2026-08-15T08:35:19.917Z",
       "pollster": "Axis My India",
       "sourceName": "NDTV",
       "sourceCategory": "national",
@@ -64,7 +118,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-08-15T06:47:08.485Z",
+        "checkedAt": "2026-08-15T08:35:19.917Z",
         "mode": "live"
       },
       "discovery": {
