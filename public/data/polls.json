@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-08-19T04:41:53.981Z",
-    "lastAttemptAt": "2026-08-19T04:41:53.981Z",
-    "lastSuccessfulUpdate": "2026-08-19T04:41:53.981Z",
+    "generatedAt": "2026-08-19T06:52:51.218Z",
+    "lastAttemptAt": "2026-08-19T06:52:51.218Z",
+    "lastSuccessfulUpdate": "2026-08-19T06:52:51.218Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 5,
       "sources": 4,
@@ -16,7 +16,7 @@
       "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 19,
+    "articlesScanned": 1,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,13 +25,44 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 Parawheel survey",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 opinion poll local channel",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T07:38:00.000Z",
-      "updatedAt": "2026-08-19T04:41:58.253Z",
+      "updatedAt": "2026-08-19T06:53:34.612Z",
       "pollster": "Axis My India",
       "sourceName": "India Today",
       "sourceCategory": "national",
@@ -70,7 +101,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-08-19T04:41:58.253Z",
+        "checkedAt": "2026-08-19T06:53:34.612Z",
         "mode": "live"
       },
       "discovery": {
