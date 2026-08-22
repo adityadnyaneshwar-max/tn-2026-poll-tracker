@@ -1,9 +1,9 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-08-22T04:38:28.706Z",
-    "lastAttemptAt": "2026-08-22T04:38:28.706Z",
-    "lastSuccessfulUpdate": "2026-08-22T04:38:28.706Z",
+    "generatedAt": "2026-08-22T06:49:06.874Z",
+    "lastAttemptAt": "2026-08-22T06:49:06.874Z",
+    "lastSuccessfulUpdate": "2026-08-22T06:49:06.874Z",
     "usingCachedData": false,
     "hadErrors": true,
     "fetchMode": "live+manual",
@@ -16,7 +16,7 @@
       "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 2,
+    "articlesScanned": 20,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -27,34 +27,9 @@
     ],
     "sourceFailures": [
       {
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 Parawheel survey",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
-      },
-      {
-        "query": "Tamil Nadu 2026 opinion poll local channel",
-        "feed": "google-news",
-        "message": "Request failed with status 503"
+        "link": "https://www.moneycontrol.com/elections/assembly-election/",
+        "title": "ASSEMBLY ELECTIONS 2026",
+        "message": "Request failed with status 404"
       }
     ]
   },
@@ -62,7 +37,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T07:38:00.000Z",
-      "updatedAt": "2026-08-22T04:39:16.977Z",
+      "updatedAt": "2026-08-22T06:49:12.288Z",
       "pollster": "Axis My India",
       "sourceName": "India Today",
       "sourceCategory": "national",
@@ -101,7 +76,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-08-22T04:39:16.977Z",
+        "checkedAt": "2026-08-22T06:49:12.288Z",
         "mode": "live"
       },
       "discovery": {
