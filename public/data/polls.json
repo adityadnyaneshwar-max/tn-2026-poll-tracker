@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-08-23T20:29:19.175Z",
-    "lastAttemptAt": "2026-08-23T20:29:19.175Z",
+    "generatedAt": "2026-08-23T22:27:31.398Z",
+    "lastAttemptAt": "2026-08-23T22:27:31.398Z",
     "lastSuccessfulUpdate": "2026-08-23T20:29:19.175Z",
-    "usingCachedData": false,
-    "hadErrors": false,
-    "fetchMode": "live+manual",
-    "warning": null,
+    "usingCachedData": true,
+    "hadErrors": true,
+    "fetchMode": "cached",
+    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
       "polls": 5,
       "sources": 4,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 0
     },
     "sourcesChecked": 15,
-    "articlesScanned": 20,
+    "articlesScanned": 19,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,7 +25,13 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.moneycontrol.com/elections/assembly-election/",
+        "title": "ASSEMBLY ELECTIONS 2026",
+        "message": "Request failed with status 404"
+      }
+    ]
   },
   "polls": [
     {
