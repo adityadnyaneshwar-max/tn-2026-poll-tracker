@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-08-23T10:29:13.955Z",
-    "lastAttemptAt": "2026-08-23T10:29:13.955Z",
-    "lastSuccessfulUpdate": "2026-08-23T10:29:13.955Z",
+    "generatedAt": "2026-08-23T12:50:32.086Z",
+    "lastAttemptAt": "2026-08-23T12:50:32.086Z",
+    "lastSuccessfulUpdate": "2026-08-23T12:50:32.086Z",
     "usingCachedData": false,
-    "hadErrors": false,
+    "hadErrors": true,
     "fetchMode": "live+manual",
-    "warning": null,
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 5,
       "sources": 4,
@@ -25,13 +25,19 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.moneycontrol.com/elections/assembly-election/",
+        "title": "ASSEMBLY ELECTIONS 2026",
+        "message": "Request failed with status 404"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T07:38:00.000Z",
-      "updatedAt": "2026-08-23T10:29:20.729Z",
+      "updatedAt": "2026-08-23T12:50:39.858Z",
       "pollster": "Axis My India",
       "sourceName": "India Today",
       "sourceCategory": "national",
@@ -70,7 +76,7 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-08-23T10:29:20.729Z",
+        "checkedAt": "2026-08-23T12:50:39.858Z",
         "mode": "live"
       },
       "discovery": {
