@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-08-24T08:54:17.905Z",
-    "lastAttemptAt": "2026-08-24T08:54:17.905Z",
+    "generatedAt": "2026-08-24T10:41:26.980Z",
+    "lastAttemptAt": "2026-08-24T10:41:26.980Z",
     "lastSuccessfulUpdate": "2026-08-24T08:54:17.905Z",
-    "usingCachedData": false,
+    "usingCachedData": true,
     "hadErrors": true,
-    "fetchMode": "live+manual",
-    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
+    "fetchMode": "cached",
+    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
       "polls": 5,
       "sources": 4,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 1
+      "autoDiscovered": 0
     },
     "sourcesChecked": 15,
-    "articlesScanned": 20,
+    "articlesScanned": 1,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -27,9 +27,34 @@
     ],
     "sourceFailures": [
       {
-        "link": "https://www.moneycontrol.com/elections/assembly-election/",
-        "title": "ASSEMBLY ELECTIONS 2026",
-        "message": "This operation was aborted"
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 Vote Vibe survey",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 Parawheel survey",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
+      },
+      {
+        "query": "Tamil Nadu 2026 opinion poll local channel",
+        "feed": "google-news",
+        "message": "Request failed with status 503"
       }
     ]
   },
