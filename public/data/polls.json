@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-08-24T13:00:34.107Z",
-    "lastAttemptAt": "2026-08-24T13:00:34.107Z",
-    "lastSuccessfulUpdate": "2026-08-24T08:54:17.905Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-08-24T14:48:17.693Z",
+    "lastAttemptAt": "2026-08-24T14:48:17.693Z",
+    "lastSuccessfulUpdate": "2026-08-24T14:48:17.693Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 5,
       "sources": 4,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 18,
+    "articlesScanned": 19,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -31,7 +31,7 @@
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T07:38:00.000Z",
-      "updatedAt": "2026-08-24T08:54:37.320Z",
+      "updatedAt": "2026-08-24T14:48:26.511Z",
       "pollster": "Axis My India",
       "sourceName": "India Today",
       "sourceCategory": "national",
@@ -70,12 +70,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-08-24T08:54:37.319Z",
+        "checkedAt": "2026-08-24T14:48:26.511Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
         "feedLink": "https://www.indiatoday.in/elections/assembly/story/axis-my-india-exit-poll-predicts-98-120-of-234-seats-for-debutant-vijays-tvk-in-tamil-nadu-stunner-2903438-2026-04-29"
       },
       "confidence": "auto",
