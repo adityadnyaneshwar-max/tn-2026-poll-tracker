@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-08-25T14:51:46.052Z",
-    "lastAttemptAt": "2026-08-25T14:51:46.052Z",
-    "lastSuccessfulUpdate": "2026-08-25T03:03:34.187Z",
-    "usingCachedData": true,
-    "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "generatedAt": "2026-08-25T16:42:54.110Z",
+    "lastAttemptAt": "2026-08-25T16:42:54.110Z",
+    "lastSuccessfulUpdate": "2026-08-25T16:42:54.110Z",
+    "usingCachedData": false,
+    "hadErrors": true,
+    "fetchMode": "live+manual",
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
       "polls": 5,
       "sources": 4,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 18,
+    "articlesScanned": 19,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,13 +25,19 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": []
+    "sourceFailures": [
+      {
+        "link": "https://www.moneycontrol.com/elections/assembly-election/",
+        "title": "ASSEMBLY ELECTIONS 2026",
+        "message": "Request failed with status 404"
+      }
+    ]
   },
   "polls": [
     {
       "pollDate": "2026-04-29",
       "publishedAt": "2026-04-29T07:38:00.000Z",
-      "updatedAt": "2026-08-25T03:03:44.018Z",
+      "updatedAt": "2026-08-25T16:43:00.868Z",
       "pollster": "Axis My India",
       "sourceName": "India Today",
       "sourceCategory": "national",
@@ -70,12 +76,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-08-25T03:03:44.018Z",
+        "checkedAt": "2026-08-25T16:43:00.868Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
         "feedLink": "https://www.indiatoday.in/elections/assembly/story/axis-my-india-exit-poll-predicts-98-120-of-234-seats-for-debutant-vijays-tvk-in-tamil-nadu-stunner-2903438-2026-04-29"
       },
       "confidence": "auto",
