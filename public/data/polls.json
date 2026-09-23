@@ -1,22 +1,22 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-09-23T13:31:02.655Z",
-    "lastAttemptAt": "2026-09-23T13:31:02.655Z",
-    "lastSuccessfulUpdate": "2026-08-28T20:07:21.751Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-09-23T18:20:05.563Z",
+    "lastAttemptAt": "2026-09-23T18:20:05.563Z",
+    "lastSuccessfulUpdate": "2026-09-23T18:20:05.563Z",
+    "usingCachedData": false,
     "hadErrors": false,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": null,
     "totals": {
       "polls": 5,
-      "sources": 4,
+      "sources": 5,
       "validatedLinks": 5,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 1
     },
     "sourcesChecked": 15,
-    "articlesScanned": 17,
+    "articlesScanned": 20,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -30,57 +30,51 @@
   "polls": [
     {
       "pollDate": "2026-04-29",
-      "publishedAt": "2026-04-29T07:38:00.000Z",
-      "updatedAt": "2026-08-28T20:07:28.331Z",
+      "publishedAt": "2026-04-29T16:36:00.000Z",
+      "updatedAt": "2026-09-23T18:20:13.303Z",
       "pollster": "Axis My India",
-      "sourceName": "India Today",
+      "sourceName": "NDTV",
       "sourceCategory": "national",
-      "sourceUrl": "https://www.indiatoday.in/elections/assembly/story/axis-my-india-exit-poll-predicts-98-120-of-234-seats-for-debutant-vijays-tvk-in-tamil-nadu-stunner-2903438-2026-04-29",
-      "sourceDomain": "indiatoday.in",
-      "headline": "Vijay the next MGR: Axis My India exit poll predicts stunner in Tamil Nadu",
-      "summary": "A political debut could shake Tamil Nadu’s two-party system as the Axis My India exit poll has hinted at a generational shift. Can Vijay’s TVK convert youth momentum into power, or will established players hold ground on counting day?",
+      "sourceUrl": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
+      "sourceDomain": "ndtv.com",
+      "headline": "NDTV Exit Poll Highlights: TVK Shock, NDA Sweep In Assam, LDF Upset In Kerala: Axis My India Exit Poll",
+      "summary": "Assembly elections exit poll live updates: The weeks-long voting process saw the participation of 17 crore voters across 824 assembly constituencies.",
       "seatProjection": {
         "dmk": {
-          "value": 125,
-          "display": "125"
+          "value": 101,
+          "display": "92-110"
         },
-        "bjpAlliance": null,
-        "tvk": {
-          "value": 109,
-          "display": "98-120"
+        "bjpAlliance": {
+          "value": 22.5,
+          "display": "22-23"
         },
-        "aiadmk": null
+        "tvk": null,
+        "aiadmk": {
+          "value": 22.5,
+          "display": "22-23"
+        }
       },
       "voteShare": {
         "dmk": null,
-        "bjpAlliance": {
-          "value": 23,
-          "display": "23%"
-        },
-        "tvk": {
-          "value": 35,
-          "display": "35%"
-        },
-        "aiadmk": {
-          "value": 23,
-          "display": "23%"
-        }
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
       },
       "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-08-28T20:07:28.331Z",
+        "checkedAt": "2026-09-23T18:20:13.303Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feedLink": "https://www.indiatoday.in/elections/assembly/story/axis-my-india-exit-poll-predicts-98-120-of-234-seats-for-debutant-vijays-tvk-in-tamil-nadu-stunner-2903438-2026-04-29"
+        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
+        "feedLink": "https://www.ndtv.com/india-news/exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447"
       },
       "confidence": "auto",
-      "id": "axis-my-india-2026-04-29-indiatoday-in-https-www-indiatoday-in-elections-assembly-story-axis-my-india-exit-poll-predicts-98-120-of-234-seats-for-debutant-vijays-tvk-in-tamil-nadu-stunner-2903438-2026-04-29",
-      "sortDate": "2026-04-29T07:38:00.000Z"
+      "id": "axis-my-india-2026-04-29-ndtv-com-https-www-ndtv-com-india-news-exit-poll-live-tamil-nadu-assam-kerala-puducherry-exit-poll-live-updates-dmk-aiadmk-tvk-bjp-tmc-congress-11425447",
+      "sortDate": "2026-04-29T16:36:00.000Z"
     },
     {
       "id": "parawheel-2026-03-11",
