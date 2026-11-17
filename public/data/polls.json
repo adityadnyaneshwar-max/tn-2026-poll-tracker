@@ -1,11 +1,11 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-11-17T00:05:25.642Z",
-    "lastAttemptAt": "2026-11-17T00:05:25.642Z",
+    "generatedAt": "2026-11-17T10:26:53.615Z",
+    "lastAttemptAt": "2026-11-17T10:26:53.615Z",
     "lastSuccessfulUpdate": "2026-09-26T04:30:26.417Z",
     "usingCachedData": true,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "cached",
     "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
@@ -16,7 +16,7 @@
       "autoDiscovered": 0
     },
     "sourcesChecked": 15,
-    "articlesScanned": 9,
+    "articlesScanned": 10,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -25,38 +25,7 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feed": "google-news",
-        "message": "Request failed with status 429"
-      },
-      {
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYUdFNW5zSDlUbldQX0RpWEg1YXhXZTlxOVFMSU9CbjZDenY5N1g0TnFFWE9UT2pGWnIzRzZfSF9IOExLQkg3SV9RMVFPUGR2dGQ0cU9EQ01td0lqbXpQU095eDhlSURBMEFOLWVyaS1yZkgwNkxrb0tFcTBaYTZMR05uX2Q4MVZCQWpTVGRmMFI3blg3VVJYQnJwNFUtYU1FLVpkRDZTSmI1YmpySUtvckVlbDZYZm1TS3F3S3JR0gHGAUFVX3lxTFBuVmF3SGRsUXZnSEhyU2hKVHQyVUl4VlFNeUszN1VkTDN3UUx5QUdMa1JONjZLcGxKUzZWeWhuWU91c0Jld0F6dTdsUDcwdk5hYkdtVTRQdXpnWVpXNktBUzRpSm9sWC1PRFNCWGhBLVlZelowckxHc0JPbEw4WW42RjVaaldaallDUmNuV2ZVUktVdGtqSDcyS3RWMHU5NWtXLVB1X2Q0MzhZVTF5OEhZVkpSSWtyWHB0QUlsWm90cS1RUkxSUQ?oc=5",
-        "title": "DMK, NDA Or TVK, Who Has Edge In Tamil Nadu? What Surveys Found - NDTV",
-        "message": "Request failed with status 429"
-      },
-      {
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORUxzTXB6U2tJNmlrM3RKTXN1c2xGaUU1eUVHdUlBOV9RSVIwSVNlY2t1Q0lSdkd5Q25HTVNSOUVCZHM5WkdqSDYxQnBQQkNmMVpFS2xNMGlyd3VjSjQ2cDF6U3ZpdTVSR0VDTmVhWHo5blY5VWhYTjJVek5wZkRua3A0UTFiUHRtdHptRTZ5VzhOdkNhZTAtQVZ2XzR1bWpiZDktckcxWmg4WndkYkxIYlhKRkQwRVRwSUtielRsSjNMNWZfM0dVQVRWRXBXZkNfRU92QnBaS2FKQTdSZjRtMkJycTJ2bFRaTjRfSXNOMHdSVHEyQnfSAfsBQVVfeXFMUEc1T0tWR1lPcHhlRnFSTGJjRlRLMHB2Z2l5OHRKQzM5WmpCcVdxaFJqYkEyRXA0MVZGV3FOT1djMy0yTzByOUs1LTZRU1B6Wk1OOGNmVGplSW9qRThBVmdxT2ZnLVRSbk5kSDNXOUJxUDJZbk5MbE5jTXRNZFdpZFhXXzJSRTMyQmJVc0R4RlNJa2ZZZ3pPd3lxSnZmem1XcXVLMHpmMGl1WlJpV2I0eldwUFNoUDdYR054NktBMDQwT0tBWEpTbmROaVZLTjBuU2lWMEVCUFhqd3kxVl93MkNhb2ZVcFBuX1J3RE1BZE5DWnBKaWZJd2RSM00?oc=5",
-        "title": "Tamil Nadu elections: DMK 'most trusted' despite strong anti-incumbency, survey shows TVK emerging as... - Moneycontrol.com",
-        "message": "Request failed with status 429"
-      },
-      {
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSkxFOE12RDZWTmxDWi04ZGsyakZUb0wydnRoWGZaZmx4SndWYjBPWDdibGxrNzBSNzQzZFB4TWlXbFFWYmpsSWFHRXA4MHd3WmlKU2RldTlYeFk1Nl9vTzhjUF9EaTlrNHdnVDU2VFRydFdVMm82M3luM1VhclVWVU1FdWxid0t2eWtUYlJ5WGJzQlVxaTE3OXFubHVTUUFDX045RU5Jc3VTeE14RV9aNWpiSFZKamlJc1lmYkpnV0RBRU03VDJSWVBHQW5XMDDSAdQBQVVfeXFMTmY4OEtmV3JkSWhGbnNZS081dUNDLWY3QlVOQ0NfaEozWVJvWW9EaEE2RWg5MFFPYUk0dkVydFExZHdTS1VGWjdPTFdvdTNuVlptc2RsZ0ZaNlZQQlpONHVvLTBseUNWR0g2cm9HYnh0a0hqTFJaMTJZVEMyVzJiRy1ib0FFV0xiM0tncURSTzRkekhNMTlZSkptTko1Y1VSTXhWVzM1M2VtMDg3eE10VjcybHZtX21zZzJLdUZuOGRqV1ZvbG1QbmxxNkpvLTZHUUtxWVE?oc=5",
-        "title": "Tamil Nadu Elections 2026: C-VOTER Opinion Poll Says AIADMK, DMK Locked In Tight Contest - News18",
-        "message": "Request failed with status 429"
-      },
-      {
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdkNONlp3Tk9TLU5jQ3FjTlQwOWdzMjVvRUFlV2dOUzd1S3A4eXFvU3owbEsxX3VpblR5UFRVRU0yNzdTaEU1aDVJbWJOUHZ6Rl9FMFF0X2JOeDR0SlF0OXBHQWlFOTh4TWRrVjRVUTJOQzBIakxWa2MwNG05cHRmTmhlRGlOM29RcFJQWktFbDlIY0w2SWpBSnAxNTVRUHBUZ29zOFRZRkJMM3pUbHh1bjJ3QURNQ3pORjZlT3d6eUNRb21STU5SOTdrODBuUdIB0wFBVV95cUxNemxwemZ3SGl0MW8yWUlGZ2NIUnFBS3hsaVc1NlYtblFES3JpbXJjbnRnQTJ4T2g5ckpQdFd5OGZYUjhpUnBVWDJONGYwRkxFWVo2aXBKTE83WkQwVFNNbWRkcVFvS0ZEZXhUY2JtbEJkTHZTUTVjQVdMRFY1cTRWSUxTT1ZQbWN3RWwxWjg1WjdRYUt2LTVMeXluWEZhN21oSGowazhkQVA3b3RUaHpyNDQwY2g3NkdjVVh1bGNuS09UNDhtSWlHQUN1dkc3VFk3THdB?oc=5",
-        "title": "Parawheel Survey Predicts TVK as Third Major Force in Tamil Nadu Politics, after DMK and AIADMK - TheWire.in",
-        "message": "Request failed with status 429"
-      },
-      {
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGgteTBDcXVPVmROeVgwdktxdm1UdkNiYWM0NzhBZlJubkFHYmdLMHc1R05YNDQ5bU82eUV2Q3RvNng5emVyZU1CMkJRaFc4ZmJsRDA3bTBNcDFVaUdMNGR6MlczMXVkTVUzazhfS1d3YTVwajFOempYeVNTdVZmWU95ZnViVDhZcmY1emJwNDBpMXZIazR5QkkyMW43dm1RcWY0WFRUOGNTTmRFWFZoT09pejFMZXJaeGo00gHAAUFVX3lxTFBpWk9fY0tsdGhySXRZQm5TV3h1RllIVEhDOGRXNjlJU0xqc0VIaGJlemhMcDJUY0VIQ1IwV3BGejBNN0N0WFVSdkxUZVc3a1lON2hEa19jSTJnN1FQVHdUdlQwX2FWMVcyLVoyOVkxcmJwNGQ5Qzdmc0M3WnpaVXhzWml1UEx5SUxKcGN6dFkzT1NkTlZRQW52eThVOWhIN183czUyTzZQVnB5NHBwNk5PY0ptZWlHalNfVGg2TDBMUg?oc=5",
-        "title": "Tamil Nadu Polls: DMK Vs AIADMK, What To Expect? What Do Opinion Polls Say? Will Vijay Play A Role? - News18",
-        "message": "Request failed with status 429"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
