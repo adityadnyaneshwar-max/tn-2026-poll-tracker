@@ -1,11 +1,11 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-11-17T20:41:33.623Z",
-    "lastAttemptAt": "2026-11-17T20:41:33.623Z",
+    "generatedAt": "2026-11-18T03:30:33.579Z",
+    "lastAttemptAt": "2026-11-18T03:30:33.579Z",
     "lastSuccessfulUpdate": "2026-09-26T04:30:26.417Z",
     "usingCachedData": true,
-    "hadErrors": true,
+    "hadErrors": false,
     "fetchMode": "cached",
     "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
     "totals": {
@@ -25,13 +25,7 @@
       "Tamil Nadu 2026 Parawheel survey",
       "Tamil Nadu 2026 opinion poll local channel"
     ],
-    "sourceFailures": [
-      {
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdkNONlp3Tk9TLU5jQ3FjTlQwOWdzMjVvRUFlV2dOUzd1S3A4eXFvU3owbEsxX3VpblR5UFRVRU0yNzdTaEU1aDVJbWJOUHZ6Rl9FMFF0X2JOeDR0SlF0OXBHQWlFOTh4TWRrVjRVUTJOQzBIakxWa2MwNG05cHRmTmhlRGlOM29RcFJQWktFbDlIY0w2SWpBSnAxNTVRUHBUZ29zOFRZRkJMM3pUbHh1bjJ3QURNQ3pORjZlT3d6eUNRb21STU5SOTdrODBuUdIB0wFBVV95cUxNemxwemZ3SGl0MW8yWUlGZ2NIUnFBS3hsaVc1NlYtblFES3JpbXJjbnRnQTJ4T2g5ckpQdFd5OGZYUjhpUnBVWDJONGYwRkxFWVo2aXBKTE83WkQwVFNNbWRkcVFvS0ZEZXhUY2JtbEJkTHZTUTVjQVdMRFY1cTRWSUxTT1ZQbWN3RWwxWjg1WjdRYUt2LTVMeXluWEZhN21oSGowazhkQVA3b3RUaHpyNDQwY2g3NkdjVVh1bGNuS09UNDhtSWlHQUN1dkc3VFk3THdB?oc=5",
-        "title": "Parawheel Survey Predicts TVK as Third Major Force in Tamil Nadu Politics, after DMK and AIADMK - TheWire.in",
-        "message": "Request failed with status 429"
-      }
-    ]
+    "sourceFailures": []
   },
   "polls": [
     {
