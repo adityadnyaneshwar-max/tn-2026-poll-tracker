@@ -1,8 +1,8 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-11-19T12:42:21.316Z",
-    "lastAttemptAt": "2026-11-19T12:42:21.316Z",
+    "generatedAt": "2026-11-19T22:01:28.625Z",
+    "lastAttemptAt": "2026-11-19T22:01:28.625Z",
     "lastSuccessfulUpdate": "2026-09-26T04:30:26.417Z",
     "usingCachedData": true,
     "hadErrors": true,
@@ -16,7 +16,7 @@
       "autoDiscovered": 0
     },
     "sourcesChecked": 15,
-    "articlesScanned": 9,
+    "articlesScanned": 10,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -27,8 +27,18 @@
     ],
     "sourceFailures": [
       {
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feed": "google-news",
+        "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOLWVEQ2pBVml5cUN3Sk15R2E0WDJVZTBWWk50U2J5c0RWVzlTSVN0UnlrZDJoZXp6TmR3Y1BmS1NHTVlHVUlnM0ltZjVBdGk4UU5Tbkk5TWRPU0Z2T0k5NVIxcXNhNFgwa3ZEVEN1R2hXWFlSUk91ZllYeng1R0swcWFNNXNpdzhOdnN4UkxmNVQ1R1NsbmJBUDJPWjN3QV9nVzdVeG53bkJreVJGMUFuMmxxRVd4bENhLXNjWTVhYXBUem5oM2lURmFwOHotMEdpUlByWkRIUWpEd0lpUThQb2ZxUUphRjl5TjlOUkxac09XZmtwXzZVc19QV0lSc2VOMkhPRmxTcTl0UmZlOFFqbi0yTmV5MzDSAZwCQVVfeXFMTktqcVpDM2dRTnpVVUpzcTg5TVVjVWpzTXliVXM5SEh6ZERrNUhxdGtmQ3dHUUU2MWdCWTJ2WGRUYnR0VG1XTWRDcnpnMWlVTjlGYUpTYU9QRi1BU2NfSVBFb2dFWWVXX0RyNFM1cTE1Z0pNVm5pMURRTEJReGRqUVNJZDg1OWszZTh5OUxIUkZxbm9VNTdNampzcHE4SkVBRG9EQ0tHUHRVY1VEWWp2VVRqR0g4cE9PTEpnc3l6SnVYUFVwSklvQld4M3dWTENOSUgwbmRjQkZFTngtMVVoS0lUN0ZYSGhuY0cyOGkwVEppWHVCNk1RZmhvV2M1S2Y2ZEVVdTJwVWdfZHVkd0k5NE8wYnpjZzNyRHVHZEs?oc=5",
+        "title": "Assembly Election 2026: CVOTER's BIGGEST Opinion Poll In Bengal, Kerala, Assam, Tamil Nadu - The Times of India",
+        "message": "Request failed with status 429"
+      },
+      {
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSkxFOE12RDZWTmxDWi04ZGsyakZUb0wydnRoWGZaZmx4SndWYjBPWDdibGxrNzBSNzQzZFB4TWlXbFFWYmpsSWFHRXA4MHd3WmlKU2RldTlYeFk1Nl9vTzhjUF9EaTlrNHdnVDU2VFRydFdVMm82M3luM1VhclVWVU1FdWxid0t2eWtUYlJ5WGJzQlVxaTE3OXFubHVTUUFDX045RU5Jc3VTeE14RV9aNWpiSFZKamlJc1lmYkpnV0RBRU03VDJSWVBHQW5XMDDSAdQBQVVfeXFMTmY4OEtmV3JkSWhGbnNZS081dUNDLWY3QlVOQ0NfaEozWVJvWW9EaEE2RWg5MFFPYUk0dkVydFExZHdTS1VGWjdPTFdvdTNuVlptc2RsZ0ZaNlZQQlpONHVvLTBseUNWR0g2cm9HYnh0a0hqTFJaMTJZVEMyVzJiRy1ib0FFV0xiM0tncURSTzRkekhNMTlZSkptTko1Y1VSTXhWVzM1M2VtMDg3eE10VjcybHZtX21zZzJLdUZuOGRqV1ZvbG1QbmxxNkpvLTZHUUtxWVE?oc=5",
+        "title": "Tamil Nadu Elections 2026: C-VOTER Opinion Poll Says AIADMK, DMK Locked In Tight Contest - News18",
+        "message": "Request failed with status 429"
+      },
+      {
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdkNONlp3Tk9TLU5jQ3FjTlQwOWdzMjVvRUFlV2dOUzd1S3A4eXFvU3owbEsxX3VpblR5UFRVRU0yNzdTaEU1aDVJbWJOUHZ6Rl9FMFF0X2JOeDR0SlF0OXBHQWlFOTh4TWRrVjRVUTJOQzBIakxWa2MwNG05cHRmTmhlRGlOM29RcFJQWktFbDlIY0w2SWpBSnAxNTVRUHBUZ29zOFRZRkJMM3pUbHh1bjJ3QURNQ3pORjZlT3d6eUNRb21STU5SOTdrODBuUdIB0wFBVV95cUxNemxwemZ3SGl0MW8yWUlGZ2NIUnFBS3hsaVc1NlYtblFES3JpbXJjbnRnQTJ4T2g5ckpQdFd5OGZYUjhpUnBVWDJONGYwRkxFWVo2aXBKTE83WkQwVFNNbWRkcVFvS0ZEZXhUY2JtbEJkTHZTUTVjQVdMRFY1cTRWSUxTT1ZQbWN3RWwxWjg1WjdRYUt2LTVMeXluWEZhN21oSGowazhkQVA3b3RUaHpyNDQwY2g3NkdjVVh1bGNuS09UNDhtSWlHQUN1dkc3VFk3THdB?oc=5",
+        "title": "Parawheel Survey Predicts TVK as Third Major Force in Tamil Nadu Politics, after DMK and AIADMK - TheWire.in",
         "message": "Request failed with status 429"
       }
     ]
